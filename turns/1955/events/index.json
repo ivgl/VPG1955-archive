@@ -3,7 +3,7 @@
   "year": 1955,
   "document_type": "EVENT_EVIDENCE_INDEX",
   "archive_is_canonical_state": false,
-  "status": "EDITORIAL_DRAFTS__NOT_ADMIN_APPROVED",
+  "status": "MIXED_PUBLISHED_EVENTS_AND_OLDER_TAIWAN_DRAFTS",
   "discord_source_verified": false,
   "confidentiality_note": "Repository-wide GitHub access; PRIVATE filename is descriptive only",
   "events": [
@@ -30,6 +30,253 @@
       "path": "events/taiwan/05_USA_politics_PRIVATE.md",
       "access": "COUNTRY_USA_PRIVATE",
       "status": "DRAFT"
+    },
+    {
+      "id": "START-1955-USA",
+      "path": "starting_country/01_USA.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "USA",
+      "affected_country_ids": [
+        "USA"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "01_USA.md",
+      "bytes": 1660,
+      "sha256": "b6e1931422d72bc6bf8165a5300bceeaf830700f9d0b6700bdfee60235844690",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-URS",
+      "path": "starting_country/02_URS(1).md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "URS",
+      "affected_country_ids": [
+        "URS"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "02_URS(1).md",
+      "bytes": 2017,
+      "sha256": "61a45c274539ac31c97ed787868212a4e2160a71daf960a84ee4cbc77e395b95",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-GBR",
+      "path": "starting_country/03_GBR.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "GBR",
+      "affected_country_ids": [
+        "GBR"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "03_GBR.md",
+      "bytes": 1606,
+      "sha256": "09e88e09a1928ee818321e32e2d27577482a3b108f48f238ef77405751f4e78c",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-FRA",
+      "path": "starting_country/04_FRA.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "FRA",
+      "affected_country_ids": [
+        "FRA"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "04_FRA.md",
+      "bytes": 1595,
+      "sha256": "6ad145aa049419c48ea69202da6582b9dfb6ebb4d884c2ed867b5106d96f43f0",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-FRG",
+      "path": "starting_country/05_FRG.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "FRG",
+      "affected_country_ids": [
+        "FRG"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "05_FRG.md",
+      "bytes": 1639,
+      "sha256": "5fc6a82cc2d9c02d529606b270942fc745a71e667ff6cca82f80f0a661003a05",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-JPN",
+      "path": "starting_country/06_JPN.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "JPN",
+      "affected_country_ids": [
+        "JPN"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "06_JPN.md",
+      "bytes": 1712,
+      "sha256": "8ec603a8c8b95c2092f469476fd290ca716be31b506663aeddf6ef46b2d99c06",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-CHN",
+      "path": "starting_country/07_CHN.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "CHN",
+      "affected_country_ids": [
+        "CHN"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "07_CHN.md",
+      "bytes": 1702,
+      "sha256": "222eed0a0d51fbc38111f4ef2f2e4e9a3daf3f6c830474f28e5ba35ef4ebd2a2",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-EGY",
+      "path": "starting_country/08_EGY.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "EGY",
+      "affected_country_ids": [
+        "EGY"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "08_EGY.md",
+      "bytes": 1581,
+      "sha256": "5c596dddc4dc2f7b789689c7b85bffd25b7a13df8748acdaa63964c04027ef5f",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-IND",
+      "path": "starting_country/09_IND(1).md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "IND",
+      "affected_country_ids": [
+        "IND"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "09_IND(1).md",
+      "bytes": 1959,
+      "sha256": "d995d9bf565246ff7de0e3aa44f6a63f9b942fffd7f6bd4034325b2af0e0bf90",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-ISR",
+      "path": "starting_country/10_ISR.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "ISR",
+      "affected_country_ids": [
+        "ISR"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "10_ISR.md",
+      "bytes": 1643,
+      "sha256": "e4e8a28048329f21b0e3fbd8cdac1321fb32395621727f67ab68aca17fd7e1ff",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-ITA",
+      "path": "starting_country/11_ITA.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "ITA",
+      "affected_country_ids": [
+        "ITA"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "11_ITA.md",
+      "bytes": 1510,
+      "sha256": "ec60860517a45e3685fa1d261d5d96785b1f7765f8065a4981332b2c6298aef7",
+      "effect_id": null
+    },
+    {
+      "id": "START-1955-YUG",
+      "path": "starting_country/12_YUG.md",
+      "type": "STARTING_COUNTRY_BRIEF",
+      "country_id": "YUG",
+      "affected_country_ids": [
+        "YUG"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "12_YUG.md",
+      "bytes": 1693,
+      "sha256": "36f6fe7d9eedf1bad2f1f7b8d0165d3906b3b29770f73c8cf574c974c6df7f42",
+      "effect_id": null
+    },
+    {
+      "id": "ALG-1955-01",
+      "path": "algeria/01_Algeria.md",
+      "type": "WORLD_CHRONICLE_ALGERIA",
+      "country_id": null,
+      "affected_country_ids": [
+        "FRA"
+      ],
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-10-29",
+      "publication_url": null,
+      "publication_datetime": null,
+      "access": "NOT_SPECIFIED__PRIVATE_ARCHIVE",
+      "source": "ADMIN_UPLOADED_ATTACHMENT",
+      "original_filename": "01_Algeria.md",
+      "bytes": 1752,
+      "sha256": "05a92664f33c87f025b18946092a86005de968321863e4106413482282586e55",
+      "effect_id": null
     }
   ],
   "excluded": [
@@ -39,18 +286,21 @@
       "uploaded": false
     }
   ],
-  "pending_sources": [
+  "pending_sources": [],
+  "archived_sets": [
     {
-      "set": "12_STARTING_COUNTRY_EVENTS",
+      "id": "12_STARTING_COUNTRY_EVENTS",
       "expected_count": 12,
-      "verified_count": 0,
-      "status": "ORIGINALS_NOT_FOUND"
+      "archived_count": 12,
+      "status": "COMPLETE_ADMIN_SUPPLIED"
     },
     {
-      "set": "ALGERIA_EVENT_01",
+      "id": "ALGERIA_EVENT_01",
       "expected_count": 1,
-      "verified_count": 0,
-      "status": "ORIGINAL_NOT_FOUND"
+      "archived_count": 1,
+      "status": "COMPLETE_ADMIN_SUPPLIED"
     }
-  ]
+  ],
+  "index_revision": "2026-10-29_ADMIN_PUBLISHED_13_FILES",
+  "note": "Original SHA-256 matches 13 administrator-provided attachments. Publication location/time not supplied. Taiwan drafts unchanged."
 }
