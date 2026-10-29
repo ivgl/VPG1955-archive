@@ -5,7 +5,7 @@
   "created_at_local_date": "2026-10-29",
   "repository_state_modified": false,
   "permanent_drive_archive_modified": true,
-  "notes": "This is a portable evidence intake package, NOT a state release, not a substitute for immutable Discord posts. Confidential files must not be published.",
+  "notes": "Original texts under originals/ are unchanged and have matching SHA-256. Administrator-supplied materials are accepted as originals for the game. Discord API check is neither available nor required. This is an evidence intake register, not a verdict or canonical state release.",
   "entries": [
     {
       "intake_id": "INTAKE-1955-URS-KHR-01",
@@ -21,7 +21,7 @@
       "discord_submitted_at": null,
       "source_kind": "uploaded_attachment",
       "source_ref": "uploaded file: Вставленный текст(1).txt",
-      "source_note": "Byte-for-byte copy of user supplied attachment; Discord origin unverified; Discord message link added from administrator; no access to message body or author verification",
+      "source_note": "Original for VPI adjudication accepted on administrator authority; physical source is user-supplied chat or attachment; Discord message link is supplementary; no live Discord fetch is required or claimed.",
       "declared_in_world_date": "1955-01",
       "visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "title": "VIII Всесоюзная конференция ВЛКСМ",
@@ -32,7 +32,7 @@
         "INTAKE-1955-URS-ZHU-01",
         "INTAKE-1955-URS-ZHU-02"
       ],
-      "receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "receipt_status": "ARCHIVED_ADMIN_ACCEPTED_GAME_ORIGINAL",
       "mechanics_or_effects_checked": false,
       "verdict": null,
       "game_effects_applied": false,
@@ -45,7 +45,15 @@
       "discord_link_provenance": "ADMIN_SUPPLIED_IN_CHAT_NOT_FETCHED",
       "discord_link_verified_live": false,
       "discord_text_verified_live": false,
-      "discord_author_verified_live": false
+      "discord_author_verified_live": false,
+      "actor_key": "URS-KHR",
+      "legacy_receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "admin_supplied_text_is_game_original": true,
+      "discord_verification_required": false,
+      "actor_id_status": "UNRESOLVED_REGISTER_LOOKUP__NOT_ARCHIVE_BLOCKER",
+      "original_acceptance_basis": "ADMIN_EXPLICIT_DIRECTIVE_2026-10-29",
+      "legacy_source_note": "Byte-for-byte copy of user supplied attachment; Discord origin unverified; Discord message link added from administrator; no access to message body or author verification",
+      "official_decision_status": "NONE__INTAKE_ONLY"
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-01",
@@ -61,7 +69,7 @@
       "discord_submitted_at": null,
       "source_kind": "chat_transcription",
       "source_ref": "2026-10-29 user chat message",
-      "source_note": "Received through chat, copied manually: compare to Discord before calling immutable original; Discord message link added from administrator; no access to message body or author verification",
+      "source_note": "Original for VPI adjudication accepted on administrator authority; physical source is user-supplied chat or attachment; Discord message link is supplementary; no live Discord fetch is required or claimed.",
       "declared_in_world_date": "1955-01",
       "visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "title": "Поездки по частям Московского военного округа",
@@ -71,7 +79,7 @@
       "related_intake_ids": [
         "INTAKE-1955-URS-KHR-01"
       ],
-      "receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "receipt_status": "ARCHIVED_ADMIN_ACCEPTED_GAME_ORIGINAL",
       "mechanics_or_effects_checked": false,
       "verdict": null,
       "game_effects_applied": false,
@@ -84,7 +92,15 @@
       "discord_link_provenance": "ADMIN_SUPPLIED_IN_CHAT_NOT_FETCHED",
       "discord_link_verified_live": false,
       "discord_text_verified_live": false,
-      "discord_author_verified_live": false
+      "discord_author_verified_live": false,
+      "actor_key": "URS-ZHU",
+      "legacy_receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "admin_supplied_text_is_game_original": true,
+      "discord_verification_required": false,
+      "actor_id_status": "UNRESOLVED_REGISTER_LOOKUP__NOT_ARCHIVE_BLOCKER",
+      "original_acceptance_basis": "ADMIN_EXPLICIT_DIRECTIVE_2026-10-29",
+      "legacy_source_note": "Received through chat, copied manually: compare to Discord before calling immutable original; Discord message link added from administrator; no access to message body or author verification",
+      "official_decision_status": "NONE__INTAKE_ONLY"
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-02",
@@ -100,7 +116,7 @@
       "discord_submitted_at": null,
       "source_kind": "chat_transcription",
       "source_ref": "2026-10-29 user chat message",
-      "source_note": "Received through chat, copied manually: compare to Discord before calling immutable original; Discord message link added from administrator; no access to message body or author verification",
+      "source_note": "Original for VPI adjudication accepted on administrator authority; physical source is user-supplied chat or attachment; Discord message link is supplementary; no live Discord fetch is required or claimed.",
       "declared_in_world_date": "1955-01",
       "visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "title": "Операция «Олимпийский резерв»",
@@ -110,7 +126,7 @@
       "related_intake_ids": [
         "INTAKE-1955-URS-ZHU-01"
       ],
-      "receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "receipt_status": "ARCHIVED_ADMIN_ACCEPTED_GAME_ORIGINAL",
       "mechanics_or_effects_checked": false,
       "verdict": null,
       "game_effects_applied": false,
@@ -123,7 +139,15 @@
       "discord_link_provenance": "ADMIN_SUPPLIED_IN_CHAT_NOT_FETCHED",
       "discord_link_verified_live": false,
       "discord_text_verified_live": false,
-      "discord_author_verified_live": false
+      "discord_author_verified_live": false,
+      "actor_key": "URS-ZHU",
+      "legacy_receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "admin_supplied_text_is_game_original": true,
+      "discord_verification_required": false,
+      "actor_id_status": "UNRESOLVED_REGISTER_LOOKUP__NOT_ARCHIVE_BLOCKER",
+      "original_acceptance_basis": "ADMIN_EXPLICIT_DIRECTIVE_2026-10-29",
+      "legacy_source_note": "Received through chat, copied manually: compare to Discord before calling immutable original; Discord message link added from administrator; no access to message body or author verification",
+      "official_decision_status": "NONE__INTAKE_ONLY"
     },
     {
       "intake_id": "INTAKE-1955-FRG-ADN-01",
@@ -139,7 +163,7 @@
       "discord_submitted_at": null,
       "source_kind": "chat_transcription",
       "source_ref": "2026-10-29 user chat message",
-      "source_note": "Received through chat, copied manually: compare to Discord before calling immutable original; Discord message link added from administrator; no access to message body or author verification",
+      "source_note": "Original for VPI adjudication accepted on administrator authority; physical source is user-supplied chat or attachment; Discord message link is supplementary; no live Discord fetch is required or claimed.",
       "declared_in_world_date": "1955-01",
       "visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "title": "Бундесвер, пенсии, пособия, инвестиции",
@@ -149,7 +173,7 @@
       "related_intake_ids": [
         "INTAKE-1955-FRG-ADN-02"
       ],
-      "receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "receipt_status": "ARCHIVED_ADMIN_ACCEPTED_GAME_ORIGINAL",
       "mechanics_or_effects_checked": false,
       "verdict": null,
       "game_effects_applied": false,
@@ -162,7 +186,15 @@
       "discord_link_provenance": "ADMIN_SUPPLIED_IN_CHAT_NOT_FETCHED",
       "discord_link_verified_live": false,
       "discord_text_verified_live": false,
-      "discord_author_verified_live": false
+      "discord_author_verified_live": false,
+      "actor_key": "FRG-ADN",
+      "legacy_receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "admin_supplied_text_is_game_original": true,
+      "discord_verification_required": false,
+      "actor_id_status": "UNRESOLVED_REGISTER_LOOKUP__NOT_ARCHIVE_BLOCKER",
+      "original_acceptance_basis": "ADMIN_EXPLICIT_DIRECTIVE_2026-10-29",
+      "legacy_source_note": "Received through chat, copied manually: compare to Discord before calling immutable original; Discord message link added from administrator; no access to message body or author verification",
+      "official_decision_status": "NONE__INTAKE_ONLY"
     },
     {
       "intake_id": "INTAKE-1955-FRG-ADN-02",
@@ -178,7 +210,7 @@
       "discord_submitted_at": null,
       "source_kind": "chat_transcription",
       "source_ref": "2026-10-29 user chat message",
-      "source_note": "Received through chat, copied manually: compare to Discord before calling immutable original; Discord message link added from administrator; no access to message body or author verification",
+      "source_note": "Original for VPI adjudication accepted on administrator authority; physical source is user-supplied chat or attachment; Discord message link is supplementary; no live Discord fetch is required or claimed.",
       "declared_in_world_date": "1955-01",
       "visibility": "SECRET_ADMIN_ONLY",
       "title": "Реорганизация организации Гелена",
@@ -188,7 +220,7 @@
       "related_intake_ids": [
         "INTAKE-1955-FRG-ADN-01"
       ],
-      "receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "receipt_status": "ARCHIVED_ADMIN_ACCEPTED_GAME_ORIGINAL",
       "mechanics_or_effects_checked": false,
       "verdict": null,
       "game_effects_applied": false,
@@ -201,7 +233,15 @@
       "discord_link_provenance": "ADMIN_SUPPLIED_IN_CHAT_NOT_FETCHED",
       "discord_link_verified_live": false,
       "discord_text_verified_live": false,
-      "discord_author_verified_live": false
+      "discord_author_verified_live": false,
+      "actor_key": "FRG-ADN",
+      "legacy_receipt_status": "RECEIVED_WITH_ADMIN_DISCORD_LINK_PENDING_ORIGINAL_VERIFICATION",
+      "admin_supplied_text_is_game_original": true,
+      "discord_verification_required": false,
+      "actor_id_status": "UNRESOLVED_REGISTER_LOOKUP__NOT_ARCHIVE_BLOCKER",
+      "original_acceptance_basis": "ADMIN_EXPLICIT_DIRECTIVE_2026-10-29",
+      "legacy_source_note": "Received through chat, copied manually: compare to Discord before calling immutable original; Discord message link added from administrator; no access to message body or author verification",
+      "official_decision_status": "NONE__INTAKE_ONLY"
     }
   ],
   "intake_metadata_revision": "2026-10-29_DISCORD_LINKS_ADDED",
@@ -212,11 +252,21 @@
   "canonical_rules_version": "RC1.0",
   "canonical_manifest_sha256_on_recheck": "f07d0923a8fc693500d6318eecaf5f634585f09ee473fa41a690c1f9e6b71611",
   "archive_storage": {
+    "provider": "GitHub",
+    "repository": "ivgl/VPG1955-archive",
+    "branch": "main",
+    "root": "turns/1955/posts/",
+    "scope": "PRIVATE_JUDICIAL_INTAKE_ONLY",
+    "content_status": "ADMIN_SUPPLIED_ORIGINALS_SHA256_CHECKED",
+    "backup": "Earlier Google Drive folder in legacy_archive_storage"
+  },
+  "legacy_archive_storage": {
     "provider": "Google Drive",
     "folder_id": "1ejXweWp2UnQT4hT_KO6F3Oni0kYInq1A",
     "folder_url": "https://drive.google.com/drive/folders/1ejXweWp2UnQT4hT_KO6F3Oni0kYInq1A",
     "scope": "PRIVATE_JUDICIAL_INTAKE_ONLY",
     "content_status": "SNAPSHOT_OF_SUBMITTED_MATERIAL_NOT_DISCORD_VERIFIED",
     "note": "Metadata update only; original text bytes unchanged; file-level cloud upload requires readback."
-  }
+  },
+  "receipt_metadata_revision": "2026-10-29_ADMIN_ACCEPTED_GAME_ORIGINALS_GITHUB_PRIMARY"
 }
