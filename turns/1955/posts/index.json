@@ -1,7 +1,7 @@
 {
   "campaign_id": "VPI1955_MAIN",
   "year": 1955,
-  "status": "RECEIVING",
+  "status": "RECEIVING__ARCHIVED",
   "kind": "EVIDENCE_INDEX_NOT_CANONICAL_STATE",
   "updated_from": "Administrator-supplied Discord links and cloud intake records 2026-10-29",
   "discord_api_verified": false,
@@ -21,7 +21,14 @@
       "content_path": "turns/1955/posts/originals/URS_KHR_01_attachment_verbatim.txt",
       "sha256": "c7ca6ddce645725c2a1cd0d91bf45251b505b210eecd53853cdd93b46d001678",
       "bytes": 18624,
-      "adjudication_status": "INTAKE_ONLY_UNREVIEWED"
+      "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
+      "actor_key": "URS-KHR",
+      "game_original_accepted_by_administrator": true,
+      "original_acceptance_basis": "ADMIN_PROVIDED_CHAT_TEXT_OR_ATTACHMENT_2026-10-29",
+      "discord_api_verification_required": false,
+      "intake_status": "ARCHIVED_AND_ACCEPTED_AS_ADMIN_SUPPLIED_ORIGINAL",
+      "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
+      "identity_note": "actor_key/actor_name are sufficient to identify source in archive; formal registered actor_id/authority checked before verdict"
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-01",
@@ -36,7 +43,14 @@
       "content_path": "turns/1955/posts/originals/URS_ZHU_01_chat_copy.txt",
       "sha256": "7742f26f1c8b626e6803bb87dbdd4a27e229ac61ca4ee623e9cafb089dc14838",
       "bytes": 6503,
-      "adjudication_status": "INTAKE_ONLY_UNREVIEWED"
+      "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
+      "actor_key": "URS-ZHU",
+      "game_original_accepted_by_administrator": true,
+      "original_acceptance_basis": "ADMIN_PROVIDED_CHAT_TEXT_OR_ATTACHMENT_2026-10-29",
+      "discord_api_verification_required": false,
+      "intake_status": "ARCHIVED_AND_ACCEPTED_AS_ADMIN_SUPPLIED_ORIGINAL",
+      "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
+      "identity_note": "actor_key/actor_name are sufficient to identify source in archive; formal registered actor_id/authority checked before verdict"
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-02",
@@ -51,7 +65,14 @@
       "content_path": "turns/1955/posts/originals/URS_ZHU_02_chat_copy.txt",
       "sha256": "1e92b7bf940b3086fe938009f9cabbf02f3e9af651be97242aefb8f2813532c5",
       "bytes": 7075,
-      "adjudication_status": "INTAKE_ONLY_UNREVIEWED"
+      "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
+      "actor_key": "URS-ZHU",
+      "game_original_accepted_by_administrator": true,
+      "original_acceptance_basis": "ADMIN_PROVIDED_CHAT_TEXT_OR_ATTACHMENT_2026-10-29",
+      "discord_api_verification_required": false,
+      "intake_status": "ARCHIVED_AND_ACCEPTED_AS_ADMIN_SUPPLIED_ORIGINAL",
+      "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
+      "identity_note": "actor_key/actor_name are sufficient to identify source in archive; formal registered actor_id/authority checked before verdict"
     },
     {
       "intake_id": "INTAKE-1955-FRG-ADN-01",
@@ -66,7 +87,14 @@
       "content_path": "turns/1955/posts/originals/FRG_ADN_01_chat_copy.txt",
       "sha256": "2818a363fe74351c957399828c3f6d94b1a6731d9bd97190709010082f5e73a3",
       "bytes": 5359,
-      "adjudication_status": "INTAKE_ONLY_UNREVIEWED"
+      "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
+      "actor_key": "FRG-ADN",
+      "game_original_accepted_by_administrator": true,
+      "original_acceptance_basis": "ADMIN_PROVIDED_CHAT_TEXT_OR_ATTACHMENT_2026-10-29",
+      "discord_api_verification_required": false,
+      "intake_status": "ARCHIVED_AND_ACCEPTED_AS_ADMIN_SUPPLIED_ORIGINAL",
+      "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
+      "identity_note": "actor_key/actor_name are sufficient to identify source in archive; formal registered actor_id/authority checked before verdict"
     },
     {
       "intake_id": "INTAKE-1955-FRG-ADN-02",
@@ -81,7 +109,20 @@
       "content_path": "turns/1955/posts/originals/FRG_ADN_02_SECRET_chat_copy.txt",
       "sha256": "a630075442464e09461b574d2c4e3248351ae11ef828ecd22ed5845bad91a6f0",
       "bytes": 6103,
-      "adjudication_status": "INTAKE_ONLY_UNREVIEWED"
+      "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
+      "actor_key": "FRG-ADN",
+      "game_original_accepted_by_administrator": true,
+      "original_acceptance_basis": "ADMIN_PROVIDED_CHAT_TEXT_OR_ATTACHMENT_2026-10-29",
+      "discord_api_verification_required": false,
+      "intake_status": "ARCHIVED_AND_ACCEPTED_AS_ADMIN_SUPPLIED_ORIGINAL",
+      "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
+      "identity_note": "actor_key/actor_name are sufficient to identify source in archive; formal registered actor_id/authority checked before verdict"
     }
-  ]
+  ],
+  "index_revision": "2026-10-29_ADMIN_ACCEPTANCE_AND_ACTOR_KEY",
+  "administrator_supplied_sources_are_game_originals": true,
+  "discord_api_check_is_not_an_intake_condition": true,
+  "legacy_register_is_historical_snapshot": true,
+  "sources_discord_text_independently_checked": false,
+  "verdicts_or_effects_created": false
 }
