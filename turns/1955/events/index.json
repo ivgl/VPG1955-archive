@@ -1,0 +1,56 @@
+{
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "document_type": "EVENT_EVIDENCE_INDEX",
+  "archive_is_canonical_state": false,
+  "status": "EDITORIAL_DRAFTS__NOT_ADMIN_APPROVED",
+  "discord_source_verified": false,
+  "confidentiality_note": "Repository-wide GitHub access; PRIVATE filename is descriptive only",
+  "events": [
+    {
+      "id": "TAIWAN-1955-EBN-02",
+      "path": "events/taiwan/01_EBN_public.md",
+      "access": "PUBLICATION_DRAFT",
+      "status": "DRAFT"
+    },
+    {
+      "id": "TAIWAN-1955-CHN-DIP",
+      "path": "events/taiwan/03_CHN_diplomacy_PRIVATE.md",
+      "access": "COUNTRY_CHN_PRIVATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "TAIWAN-1955-USA-MIL",
+      "path": "events/taiwan/04_USA_military_PRIVATE.md",
+      "access": "COUNTRY_USA_PRIVATE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "TAIWAN-1955-USA-POL",
+      "path": "events/taiwan/05_USA_politics_PRIVATE.md",
+      "access": "COUNTRY_USA_PRIVATE",
+      "status": "DRAFT"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "02_CHN_military_PRIVATE.md",
+      "reason": "EXPLICIT_ADMIN_EXCLUSION",
+      "uploaded": false
+    }
+  ],
+  "pending_sources": [
+    {
+      "set": "12_STARTING_COUNTRY_EVENTS",
+      "expected_count": 12,
+      "verified_count": 0,
+      "status": "ORIGINALS_NOT_FOUND"
+    },
+    {
+      "set": "ALGERIA_EVENT_01",
+      "expected_count": 1,
+      "verified_count": 0,
+      "status": "ORIGINAL_NOT_FOUND"
+    }
+  ]
+}
