@@ -9,27 +9,34 @@
   "events": [
     {
       "id": "TAIWAN-1955-EBN-02",
-      "path": "events/taiwan/01_EBN_public.md",
+      "path": "world/04_taiwan_strait_EBN_1955.md",
       "access": "PUBLICATION_DRAFT",
-      "status": "DRAFT"
+      "status": "DRAFT",
+      "legacy_path": "events/taiwan/01_EBN_public.md",
+      "bytes": 2430,
+      "sha256": "1c1318265a06a0bdf80e7fe0d751cb668b3f7e54689c818fd1a29ffaa8a0f1aa",
+      "placement_note": "Moved public/general EBN text to world folder; publication status remains DRAFT pending separate confirmation"
     },
     {
       "id": "TAIWAN-1955-CHN-DIP",
-      "path": "events/taiwan/03_CHN_diplomacy_PRIVATE.md",
+      "path": "taiwan/03_CHN_diplomacy_PRIVATE.md",
       "access": "COUNTRY_CHN_PRIVATE",
-      "status": "DRAFT"
+      "status": "DRAFT",
+      "legacy_path": "events/taiwan/03_CHN_diplomacy_PRIVATE.md"
     },
     {
       "id": "TAIWAN-1955-USA-MIL",
-      "path": "events/taiwan/04_USA_military_PRIVATE.md",
+      "path": "taiwan/04_USA_military_PRIVATE.md",
       "access": "COUNTRY_USA_PRIVATE",
-      "status": "DRAFT"
+      "status": "DRAFT",
+      "legacy_path": "events/taiwan/04_USA_military_PRIVATE.md"
     },
     {
       "id": "TAIWAN-1955-USA-POL",
-      "path": "events/taiwan/05_USA_politics_PRIVATE.md",
+      "path": "taiwan/05_USA_politics_PRIVATE.md",
       "access": "COUNTRY_USA_PRIVATE",
-      "status": "DRAFT"
+      "status": "DRAFT",
+      "legacy_path": "events/taiwan/05_USA_politics_PRIVATE.md"
     },
     {
       "id": "START-1955-USA",
@@ -261,7 +268,7 @@
     },
     {
       "id": "ALG-1955-01",
-      "path": "algeria/01_Algeria.md",
+      "path": "world/03_algeria_1955.md",
       "type": "WORLD_CHRONICLE_ALGERIA",
       "country_id": null,
       "affected_country_ids": [
@@ -276,7 +283,8 @@
       "original_filename": "01_Algeria.md",
       "bytes": 1752,
       "sha256": "05a92664f33c87f025b18946092a86005de968321863e4106413482282586e55",
-      "effect_id": null
+      "effect_id": null,
+      "legacy_path": "algeria/01_Algeria.md"
     },
     {
       "id": "WORLD-1955-POLIO-SALK-01",
@@ -343,6 +351,6 @@
       "status": "COMPLETE_ADMIN_SUPPLIED"
     }
   ],
-  "index_revision": "2026-10-31_ADMIN_SUPPLIED_TWO_WORLD_NEWS_URLS",
-  "note": "Two additional administrator-shared Discord world-news texts archived verbatim; Discord messages not independently checked; no state effects."
+  "index_revision": "2026-10-31_EVENTS_WORLD_UNIFIED_ALGERIA_TAIWAN",
+  "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged."
 }
