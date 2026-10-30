@@ -277,6 +277,48 @@
       "bytes": 1752,
       "sha256": "05a92664f33c87f025b18946092a86005de968321863e4106413482282586e55",
       "effect_id": null
+    },
+    {
+      "id": "WORLD-1955-POLIO-SALK-01",
+      "path": "world/01_polio_vaccine_salk_1955.md",
+      "type": "WORLD_CHRONICLE_MEDICINE",
+      "country_id": "USA",
+      "affected_country_ids": [
+        "USA"
+      ],
+      "status": "PUBLISHED_ADMIN_LINK_PROVIDED_UNVERIFIED",
+      "publication_confirmation": "ADMIN_SHARED_DISCORD_POST_URL_2026-10-31",
+      "publication_url": "https://discord.com/channels/1558850253006831738/1563521575448350792/1565792054926114826",
+      "discord_message_id": "1565792054926114826",
+      "publication_datetime": null,
+      "game_date_label": "апрель 1955",
+      "access": "PUBLIC_EVENT_TEXT__PRIVATE_ARCHIVE",
+      "source": "ADMIN_CHAT_TEXT",
+      "source_kind": "admin_chat_text",
+      "source_note": "Text supplied by administrator in chat; Discord link supplied, Discord content not independently fetched or verified",
+      "bytes": 1688,
+      "sha256": "8962780cbb63ebc7866c033cd514545d1fc0ff5594d43360634c80dc219a794b",
+      "effect_id": null
+    },
+    {
+      "id": "WORLD-1955-AUSTRIA-01",
+      "path": "world/02_austria_four_powers_1955.md",
+      "type": "WORLD_CHRONICLE_EUROPE",
+      "country_id": null,
+      "affected_country_ids": [],
+      "status": "PUBLISHED_ADMIN_LINK_PROVIDED_UNVERIFIED",
+      "publication_confirmation": "ADMIN_SHARED_DISCORD_POST_URL_2026-10-31",
+      "publication_url": "https://discord.com/channels/1558850253006831738/1563521575448350792/1565694664433074356",
+      "discord_message_id": "1565694664433074356",
+      "publication_datetime": null,
+      "game_date_label": "1955",
+      "access": "PUBLIC_EVENT_TEXT__PRIVATE_ARCHIVE",
+      "source": "ADMIN_CHAT_TEXT",
+      "source_kind": "admin_chat_text",
+      "source_note": "Text supplied by administrator in chat; Discord link supplied, Discord content not independently fetched or verified",
+      "bytes": 1872,
+      "sha256": "7907b141bd98ce6244dcfdb4ccb5572ec63a44e310c40eb962da2a7a52346add",
+      "effect_id": null
     }
   ],
   "excluded": [
@@ -301,6 +343,6 @@
       "status": "COMPLETE_ADMIN_SUPPLIED"
     }
   ],
-  "index_revision": "2026-10-29_ADMIN_PUBLISHED_13_FILES",
-  "note": "Original SHA-256 matches 13 administrator-provided attachments. Publication location/time not supplied. Taiwan drafts unchanged."
+  "index_revision": "2026-10-31_ADMIN_SUPPLIED_TWO_WORLD_NEWS_URLS",
+  "note": "Two additional administrator-shared Discord world-news texts archived verbatim; Discord messages not independently checked; no state effects."
 }
