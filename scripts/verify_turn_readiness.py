@@ -176,11 +176,11 @@ def main():
         if not eid or eid in eventids:
             failures.append(f"Missing/duplicate event ID: {eid}")
         eventids.append(eid)
-        path = local_file(turn, rel, failures)
+        path = local_file(turn / "events", rel, failures)
         if path is None:
             continue
         if event.get("sha256") is not None:
-            source_matches(turn, rel, event, failures)
+            source_matches(turn / "events", rel, event, failures)
         if event.get("status") in ("PUBLISHED", "PUBLISHED_ADMIN_CONFIRMED"):
             if event.get("sha256") is None:
                 failures.append(f"Published event without checksum: {eid}")
