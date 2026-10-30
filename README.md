@@ -11,6 +11,7 @@
 - `turns/1955/appeals/` — апелляции и материалы рассмотрения.
 - `turns/1955/decisions/` — утверждения администратора и ссылки на решения.
 - `proposals/BACKLOG.md` — единый административный реестр идей на будущие сезоны (QoL, автоматизация Discord, сайт, процессы), со статусами и зависимостями; записи не являются утверждением работ.
+- `scripts/verify_turn_readiness.py` — read-only проверка целостности принятого архива, HEAD/манифеста и судейских ворот; техническая процедура в [`VPG1955-state/docs/turn_readiness_gate.md`](https://github.com/ivgl/VPG1955-state/blob/main/docs/turn_readiness_gate.md).
 - `qol/PROPOSALS.md` — оставленный для старых ссылок указатель на общий реестр.
 
 ### Правила обработки
