@@ -194,8 +194,9 @@ def main():
         if head.get("phase") not in PHASES[2:]:
             failures.append("LOCK gate requested before administrative phase change")
         frozen = document(turn / "checkpoints" / "locked.json", failures)
-        if frozen.get("year") != year or frozen.get("admin_confirmed") is not True:
-            failures.append("LOCK checkpoint has not been confirmed by administrator")
+        if (frozen.get("year") != year or frozen.get("admin_confirmed") is not True
+                or not frozen.get("admin_approval_ref")):
+            failures.append("LOCK checkpoint lacks explicit administrator confirmation/reference")
         same_ids(frozen.get("post_intake_ids"), postids, "Frozen post IDs", failures)
         same_ids(frozen.get("published_event_ids"),
                  [e["id"] for e in evlist if e.get("status") in ("PUBLISHED", "PUBLISHED_ADMIN_CONFIRMED")],
@@ -204,14 +205,22 @@ def main():
         if head.get("phase") not in PHASES[8:]:
             failures.append("FINAL gate requested before official final approval")
         approved = document(turn / "checkpoints" / "final_approved.json", failures)
-        if approved.get("year") != year or approved.get("admin_confirmed") is not True:
-            failures.append("FINAL checkpoint has not been approved by administrator")
+        if (approved.get("year") != year or approved.get("admin_confirmed") is not True
+                or not approved.get("admin_approval_ref")):
+            failures.append("FINAL checkpoint lacks explicit administrator confirmation/reference")
         same_ids(approved.get("reviewed_post_intake_ids"), postids, "Adjudicated post IDs", failures)
+        verdicts = approved.get("verdict_paths", {})
+        if not isinstance(verdicts, dict) or set(verdicts) != set(postids):
+            failures.append("FINAL verdict links missing for some archived posts")
+        else:
+            for intake_id, rel in verdicts.items():
+                local_file(turn / "verdicts", rel, failures)
         if approved.get("appeals_resolved") is not True or approved.get("treaties_and_processes_reviewed") is not True:
             failures.append("Appeals or treaty/process obligations not confirmed")
         effects = approved.get("approved_effect_ids")
-        if not isinstance(effects, list) or len(effects) != len(set(effects)):
-            failures.append("Missing or duplicate approved effect IDs")
+        if (not isinstance(effects, list) or any(not isinstance(x, str) or not x for x in effects)
+                or len(effects) != len(set(effects))):
+            failures.append("Missing, malformed, or duplicate approved effect IDs")
         warnings.append("Human review of verdicts, approval and public sync is still required")
 
     print(f"GATE={args.gate} YEAR={year} HEAD_PHASE={head.get('phase')}")
