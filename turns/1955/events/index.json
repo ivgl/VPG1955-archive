@@ -561,6 +561,53 @@
       "source_text_fidelity": "BYTE_IDENTICAL_TO_PREPARED_KIT__DISCORD_UNVERIFIED_POSSIBLE_ONE_LINE_VARIANCE",
       "event_group": "GERMAN_DIVISION_1955",
       "effect_id": null
+    },
+    {
+      "id": "JPN-1955-ELECTION-PARTY-REALIGNMENT-01",
+      "path": "japan/JPN_1955_ELECTION_PARTIES_DRAFT.md",
+      "title": "Япония: год, изменивший парламент",
+      "kind": "JPN_1955_ELECTION_AND_PARTY_REORGANIZATION",
+      "country_id": "JPN",
+      "affected_country_ids": [
+        "JPN"
+      ],
+      "target_country_ids": [
+        "JPN"
+      ],
+      "access": "COUNTRY_JPN_PRIVATE__PUBLICATION_DRAFT",
+      "status": "DRAFT",
+      "game_date_label": "1955-11",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "source_kind": "ASSISTANT_DRAFT_FROM_HISTORICAL_REFERENCE_AND_GAME_POST",
+      "source_post_ids": [
+        "INTAKE-1955-JPN-HAT-01"
+      ],
+      "effect_id": null,
+      "canonical_state_applied": false
+    },
+    {
+      "id": "JPN-1955-RYUKYU-PUBLIC-REACTION-01",
+      "path": "japan/JPN_RYUKYU_1955_PUBLICATION_DRAFT.md",
+      "title": "Токио: острова становятся ближе",
+      "kind": "JPN_RYUKYU_DIPLOMATIC_REACTION",
+      "country_id": "JPN",
+      "affected_country_ids": [
+        "JPN",
+        "USA"
+      ],
+      "target_country_ids": [
+        "JPN"
+      ],
+      "access": "BILATERAL_PRIVATE__PUBLICATION_DRAFT__DISCLOSURE_APPROVAL_REQUIRED",
+      "status": "DRAFT",
+      "game_date_label": "1955-10-08",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "source_kind": "ASSISTANT_DRAFT_FROM_ADMIN_SUPPLIED_BILATERAL_TEXT",
+      "source_post_ids": [
+        "INTAKE-1955-JPN-USA-RYUKYU-01"
+      ],
+      "effect_id": null,
+      "canonical_state_applied": false
     }
   ],
   "excluded": [
@@ -610,6 +657,6 @@
       "discord_text_verified": false
     }
   ],
-  "index_revision": "2026-11-01_SAAR_AND_GERMAN_QUESTION_7_ADMIN_PUBLISHED",
-  "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged."
+  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED",
+  "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged. Japan: two unpublished, unapproved event drafts added; no status change to prior published event entries or canonical state."
 }
