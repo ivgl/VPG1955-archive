@@ -1,0 +1,655 @@
+{
+  "schema": "VPI1955_JUDICIAL_CANDIDATE_CHN_AGRARIAN_POLICY_V2",
+  "campaign_id": "VPI1955_MAIN",
+  "country_id": "CHN",
+  "year": 1955,
+  "rules_version": "RC1.0",
+  "decision_id": "INTAKE-1955-CHN-AGR-01",
+  "discord_message_id": "1566162670694961275",
+  "source_original_private_archive": "turns/1955/posts/originals/CHN_AGR_01_admin_attachment_verbatim.md",
+  "source_original_access": "COUNTRY_PRIVATE_UNCONFIRMED",
+  "state_base_ref": "ivgl/VPG1955-state@main HEAD.json -> manifest_1955.json -> countries/CHN.json",
+  "state_manifest_sha256": "f07d0923a8fc693500d6318eecaf5f634585f09ee473fa41a690c1f9e6b71611",
+  "status": "DRAFT_NOT_APPROVED_NOT_APPLIED",
+  "phase_at_creation": "RECEIVING",
+  "adjudication": "SUCCESS_ON_CENTRAL_POLICY_IF_ACTOR_AUTHORIZED__PARTIAL_SUCCESS_IMPLEMENTATION",
+  "actor_registration_check": "REQUIRED_BEFORE_FINAL_APPROVAL; archive actor_id null; user states Mao player entitled",
+  "source_policy": "expert counterfactual numbers are gameplay proposals; not historical measured outputs; no 1978 reform coefficients blindly imported",
+  "semantics": {
+    "gdp_growth_extra_pp": "annual percentage-point increment relative to independently updated baseline, not permanent guaranteed modifier; sector contributions sum to national increment using 1955 weights provisionally, reweight annually",
+    "rural_household_income_advantage_pct": "cumulative ratio to same-year without reform, not percentage points, not added on top of previous year",
+    "national_household_income_advantage_pct": "cumulative ratio to same-year independent background; translation into canonical real_household_income_index must use actual background and avoid stock double counting",
+    "institutional_corruption": "one-time index deltas only on verified operations, retained in next state; not annually renewed",
+    "political_policy": "permanent structural legal and institutional conditions until superseding act",
+    "credit": "loan disbursement principal is not public grant expenditure; record capital source, assets and liabilities",
+    "tax_holiday": "18 months per enterprise new cohort; fiscal tax delta only if actual taxed output",
+    "grain_quota": "five years from effective approved base 1955 through 1959; quantities unknown until baseline procurement audit",
+    "taiwan": "tracked separately in world, no duplicate country macro growth bonus",
+    "all_annual_effect_ids": "IDs are reservation proposals; only successful annual completed actions get effects; no automatic future execution"
+  },
+  "base_1955_game_state": {
+    "gdp_real_billion_2011_intl": 628.748,
+    "gdp_growth_pct": 5.5,
+    "agriculture_share_pct": 60,
+    "industry_share_pct": 23,
+    "services_share_pct": 17,
+    "fiscal_revenue_total_billion_G": 179.453024,
+    "fiscal_spending_total_billion_G": 178.677152,
+    "fiscal_budget_balance_billion_G": 0.775872,
+    "fiscal_spend_economy_billion_G": 90.454805,
+    "fiscal_spend_admin_billion_G": 15.824833,
+    "fiscal_spend_social_billion_G": 25.332908,
+    "reserves_billion_G": 2.237149984,
+    "institutional_capacity_index": 48,
+    "corruption_exposure_index": 59,
+    "real_household_income_index": 100,
+    "military_active_personnel": 3000000
+  },
+  "1955_candidate_changes": {
+    "central_agrarian_course": "STRUCTURALLY_REPLACED_IF_APPROVED",
+    "policy_legal_coverage": "COUNTRY_WIDE_NORM_NOT_SAME_AS_EXECUTION",
+    "gdp_growth_pct_extra_pp": 0.2,
+    "gdp_growth_pct_if_1955_background_unchanged": 5.7,
+    "institutional_capacity_index_delta": 0.1,
+    "institutional_capacity_index_proposed": 48.1,
+    "corruption_exposure_index_delta": 0,
+    "real_household_income_index_proposed_delta": 0.4,
+    "real_household_income_index_proposed": 100.4,
+    "tax_revenue_delta_G": 0,
+    "exports_delta_G": 0,
+    "imports_delta_G": 0,
+    "population_delta": 0,
+    "military_active_personnel_delta": 0,
+    "new_land_area_production_delta": 0,
+    "expenses_delta_if_approved_G": 0.6,
+    "fiscal_spend_economy_delta_G": 0.45,
+    "fiscal_spend_admin_delta_G": 0.13,
+    "fiscal_spend_social_delta_G": 0.02,
+    "fiscal_spending_total_billion_G_if_new_funded_spending": 179.277152,
+    "fiscal_budget_balance_billion_G_if_new_funded_spending": 0.175872,
+    "budget_financing_condition": "Government may use up to 0.600 G from existing 0.775872 baseline surplus only subject to admin approval and cash-flow review; otherwise full/partial reassignment requires identified offsets. No spending actually incurred at draft stage.",
+    "budget_alternative": "Reallocation within existing functional spending if identified cuts; then total budget and surplus unchanged",
+    "one_time_effect_id_candidate": "DRAFT-CHN-AGR-1955-CENTRAL-POLICY-01",
+    "applied_effect_ids": []
+  },
+  "budget_1955_costs_by_program_G_billion": {
+    "CHN-AGR-1955-01-LAND-FAMILY": 0.06,
+    "CHN-AGR-1955-02-GRAIN-MARKETS": 0.05,
+    "CHN-AGR-1955-03-LAND-WATER": 0.08,
+    "CHN-AGR-1955-04-MACHINE-STATIONS": 0.15,
+    "CHN-AGR-1955-05-RURAL-CREDIT": 0.07,
+    "CHN-AGR-1955-06-RURAL-ENTERPRISE": 0.03,
+    "CHN-AGR-1955-07-AUDIT-ACCOUNTING": 0.08,
+    "CHN-AGR-1955-08-CADRES": 0.05,
+    "CHN-AGR-1955-09-SETTLEMENT": 0.01,
+    "CHN-AGR-1955-10-RURAL-SAFETYNET": 0.02
+  },
+  "annual_scenario_if_conditions_met": {
+    "1955": {
+      "year": 1955,
+      "status": "DRAFT_NOT_AUTOMATIC",
+      "macro_calculation_share_weights_from_1955_game_state": {
+        "agriculture": 0.6,
+        "industry": 0.23,
+        "services": 0.17
+      },
+      "gdp_growth_pct_extra_pp_total_proposal": 0.2,
+      "gdp_growth_pct_extra_pp_sector_components": {
+        "agriculture": 0.3,
+        "industry": 0.0,
+        "services": 0.1
+      },
+      "gdp_growth_pct_extra_pp_weighted_calculation": 0.197,
+      "rural_real_household_income_advantage_pct_vs_same_year_no_reform": 1.5,
+      "national_real_household_income_advantage_pct_vs_same_year_no_reform": 0.4,
+      "institutional_capacity_index_one_time_change_conditionally": 0.1,
+      "corruption_exposure_index_one_time_change_conditionally": 0.0,
+      "implementation_targets_not_verified_outputs": {
+        "counties_where_rights_and_procurement_enforcement_verified_share_pct": 12,
+        "cooperative_member_households_with_verified_family_contracts_share_pct": 15,
+        "trained_and_assigned_demobilized_PLA_cumulative_cap_persons": 40000,
+        "working_accounting_stations_cumulative_cap_units": 5
+      },
+      "effect_id_macro_candidate": "DRAFT-CHN-1955-AGR-MACRO-1955",
+      "effect_id_indexes_candidate": "DRAFT-CHN-1955-AGR-INSTITUTIONS-1955",
+      "apply_only_after_verification_of_executed_inputs_and_annual_admin_approval": true,
+      "last_effect_year_update_only_on_commit": true
+    },
+    "1956": {
+      "year": 1956,
+      "status": "DRAFT_NOT_AUTOMATIC",
+      "macro_calculation_share_weights_from_1955_game_state": {
+        "agriculture": 0.6,
+        "industry": 0.23,
+        "services": 0.17
+      },
+      "gdp_growth_pct_extra_pp_total_proposal": 1.0,
+      "gdp_growth_pct_extra_pp_sector_components": {
+        "agriculture": 1.8,
+        "industry": -0.6,
+        "services": 0.3
+      },
+      "gdp_growth_pct_extra_pp_weighted_calculation": 0.993,
+      "rural_real_household_income_advantage_pct_vs_same_year_no_reform": 7,
+      "national_real_household_income_advantage_pct_vs_same_year_no_reform": 3.0,
+      "institutional_capacity_index_one_time_change_conditionally": 0.3,
+      "corruption_exposure_index_one_time_change_conditionally": -0.2,
+      "implementation_targets_not_verified_outputs": {
+        "counties_where_rights_and_procurement_enforcement_verified_share_pct": 35,
+        "cooperative_member_households_with_verified_family_contracts_share_pct": 40,
+        "trained_and_assigned_demobilized_PLA_cumulative_cap_persons": 140000,
+        "working_accounting_stations_cumulative_cap_units": 15
+      },
+      "effect_id_macro_candidate": "DRAFT-CHN-1955-AGR-MACRO-1956",
+      "effect_id_indexes_candidate": "DRAFT-CHN-1955-AGR-INSTITUTIONS-1956",
+      "apply_only_after_verification_of_executed_inputs_and_annual_admin_approval": true,
+      "last_effect_year_update_only_on_commit": true
+    },
+    "1957": {
+      "year": 1957,
+      "status": "DRAFT_NOT_AUTOMATIC",
+      "macro_calculation_share_weights_from_1955_game_state": {
+        "agriculture": 0.6,
+        "industry": 0.23,
+        "services": 0.17
+      },
+      "gdp_growth_pct_extra_pp_total_proposal": 1.5,
+      "gdp_growth_pct_extra_pp_sector_components": {
+        "agriculture": 2.7,
+        "industry": -0.8,
+        "services": 0.4
+      },
+      "gdp_growth_pct_extra_pp_weighted_calculation": 1.504,
+      "rural_real_household_income_advantage_pct_vs_same_year_no_reform": 15,
+      "national_real_household_income_advantage_pct_vs_same_year_no_reform": 7.0,
+      "institutional_capacity_index_one_time_change_conditionally": 0.3,
+      "corruption_exposure_index_one_time_change_conditionally": -0.2,
+      "implementation_targets_not_verified_outputs": {
+        "counties_where_rights_and_procurement_enforcement_verified_share_pct": 60,
+        "cooperative_member_households_with_verified_family_contracts_share_pct": 65,
+        "trained_and_assigned_demobilized_PLA_cumulative_cap_persons": 280000,
+        "working_accounting_stations_cumulative_cap_units": 30
+      },
+      "effect_id_macro_candidate": "DRAFT-CHN-1955-AGR-MACRO-1957",
+      "effect_id_indexes_candidate": "DRAFT-CHN-1955-AGR-INSTITUTIONS-1957",
+      "apply_only_after_verification_of_executed_inputs_and_annual_admin_approval": true,
+      "last_effect_year_update_only_on_commit": true
+    },
+    "1958": {
+      "year": 1958,
+      "status": "DRAFT_NOT_AUTOMATIC",
+      "macro_calculation_share_weights_from_1955_game_state": {
+        "agriculture": 0.6,
+        "industry": 0.23,
+        "services": 0.17
+      },
+      "gdp_growth_pct_extra_pp_total_proposal": 1.6,
+      "gdp_growth_pct_extra_pp_sector_components": {
+        "agriculture": 2.8,
+        "industry": -0.7,
+        "services": 0.5
+      },
+      "gdp_growth_pct_extra_pp_weighted_calculation": 1.604,
+      "rural_real_household_income_advantage_pct_vs_same_year_no_reform": 25,
+      "national_real_household_income_advantage_pct_vs_same_year_no_reform": 12.0,
+      "institutional_capacity_index_one_time_change_conditionally": 0.2,
+      "corruption_exposure_index_one_time_change_conditionally": -0.1,
+      "implementation_targets_not_verified_outputs": {
+        "counties_where_rights_and_procurement_enforcement_verified_share_pct": 78,
+        "cooperative_member_households_with_verified_family_contracts_share_pct": 85,
+        "trained_and_assigned_demobilized_PLA_cumulative_cap_persons": 350000,
+        "working_accounting_stations_cumulative_cap_units": 45
+      },
+      "effect_id_macro_candidate": "DRAFT-CHN-1955-AGR-MACRO-1958",
+      "effect_id_indexes_candidate": "DRAFT-CHN-1955-AGR-INSTITUTIONS-1958",
+      "apply_only_after_verification_of_executed_inputs_and_annual_admin_approval": true,
+      "last_effect_year_update_only_on_commit": true
+    },
+    "1959": {
+      "year": 1959,
+      "status": "DRAFT_NOT_AUTOMATIC",
+      "macro_calculation_share_weights_from_1955_game_state": {
+        "agriculture": 0.6,
+        "industry": 0.23,
+        "services": 0.17
+      },
+      "gdp_growth_pct_extra_pp_total_proposal": 1.2,
+      "gdp_growth_pct_extra_pp_sector_components": {
+        "agriculture": 2.1,
+        "industry": -0.5,
+        "services": 0.3
+      },
+      "gdp_growth_pct_extra_pp_weighted_calculation": 1.196,
+      "rural_real_household_income_advantage_pct_vs_same_year_no_reform": 34,
+      "national_real_household_income_advantage_pct_vs_same_year_no_reform": 17.0,
+      "institutional_capacity_index_one_time_change_conditionally": 0.1,
+      "corruption_exposure_index_one_time_change_conditionally": -0.1,
+      "implementation_targets_not_verified_outputs": {
+        "counties_where_rights_and_procurement_enforcement_verified_share_pct": 88,
+        "cooperative_member_households_with_verified_family_contracts_share_pct": 92,
+        "trained_and_assigned_demobilized_PLA_cumulative_cap_persons": 350000,
+        "working_accounting_stations_cumulative_cap_units": 60
+      },
+      "effect_id_macro_candidate": "DRAFT-CHN-1955-AGR-MACRO-1959",
+      "effect_id_indexes_candidate": "DRAFT-CHN-1955-AGR-INSTITUTIONS-1959",
+      "apply_only_after_verification_of_executed_inputs_and_annual_admin_approval": true,
+      "last_effect_year_update_only_on_commit": true
+    },
+    "1960": {
+      "year": 1960,
+      "status": "DRAFT_NOT_AUTOMATIC",
+      "macro_calculation_share_weights_from_1955_game_state": {
+        "agriculture": 0.6,
+        "industry": 0.23,
+        "services": 0.17
+      },
+      "gdp_growth_pct_extra_pp_total_proposal": 0.6,
+      "gdp_growth_pct_extra_pp_sector_components": {
+        "agriculture": 1.0,
+        "industry": -0.1,
+        "services": 0.1
+      },
+      "gdp_growth_pct_extra_pp_weighted_calculation": 0.594,
+      "rural_real_household_income_advantage_pct_vs_same_year_no_reform": 41,
+      "national_real_household_income_advantage_pct_vs_same_year_no_reform": 21.0,
+      "institutional_capacity_index_one_time_change_conditionally": 0.1,
+      "corruption_exposure_index_one_time_change_conditionally": 0,
+      "implementation_targets_not_verified_outputs": {
+        "counties_where_rights_and_procurement_enforcement_verified_share_pct": 92,
+        "cooperative_member_households_with_verified_family_contracts_share_pct": 95,
+        "trained_and_assigned_demobilized_PLA_cumulative_cap_persons": 350000,
+        "working_accounting_stations_cumulative_cap_units": 75
+      },
+      "effect_id_macro_candidate": "DRAFT-CHN-1955-AGR-MACRO-1960",
+      "effect_id_indexes_candidate": "DRAFT-CHN-1955-AGR-INSTITUTIONS-1960",
+      "apply_only_after_verification_of_executed_inputs_and_annual_admin_approval": true,
+      "last_effect_year_update_only_on_commit": true
+    }
+  },
+  "programs": [
+    {
+      "program_id": "CHN-AGR-1955-01-LAND-FAMILY",
+      "name_ru": "Семейная собственность, паевые кооперативы и земельные гарантии",
+      "source_post_sections": [
+        "1.1",
+        "1.2",
+        "11",
+        "11.1"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "PERMANENT_POLICY_WITH_EXPIRING_CONTRACT_COHORTS",
+      "completion_or_renewal_conditions": "Новые договоры заключаются на 5–10 лет; каждое новое соглашение получает собственную дату и срок; нельзя считать всю страну вступившей в кооперативы",
+      "1955_proposed_stage_or_cap": "До 15% состоящих в кооперативах хозяйств с проверенными новыми договорами при условиях внедрения",
+      "1955_administration_or_pilot_estimate_G_billion": 0.06,
+      "fiscal_function": "economy",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-01-LAND-FAMILY-1955",
+        "DRAFT-CHN-AGR-1955-01-LAND-FAMILY-1956",
+        "DRAFT-CHN-AGR-1955-01-LAND-FAMILY-1957",
+        "DRAFT-CHN-AGR-1955-01-LAND-FAMILY-1958",
+        "DRAFT-CHN-AGR-1955-01-LAND-FAMILY-1959",
+        "DRAFT-CHN-AGR-1955-01-LAND-FAMILY-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-02-GRAIN-MARKETS",
+      "name_ru": "Пятилетние зерновые квоты, защищённые излишки и сельские рынки",
+      "source_post_sections": [
+        "5"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "FIXED_1955_1959_AND_RENEWAL_1960",
+      "completion_or_renewal_conditions": "Обязательные поставки без согласованной фактической базы количественно не фикcировать; пять лет 1955–1959 с пересмотром в 1960; городское снабжение проверяется ежегодно",
+      "1955_proposed_stage_or_cap": "Типовые обязательства; первые уезды с действительными квотами и надзором",
+      "1955_administration_or_pilot_estimate_G_billion": 0.05,
+      "fiscal_function": "economy",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-02-GRAIN-MARKETS-1955",
+        "DRAFT-CHN-AGR-1955-02-GRAIN-MARKETS-1956",
+        "DRAFT-CHN-AGR-1955-02-GRAIN-MARKETS-1957",
+        "DRAFT-CHN-AGR-1955-02-GRAIN-MARKETS-1958",
+        "DRAFT-CHN-AGR-1955-02-GRAIN-MARKETS-1959",
+        "DRAFT-CHN-AGR-1955-02-GRAIN-MARKETS-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-03-LAND-WATER",
+      "name_ru": "Землеустройство, водные товарищества, ирригация",
+      "source_post_sections": [
+        "2",
+        "3"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "LAND_CONSOLIDATION_PHASE_1955_1957_INFRA_UNTIL_REPLACED",
+      "completion_or_renewal_conditions": "1957 — срок первоначальной кампании межевания, не прекращение земельного права или содержания каналов",
+      "1955_proposed_stage_or_cap": "Пилоты межевания; водное расписание и учёт ресурсов",
+      "1955_administration_or_pilot_estimate_G_billion": 0.08,
+      "fiscal_function": "economy",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-03-LAND-WATER-1955",
+        "DRAFT-CHN-AGR-1955-03-LAND-WATER-1956",
+        "DRAFT-CHN-AGR-1955-03-LAND-WATER-1957",
+        "DRAFT-CHN-AGR-1955-03-LAND-WATER-1958",
+        "DRAFT-CHN-AGR-1955-03-LAND-WATER-1959",
+        "DRAFT-CHN-AGR-1955-03-LAND-WATER-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-04-MACHINE-STATIONS",
+      "name_ru": "Машинно-тракторные станции, тарифы и сельское снабжение",
+      "source_post_sections": [
+        "4",
+        "12.1"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "ONGOING_PHYSICAL_INFRASTRUCTURE",
+      "completion_or_renewal_conditions": "Ремонт, техника, топливо, грузовой транспорт; дефицит и ограниченная производственная мощность",
+      "1955_proposed_stage_or_cap": "Первые договоры обслуживания; техника не создаётся из текста приказа",
+      "1955_administration_or_pilot_estimate_G_billion": 0.15,
+      "fiscal_function": "economy",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-04-MACHINE-STATIONS-1955",
+        "DRAFT-CHN-AGR-1955-04-MACHINE-STATIONS-1956",
+        "DRAFT-CHN-AGR-1955-04-MACHINE-STATIONS-1957",
+        "DRAFT-CHN-AGR-1955-04-MACHINE-STATIONS-1958",
+        "DRAFT-CHN-AGR-1955-04-MACHINE-STATIONS-1959",
+        "DRAFT-CHN-AGR-1955-04-MACHINE-STATIONS-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-05-RURAL-CREDIT",
+      "name_ru": "Сельхозбанк, низкопроцентный кредит и авансирование",
+      "source_post_sections": [
+        "6",
+        "8"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "PERMANENT_REVOLVING_CREDIT_PORTFOLIO",
+      "completion_or_renewal_conditions": "Кредиты 0.3–0.5% в месяц; фондирование, выдача, возвраты, просрочка, возможные субсидии раздельно",
+      "1955_proposed_stage_or_cap": "Запуск правил и пилотных отделений; основная сумма кредитов не покрывается административной сметой",
+      "1955_administration_or_pilot_estimate_G_billion": 0.07,
+      "fiscal_function": "economy",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-05-RURAL-CREDIT-1955",
+        "DRAFT-CHN-AGR-1955-05-RURAL-CREDIT-1956",
+        "DRAFT-CHN-AGR-1955-05-RURAL-CREDIT-1957",
+        "DRAFT-CHN-AGR-1955-05-RURAL-CREDIT-1958",
+        "DRAFT-CHN-AGR-1955-05-RURAL-CREDIT-1959",
+        "DRAFT-CHN-AGR-1955-05-RURAL-CREDIT-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-06-RURAL-ENTERPRISE",
+      "name_ru": "Кооперативная промышленность, оплачиваемый труд и 18-месячные льготы",
+      "source_post_sections": [
+        "7",
+        "11.1"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "PERMANENT_ENTERPRISES_WITH_18_MONTH_NEW_COHORT_TAX_HOLIDAY",
+      "completion_or_renewal_conditions": "Отдельные фирмы и фонды. Налоговые льготы заканчиваются через 18 месяцев после основания КАЖДОГО предприятия; не льготный срок всей политики",
+      "1955_proposed_stage_or_cap": "Разрешение деятельности и первые мастерские без гарантированного выпуска",
+      "1955_administration_or_pilot_estimate_G_billion": 0.03,
+      "fiscal_function": "economy",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-06-RURAL-ENTERPRISE-1955",
+        "DRAFT-CHN-AGR-1955-06-RURAL-ENTERPRISE-1956",
+        "DRAFT-CHN-AGR-1955-06-RURAL-ENTERPRISE-1957",
+        "DRAFT-CHN-AGR-1955-06-RURAL-ENTERPRISE-1958",
+        "DRAFT-CHN-AGR-1955-06-RURAL-ENTERPRISE-1959",
+        "DRAFT-CHN-AGR-1955-06-RURAL-ENTERPRISE-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-07-AUDIT-ACCOUNTING",
+      "name_ru": "Ротационные ревизии, земельный учёт, машиносчётные станции",
+      "source_post_sections": [
+        "9",
+        "10",
+        "13",
+        "16"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "PERMANENT_STATISTICAL_INSTITUTION_ROTATION_EVERY_TWO_YEARS",
+      "completion_or_renewal_conditions": "Объёмы установленных станций и кадров; закупки СССР, ГДР, ЧССР требуют явных согласований",
+      "1955_proposed_stage_or_cap": "До 5 действующих станций условно; унифицированные бланки",
+      "1955_administration_or_pilot_estimate_G_billion": 0.08,
+      "fiscal_function": "admin",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-07-AUDIT-ACCOUNTING-1955",
+        "DRAFT-CHN-AGR-1955-07-AUDIT-ACCOUNTING-1956",
+        "DRAFT-CHN-AGR-1955-07-AUDIT-ACCOUNTING-1957",
+        "DRAFT-CHN-AGR-1955-07-AUDIT-ACCOUNTING-1958",
+        "DRAFT-CHN-AGR-1955-07-AUDIT-ACCOUNTING-1959",
+        "DRAFT-CHN-AGR-1955-07-AUDIT-ACCOUNTING-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-08-CADRES",
+      "name_ru": "Подготовка и размещение демобилизованных НОАК",
+      "source_post_sections": [
+        "12"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "RETRAINING_PHASE_1955_1958_LONGER_MAINTENANCE",
+      "completion_or_renewal_conditions": "350 тыс. — заявленная цель, не автоматически высвобожденные обученные специалисты; действующую армию не сокращать без учёта контингента",
+      "1955_proposed_stage_or_cap": "До 40 тыс. реально подготовленных и назначенных (при наличии уже демобилизованного контингента)",
+      "1955_administration_or_pilot_estimate_G_billion": 0.05,
+      "fiscal_function": "admin",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-08-CADRES-1955",
+        "DRAFT-CHN-AGR-1955-08-CADRES-1956",
+        "DRAFT-CHN-AGR-1955-08-CADRES-1957",
+        "DRAFT-CHN-AGR-1955-08-CADRES-1958",
+        "DRAFT-CHN-AGR-1955-08-CADRES-1959",
+        "DRAFT-CHN-AGR-1955-08-CADRES-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-09-SETTLEMENT",
+      "name_ru": "Освоение целинных и мелиорированных земель и агрокомбинаты",
+      "source_post_sections": [
+        "1.3"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "FIFTEEN_YEAR_LEASE_COHORTS_THROUGH_1970_PLUS",
+      "completion_or_renewal_conditions": "15 лет аренды с даты договора, расходы на дороги, воду, жилища; наследование только по выполнению ссудных условий",
+      "1955_proposed_stage_or_cap": "Полевые обследования, не готовые урожайные площади",
+      "1955_administration_or_pilot_estimate_G_billion": 0.01,
+      "fiscal_function": "economy",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-09-SETTLEMENT-1955",
+        "DRAFT-CHN-AGR-1955-09-SETTLEMENT-1956",
+        "DRAFT-CHN-AGR-1955-09-SETTLEMENT-1957",
+        "DRAFT-CHN-AGR-1955-09-SETTLEMENT-1958",
+        "DRAFT-CHN-AGR-1955-09-SETTLEMENT-1959",
+        "DRAFT-CHN-AGR-1955-09-SETTLEMENT-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-AGR-1955-10-RURAL-SAFETYNET",
+      "name_ru": "Фонды страхового зерна, сельской помощи, выборность правлений",
+      "source_post_sections": [
+        "11.2",
+        "14",
+        "15"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "PERMANENT_FUNDS_AND_RESPONSIBILITY",
+      "completion_or_renewal_conditions": "3–5% кооперативного общественного фонда — внутренняя аллокация, не 3–5% бюджета КНР; зерновая помощь только из фактических запасов",
+      "1955_proposed_stage_or_cap": "Правила формирования фондов и ограниченные резервы",
+      "1955_administration_or_pilot_estimate_G_billion": 0.02,
+      "fiscal_function": "social",
+      "annual_expected_effect_ids": [
+        "DRAFT-CHN-AGR-1955-10-RURAL-SAFETYNET-1955",
+        "DRAFT-CHN-AGR-1955-10-RURAL-SAFETYNET-1956",
+        "DRAFT-CHN-AGR-1955-10-RURAL-SAFETYNET-1957",
+        "DRAFT-CHN-AGR-1955-10-RURAL-SAFETYNET-1958",
+        "DRAFT-CHN-AGR-1955-10-RURAL-SAFETYNET-1959",
+        "DRAFT-CHN-AGR-1955-10-RURAL-SAFETYNET-1960"
+      ],
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "budget_booked": false,
+      "annual_review_required": true,
+      "stage": "CENTRAL_DECISION_PENDING_ADMIN_REVIEW",
+      "stage_history": [],
+      "annual_effect_id_scope": "MILESTONE_AND_PROCESS_STAGE_ONLY_NO_GDP_OR_INDEX_DELTA"
+    },
+    {
+      "program_id": "CHN-1955-AGRARIAN-POLICY-TURN",
+      "name_ru": "Постоянная смешанная семейно-кооперативная аграрная модель",
+      "source_post_sections": [
+        "1-16"
+      ],
+      "start_year": 1955,
+      "status": "DRAFT_APPROVAL_PENDING",
+      "duration_policy": "INDEFINITE_POLICY_UNTIL_NEW_LAW_OR_DECISION",
+      "coordinated_programs": [
+        "CHN-AGR-1955-01-LAND-FAMILY",
+        "CHN-AGR-1955-02-GRAIN-MARKETS",
+        "CHN-AGR-1955-03-LAND-WATER",
+        "CHN-AGR-1955-04-MACHINE-STATIONS",
+        "CHN-AGR-1955-05-RURAL-CREDIT",
+        "CHN-AGR-1955-06-RURAL-ENTERPRISE",
+        "CHN-AGR-1955-07-AUDIT-ACCOUNTING",
+        "CHN-AGR-1955-08-CADRES",
+        "CHN-AGR-1955-09-SETTLEMENT",
+        "CHN-AGR-1955-10-RURAL-SAFETYNET"
+      ],
+      "linked_existing_active_process": "CHN-HIST-01",
+      "grain_procurement_first_fixing_window": "1955-1959 proposed; 1960 renewal must be adjudicated",
+      "family_cooperative_contract_years": [
+        5,
+        10
+      ],
+      "settlement_contract_years": 15,
+      "prohibited_forced_cooperativization": "new central norm if approved",
+      "party_cadre_opposition": "ACTIVE_NPC_POLITICAL_PROCESS_WITH_NO_ASSUMED_PURGE",
+      "applied_effect_ids": [],
+      "last_effect_year": null,
+      "stage_history": []
+    }
+  ],
+  "continuing_political_npc_process": {
+    "process_id": "CHN-1955-CPC-AGRARIAN-COALITION",
+    "start_year": 1955,
+    "status": "DRAFT",
+    "mao": "owns adopted line and central political outcome, no automatic loss of position",
+    "deng_zihui": "potential substantive strengthening in rural policy formulation, not automatic appointment",
+    "chen_yun": "urban grain and fiscal constraints, no invented direct stance",
+    "zhou_enlai": "state council implementation and international procurement coordination",
+    "provincial_cadres": "monitor compliance, past plans and power networks, no invented purge",
+    "end_condition": "new change of political balance or administrative outcome, not calendar date"
+  },
+  "unresolved_conditions": [
+    "Confirm registered actor identity & authority even though archivist original is accepted",
+    "Determine grain procurement base and five-year commitments before committing quantities",
+    "Approve 1955 financing and any allocation of treasury funds",
+    "Confirm finance for future equipment and industrial displacement each year",
+    "No Soviet/DDR/Czechoslovak procurement is signed merely because instructed",
+    "800 thousand fertilizer/rubber quantity lacks units; no invented import",
+    "Do not count 350k demobilized into new appointments without verifiable training & source",
+    "Gross credit principal not free spending",
+    "No immediate full rural household income index change based only on new rights; require execution evidence",
+    "Official Taiwan crisis outcome adjudicated separately; no duplicate military/territorial changes"
+  ],
+  "future_rollover_1961_plus": {
+    "status": "CONTINUE_UNLESS_EXPLICITLY_REPEALED",
+    "fixed_growth_bonus_after_1960": null,
+    "programs_persist": true,
+    "grain_renewal_cycle": "1960 renewal, then horizon determined by new approved terms",
+    "family_contract_renewals": "per-household signed cohort 1960–1965 and later",
+    "settlement_contracts": "first cohort of 15-year contracts could run to 1970 or later",
+    "credit_and_accounting": "recurring loan books, repayments, annual audited data",
+    "next_five_year_plan": "reassess heavy-industry allocation from changing grain supply, no historical inevitability"
+  },
+  "source_context_public": [
+    "https://www.cambridge.org/core/journals/china-quarterly/article/abs/tenth-aniiversary-appraisal-collectivisation-in-retrospect-the-socialist-high-tide-of-autumn-1955spring-19561/846744EE5B8510ECFD98FE0E5BB8E958",
+    "https://ideas.repec.org/a/aea/aecrev/v82y1992i1p34-51.html",
+    "https://press-files.anu.edu.au/downloads/press/n4267/html/ch10.xhtml?page=19&referer=",
+    "https://documents1.worldbank.org/curated/en/279491468743727018/pdf/multi-page.pdf"
+  ],
+  "effect_id_usage_constraints": {
+    "central_policy_effect_id": "Only legal/political norm and continuing process, no macro delta",
+    "program_annual_effect_ids": "Only stage accomplishments (inspection, signed contracts, commissioned equipment, funded allocations), do not also mutate GDP, trade or broad indexes",
+    "macro_annual_effect_id": "Only aggregated GDP growth adjustment after verifying all sector channels and removing overlapping gains and crowding-out costs",
+    "institutions_annual_effect_id": "Only one-time institutional/corruption index changes after checking audit and rollout; cannot be awarded again via program IDs",
+    "financial_transfers": "Book each purchase, loan, funding and receipt exactly once in its accounting ledger, separately from economic growth and legal-political events",
+    "conflict_resolution": "If multiple programs cause same output or if another country/world effect overlaps, calculate one consolidated net macro delta and store all source post IDs as contributors"
+  },
+  "counterfactual_cumulative_note": "If all 1955-1960 annual macro extra growth candidates materialize and an illustrative independent baseline remains 5.5% each year, end-1960 GDP level is ~5.916% above that no-reform path. This is not guaranteed GDP, not G$ treasury, and must be recomputed with annual world baseline."
+}
