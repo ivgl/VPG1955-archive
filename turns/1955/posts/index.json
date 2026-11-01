@@ -522,9 +522,73 @@
       "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
       "identity_note": "Archival actor label; political authority to be checked before adjudication",
       "effect_id": null
+    },
+    {
+      "intake_id": "INTAKE-1955-USA-EIS-04",
+      "country_id": "USA",
+      "actor_name": "Президент США",
+      "actor_key": "USA-PRES",
+      "actor_id": null,
+      "discord_message_id": null,
+      "discord_url": "https://discord.com/channels/1558850253006831738/1563522277067194439",
+      "discord_url_scope": "CHANNEL_ONLY",
+      "visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
+      "source_kind": "admin_chat_text",
+      "source_note": "Administrator-supplied pasted original with channel URL only; no per-message ID supplied; no independent Discord verification.",
+      "content_path": "turns/1955/posts/originals/USA_EIS_04_chat_copy.md",
+      "sha256": "1233782662bd0f3f0e0a5518087b9707ef2cd15b516a48f42bf91a664cc797d4",
+      "bytes": 207,
+      "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
+      "game_original_accepted_by_administrator": true,
+      "original_acceptance_basis": "ADMIN_PROVIDED_CHAT_TEXT_2026-11-01",
+      "discord_api_verification_required": false,
+      "intake_status": "ARCHIVED_AND_ACCEPTED_AS_ADMIN_SUPPLIED_ORIGINAL",
+      "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
+      "identity_note": "Actor name and role supplied by administrator, formal authority checked during adjudication",
+      "effect_id": null,
+      "intersecting_submissions": [
+        "INTAKE-1955-USA-DEM-01"
+      ],
+      "review_flags": [
+        "Appointment of unspecified Democratic senator to State Department role requires office identification and constitutional confirmation checks."
+      ]
+    },
+    {
+      "intake_id": "INTAKE-1955-USA-DEM-01",
+      "country_id": "USA",
+      "actor_name": "Демократическая партия США",
+      "actor_key": "USA-DEM",
+      "actor_id": null,
+      "discord_message_id": "1566476203710353559",
+      "discord_url": "https://discord.com/channels/1558850253006831738/1566443284434526238/1566476203710353559",
+      "discord_url_scope": "MESSAGE",
+      "visibility": "PARTY_POST_VISIBILITY_UNCONFIRMED",
+      "source_kind": "admin_chat_text",
+      "source_note": "Administrator-supplied pasted original and Discord message URL; message and authorship not independently fetched. Embedded Discord image URL retained in original text; image binary not separately archived.",
+      "content_path": "turns/1955/posts/originals/USA_DEM_01_chat_copy.md",
+      "sha256": "41674bdcaa1b57a831a2191dcb412118f0d89e28e66480a43983ba113d70399f",
+      "bytes": 9383,
+      "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
+      "game_original_accepted_by_administrator": true,
+      "original_acceptance_basis": "ADMIN_PROVIDED_CHAT_TEXT_2026-11-01",
+      "discord_api_verification_required": false,
+      "intake_status": "ARCHIVED_AND_ACCEPTED_AS_ADMIN_SUPPLIED_ORIGINAL",
+      "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
+      "identity_note": "Actor name and role supplied by administrator, formal authority checked during adjudication",
+      "effect_id": null,
+      "intersecting_submissions": [
+        "INTAKE-1955-USA-EIS-04",
+        "INTAKE-1955-USA-SOUTHDEM-01",
+        "INTAKE-1955-JPN-USA-RYUKYU-01"
+      ],
+      "review_flags": [
+        "Democratic party names John F. Kennedy as prospective appointee; presidential post does not name a senator or specify confirmation by Senate.",
+        "Democratic party post asserts amendments to bilateral Ryukyu/Daito treaty (10-year VOA and increased payments) which are absent in signed archived treaty text. Treat as proposed/claimed until mutually confirmed and adjudicated.",
+        "Participation of media personalities and endorsement not automatic."
+      ]
     }
   ],
-  "index_revision": "2026-11-01_PLUS_16_ADMIN_SUPPLIED_POSTS_AND_TREATY",
+  "index_revision": "2026-11-01_PLUS_TWO_USA_PRESIDENT_AND_DEMOCRATIC_PARTY",
   "administrator_supplied_sources_are_game_originals": true,
   "discord_api_check_is_not_an_intake_condition": true,
   "legacy_register_is_historical_snapshot": true,
