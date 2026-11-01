@@ -1,0 +1,285 @@
+{
+  "schema": "vpi1955_preliminary_adjudication_draft_v1",
+  "campaign_id": "VPI1955_MAIN",
+  "country_id": "ITA",
+  "year": 1955,
+  "rules_version": "RC1.0",
+  "status": "DRAFT_NOT_ADMIN_APPROVED_NOT_APPLIED",
+  "decision_id": "INTAKE-1955-ITA-DC-01",
+  "source": {
+    "repo": "ivgl/VPG1955-archive",
+    "path": "turns/1955/posts/originals/ITA_DC_01_chat_copy.md",
+    "discord_url": "https://discord.com/channels/1558850253006831738/1563522754005696612/1566398832479314018",
+    "actor_name": "Христианско-демократическая партия Италии",
+    "actor_key": "ITA-DC",
+    "actor_id": null,
+    "visibility": "COUNTRY_PRIVATE_UNCONFIRMED"
+  },
+  "canonical_baseline": {
+    "repo": "ivgl/VPG1955-state",
+    "manifest": "manifest_1955.json",
+    "manifest_sha256": "f07d0923a8fc693500d6318eecaf5f634585f09ee473fa41a690c1f9e6b71611",
+    "country_path": "countries/ITA.json",
+    "fields": {
+      "gdp_growth_pct": 5.2,
+      "gdp_real_billion_2011_intl": 340.295,
+      "institutional_capacity_index": 60,
+      "corruption_exposure_index": 56,
+      "real_household_income_index": 100,
+      "education_index": 55,
+      "healthcare_index": 65,
+      "unemployment_pct": 6,
+      "fiscal_spending_total_billion": 60.02684805,
+      "fiscal_revenue_total_billion": 50.16943621,
+      "fiscal_budget_balance_billion": -9.857411839,
+      "fiscal_spend_economy_billion": 13.16503963
+    }
+  },
+  "verdict": {
+    "overall": "PARTIAL_SUCCESS",
+    "political_organization": "SUCCESS_INITIAL_STAGE",
+    "government_social_infrastructure": "CONTINUATION_AND_ADVOCACY_NO_NEW_STATE_ALLOCATIONS",
+    "coalition": "NEGOTIATIONS_STARTED_NOT_RESOLVED",
+    "confidence": "MEDIUM"
+  },
+  "budget": {
+    "party_financing": {
+      "currency": "historical_ITA_lire_1955",
+      "annual_authorized_plan_lire": 1500000000,
+      "estimated_nominal_USD_at_625_lire_per_USD": 2400000,
+      "funding_verification_status": "NOT_DOCUMENTED",
+      "actual_spent_lire": null,
+      "do_not_book_as_government_budget_G_billion": true,
+      "financing_sources": "party_dues_donations_other_permitted_private_sources_not_itemized",
+      "game_annual_plan_G_billion": 0.033262014,
+      "conversion_method": "Budget-share benchmark: historical 1.5bn lire / 2707bn lire of 1955 Italian treasury expenditure * canonical 60.02684805bn G$ expenditure. This is an expert game proxy, not exchange rate; retain original lire obligation.",
+      "conversion_status": "DRAFT_JUDGE_ESTIMATE"
+    },
+    "new_government_spend_G_billion": 0,
+    "verified_government_spend_G_billion": 0,
+    "note": "Existing INA-Casa and Cassa per il Mezzogiorno are baseline processes. No new appropriations or extra G$ debt from a party program alone."
+  },
+  "country_numeric_delta_1955": {
+    "gdp_growth_pct": 0,
+    "gdp_real_billion_2011_intl": 0,
+    "institutional_capacity_index": 0,
+    "corruption_exposure_index": 0,
+    "real_household_income_index": 0,
+    "education_index": 0,
+    "healthcare_index": 0,
+    "unemployment_pct": 0,
+    "fiscal_revenue_total_billion": 0,
+    "fiscal_spending_total_billion": 0,
+    "fiscal_budget_balance_billion": 0,
+    "comment": "No independently evidenced incremental real production/state finance in this partisan organizational post. No denial of continuing baseline growth 5.2%."
+  },
+  "political_context": {
+    "dc_seats_house": 263,
+    "chamber_total": 590,
+    "absolute_majority": 296,
+    "psdi_seats": 19,
+    "pli_seats": 13,
+    "pri_seats": 5,
+    "core_three_party_votes_if_unanimous": 295,
+    "four_party_votes_if_unanimous": 300,
+    "not_a_confidence_vote": true,
+    "prime_minister_at_start": "Mario Scelba",
+    "party_secretary_context": "Amintore Fanfani, DC secretary since July 1954",
+    "historic_1955_scela_to_segni": "historical candidate only, not pre-applied NPC outcome",
+    "political_heads_or_personnel_replaced": [],
+    "no_new_serious_dc_split_from_this_reorganization": true,
+    "national_electoral_support_change": "NO_MEASURABLE_CHANGE_FOR_1955",
+    "interpretation": "Local cadre frictions normal; no new party schism or cabinet fall attributed to this post."
+  },
+  "mechanics_used": [
+    "coalition_fragmentation",
+    "north_south_gap",
+    "european_integration",
+    "ITA-HIST-01"
+  ],
+  "programs": [
+    {
+      "id": "ITA-1955-DC-ORGANIZATION",
+      "name_ru": "Долгосрочная сеть провинциальных и городских комитетов",
+      "start_year": 1955,
+      "end_condition": "ongoing_without_fixed_end",
+      "stage_1955": "INITIAL_PARTIAL_IMPLEMENTATION",
+      "approved": false,
+      "source_decision_id": "INTAKE-1955-ITA-DC-01",
+      "candidate_effect": {
+        "effect_id": "ITA-1955-DC-ORGANIZATION-INIT",
+        "type": "organizational_or_political_only",
+        "year": 1955,
+        "description": "Региональная организационная работа начата; число реально действующих комитетов требует проверки",
+        "applied": false
+      },
+      "monitoring_metrics": {
+        "active_regional_committees_count": {
+          "verified_actual": null,
+          "unit": "count",
+          "source_proof": null
+        }
+      },
+      "yearly_review_required": true,
+      "effect_history": [],
+      "last_effect_year": null
+    },
+    {
+      "id": "ITA-1955-DC-COALITION",
+      "name_ru": "Партнёрство с PSDI, PLI, PRI и взаимодействие фракций",
+      "start_year": 1955,
+      "end_condition": "until_political_change",
+      "stage_1955": "NEGOTIATIONS",
+      "approved": false,
+      "source_decision_id": "INTAKE-1955-ITA-DC-01",
+      "candidate_effect": {
+        "effect_id": "ITA-1955-DC-COALITION-TALKS",
+        "type": "organizational_or_political_only",
+        "year": 1955,
+        "description": "Начаты коалиционные консультации; сохранность кабинета и доверие парламента определяются отдельно",
+        "applied": false
+      },
+      "monitoring_metrics": {
+        "signed_coalition_accords_count": {
+          "verified_actual": null,
+          "unit": "count",
+          "source_proof": null
+        }
+      },
+      "yearly_review_required": true,
+      "effect_history": [],
+      "last_effect_year": null
+    },
+    {
+      "id": "ITA-1955-DC-SOCIAL",
+      "name_ru": "Поддержка INA-Casa, жилья, обучения и социальных проектов",
+      "start_year": 1955,
+      "end_condition": "linked_to_existing_public_programs",
+      "stage_1955": "POLITICAL_ADVOCACY",
+      "approved": false,
+      "source_decision_id": "INTAKE-1955-ITA-DC-01",
+      "candidate_effect": {
+        "effect_id": "ITA-1955-DC-SOCIAL-ADVOCACY",
+        "type": "organizational_or_political_only",
+        "year": 1955,
+        "description": "Партия приоритизирует существующие программы; не считать новые квартиры и вакансии без учёта государственных проектов",
+        "applied": false
+      },
+      "monitoring_metrics": {
+        "additional_approved_social_G_billion": {
+          "verified_actual": null,
+          "unit": "G_billion",
+          "source_proof": null
+        }
+      },
+      "yearly_review_required": true,
+      "effect_history": [],
+      "last_effect_year": null
+    },
+    {
+      "id": "ITA-1955-DC-SOUTH",
+      "name_ru": "Деревня, кооперативы и Cassa per il Mezzogiorno",
+      "start_year": 1955,
+      "end_condition": "ongoing_even_after_1960_if_institutions_continue",
+      "stage_1955": "POLITICAL_ADVOCACY",
+      "approved": false,
+      "source_decision_id": "INTAKE-1955-ITA-DC-01",
+      "candidate_effect": {
+        "effect_id": "ITA-1955-DC-SOUTH-ADVOCACY",
+        "type": "organizational_or_political_only",
+        "year": 1955,
+        "description": "Развиваются контакты с сельскими кооперативами, заявки и местное лоббирование; промышленные и ирригационные мощности ещё требуют отдельного исполнения",
+        "applied": false
+      },
+      "monitoring_metrics": {
+        "incremental_cassa_projects_verified_count": {
+          "verified_actual": null,
+          "unit": "count",
+          "source_proof": null
+        }
+      },
+      "yearly_review_required": true,
+      "effect_history": [],
+      "last_effect_year": null
+    },
+    {
+      "id": "ITA-1955-DC-CADRES",
+      "name_ru": "Подготовка партийных кадров и взаимодействие с католическими организациями",
+      "start_year": 1955,
+      "end_condition": "ongoing_without_fixed_end",
+      "stage_1955": "INITIAL_PARTIAL_IMPLEMENTATION",
+      "approved": false,
+      "source_decision_id": "INTAKE-1955-ITA-DC-01",
+      "candidate_effect": {
+        "effect_id": "ITA-1955-DC-CADRE-COURSES",
+        "type": "organizational_or_political_only",
+        "year": 1955,
+        "description": "Начата организация кадровых курсов; церковные и профсоюзные организации сохраняют самостоятельные решения",
+        "applied": false
+      },
+      "monitoring_metrics": {
+        "trained_party_staff_verified_count": {
+          "verified_actual": null,
+          "unit": "count",
+          "source_proof": null
+        }
+      },
+      "yearly_review_required": true,
+      "effect_history": [],
+      "last_effect_year": null
+    },
+    {
+      "id": "ITA-1955-DC-PARTY-FINANCE",
+      "name_ru": "Ежегодный партийный план и финансовая отчётность",
+      "start_year": 1955,
+      "end_condition": "annually_renewed_until_party_decision",
+      "stage_1955": "BUDGET_PLAN_ANNOUNCED",
+      "approved": false,
+      "source_decision_id": "INTAKE-1955-ITA-DC-01",
+      "candidate_effect": {
+        "effect_id": "ITA-1955-DC-PARTY-BUDGET-PLAN",
+        "type": "organizational_or_political_only",
+        "year": 1955,
+        "description": "План 1.5 млрд лир на год. Фактические сбор и расход подтверждаются партийным учётом, не из госбюджета",
+        "applied": false
+      },
+      "monitoring_metrics": {
+        "actual_party_income_lire": {
+          "verified_actual": null,
+          "unit": "lire",
+          "source_proof": null
+        }
+      },
+      "yearly_review_required": true,
+      "effect_history": [],
+      "last_effect_year": null
+    }
+  ],
+  "conditional_future_economic_effects": {
+    "1956": {
+      "gdp_growth_extra_pp": null,
+      "note": "Only if new state-funded, nonbaseline public works are actually passed, funded and delivered; do not promise a bonus now."
+    },
+    "1957": {
+      "gdp_growth_extra_pp": null,
+      "note": "Check measurable improvements in southern projects rather than treating advocacy as an additional GDP bonus."
+    },
+    "1958": {
+      "gdp_growth_extra_pp": null,
+      "note": "Party election preparation and economic output are different measures."
+    }
+  },
+  "followup_checks": [
+    "Confirm party membership/representation and source of annual 1.5bn lire party budget",
+    "Count truly functioning regional coordinating committees and trained personnel",
+    "Check actual coalition agreements / confidence votes and NPC reactions",
+    "Check 1955 President Gronchi and Scelba cabinet crisis on basis of approved game events rather than automatically copying history",
+    "Review how party oversight interacts with already running INA-Casa and Cassa; require project ledgers and approved state allocations",
+    "Do not attribute existing public works twice to this party post",
+    "Keep internal plans private; only actual public party statements and visible government actions may be published",
+    "Track party budget 0.033262014 G$ bn/year as separate party-only estimate; no cash entry to state fiscal totals.",
+    "No artificial faction split; note modest organization gain, national vote support unchanged."
+  ],
+  "state_applied": false,
+  "commit_authorized": false
+}
