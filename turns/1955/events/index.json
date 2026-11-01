@@ -327,6 +327,240 @@
       "bytes": 1872,
       "sha256": "7907b141bd98ce6244dcfdb4ccb5572ec63a44e310c40eb962da2a7a52346add",
       "effect_id": null
+    },
+    {
+      "id": "SAAR-1955-WORLD-01",
+      "kit_code": "S1",
+      "path": "world/04_saar_european_status_1955.md",
+      "title": "Саар: граница, которую обсуждает вся Европа",
+      "kind": "WORLD_CHRONICLE_SAAR",
+      "country_id": null,
+      "affected_country_ids": [
+        "FRA",
+        "FRG"
+      ],
+      "target_country_ids": [],
+      "access": "PUBLIC_EVENT_TEXT__PRIVATE_ARCHIVE",
+      "bytes": 2436,
+      "sha256": "923a56ff781305bec5276e51eff44549563d6e2bfabc5abe3c4c6f7ae35a151d",
+      "type": "WORLD_CHRONICLE_SAAR",
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-11-01_PUBLISHED_SEVEN_AS_PREPARED_WITH_POSSIBLE_ONE_LINE_EDIT",
+      "publication_url": null,
+      "discord_message_id": null,
+      "publication_datetime": null,
+      "game_date_label": "1955",
+      "source": "ADMIN_CONFIRMED_PUBLICATION_FROM_ORIGINAL_MD_KIT",
+      "source_kind": "prepared_md_archive_admin_confirmed_published",
+      "source_kit": "VPI1955_Saar_Germany_Discord_Posts_Images_FIXED.zip",
+      "source_note": "Administrator confirmed published in Discord with texts substantially matching the assistant-provided MD publication kit; at least one line may have been edited in Discord. Archived content is exact kit MD, not Discord-text-verified.",
+      "discord_source_verified": false,
+      "source_text_fidelity": "BYTE_IDENTICAL_TO_PREPARED_KIT__DISCORD_UNVERIFIED_POSSIBLE_ONE_LINE_VARIANCE",
+      "event_group": "SAAR_1955",
+      "effect_id": null
+    },
+    {
+      "id": "SAAR-1955-FRA-01",
+      "kit_code": "S2",
+      "path": "country/FRA/01_saar_paris_1955.md",
+      "title": "Париж и Саар: цена европейского компромисса",
+      "kind": "COUNTRY_BRIEF_SAAR",
+      "country_id": "FRA",
+      "affected_country_ids": [
+        "FRA",
+        "FRG"
+      ],
+      "target_country_ids": [
+        "FRA"
+      ],
+      "access": "COUNTRY_FRA_PRIVATE__PRIVATE_ARCHIVE",
+      "bytes": 2799,
+      "sha256": "a4b8aa3f8aef61faf2c5aead18d7daf150473462a1f5e8818626add83e8f63cc",
+      "type": "COUNTRY_BRIEF_SAAR",
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-11-01_PUBLISHED_SEVEN_AS_PREPARED_WITH_POSSIBLE_ONE_LINE_EDIT",
+      "publication_url": null,
+      "discord_message_id": null,
+      "publication_datetime": null,
+      "game_date_label": "1955",
+      "source": "ADMIN_CONFIRMED_PUBLICATION_FROM_ORIGINAL_MD_KIT",
+      "source_kind": "prepared_md_archive_admin_confirmed_published",
+      "source_kit": "VPI1955_Saar_Germany_Discord_Posts_Images_FIXED.zip",
+      "source_note": "Administrator confirmed published in Discord with texts substantially matching the assistant-provided MD publication kit; at least one line may have been edited in Discord. Archived content is exact kit MD, not Discord-text-verified.",
+      "discord_source_verified": false,
+      "source_text_fidelity": "BYTE_IDENTICAL_TO_PREPARED_KIT__DISCORD_UNVERIFIED_POSSIBLE_ONE_LINE_VARIANCE",
+      "event_group": "SAAR_1955",
+      "effect_id": null
+    },
+    {
+      "id": "SAAR-1955-FRG-01",
+      "kit_code": "S3",
+      "path": "country/FRG/01_saar_bonn_1955.md",
+      "title": "Саарский вопрос: испытание для Бонна",
+      "kind": "COUNTRY_BRIEF_SAAR",
+      "country_id": "FRG",
+      "affected_country_ids": [
+        "FRA",
+        "FRG"
+      ],
+      "target_country_ids": [
+        "FRG"
+      ],
+      "access": "COUNTRY_FRG_PRIVATE__PRIVATE_ARCHIVE",
+      "bytes": 2478,
+      "sha256": "6a49dab8f1aa324361b81e93d2e12ff3dfecc0cdd7a3510fd0d6a12e5058ef3e",
+      "type": "COUNTRY_BRIEF_SAAR",
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-11-01_PUBLISHED_SEVEN_AS_PREPARED_WITH_POSSIBLE_ONE_LINE_EDIT",
+      "publication_url": null,
+      "discord_message_id": null,
+      "publication_datetime": null,
+      "game_date_label": "1955",
+      "source": "ADMIN_CONFIRMED_PUBLICATION_FROM_ORIGINAL_MD_KIT",
+      "source_kind": "prepared_md_archive_admin_confirmed_published",
+      "source_kit": "VPI1955_Saar_Germany_Discord_Posts_Images_FIXED.zip",
+      "source_note": "Administrator confirmed published in Discord with texts substantially matching the assistant-provided MD publication kit; at least one line may have been edited in Discord. Archived content is exact kit MD, not Discord-text-verified.",
+      "discord_source_verified": false,
+      "source_text_fidelity": "BYTE_IDENTICAL_TO_PREPARED_KIT__DISCORD_UNVERIFIED_POSSIBLE_ONE_LINE_VARIANCE",
+      "event_group": "SAAR_1955",
+      "effect_id": null
+    },
+    {
+      "id": "GERMANY-1955-WORLD-01",
+      "kit_code": "G1",
+      "path": "world/05_two_germanies_1955.md",
+      "title": "Две Германии: мир без окончательного решения",
+      "kind": "WORLD_CHRONICLE_GERMAN_QUESTION",
+      "country_id": null,
+      "affected_country_ids": [
+        "FRG",
+        "URS",
+        "USA",
+        "FRA",
+        "GBR"
+      ],
+      "target_country_ids": [],
+      "access": "PUBLIC_EVENT_TEXT__PRIVATE_ARCHIVE",
+      "bytes": 2344,
+      "sha256": "cd554e8c3b0a8d5deed7480b369b1193420e1fb509d9a7428f3fb6406db738be",
+      "type": "WORLD_CHRONICLE_GERMAN_QUESTION",
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-11-01_PUBLISHED_SEVEN_AS_PREPARED_WITH_POSSIBLE_ONE_LINE_EDIT",
+      "publication_url": null,
+      "discord_message_id": null,
+      "publication_datetime": null,
+      "game_date_label": "1955",
+      "source": "ADMIN_CONFIRMED_PUBLICATION_FROM_ORIGINAL_MD_KIT",
+      "source_kind": "prepared_md_archive_admin_confirmed_published",
+      "source_kit": "VPI1955_Saar_Germany_Discord_Posts_Images_FIXED.zip",
+      "source_note": "Administrator confirmed published in Discord with texts substantially matching the assistant-provided MD publication kit; at least one line may have been edited in Discord. Archived content is exact kit MD, not Discord-text-verified.",
+      "discord_source_verified": false,
+      "source_text_fidelity": "BYTE_IDENTICAL_TO_PREPARED_KIT__DISCORD_UNVERIFIED_POSSIBLE_ONE_LINE_VARIANCE",
+      "event_group": "GERMAN_DIVISION_1955",
+      "effect_id": null
+    },
+    {
+      "id": "GERMANY-1955-URS-01",
+      "kit_code": "G2",
+      "path": "country/URS/01_german_question_moscow_1955.md",
+      "title": "Москва: германский вопрос в расчётах безопасности",
+      "kind": "COUNTRY_BRIEF_GERMAN_QUESTION",
+      "country_id": "URS",
+      "affected_country_ids": [
+        "URS",
+        "FRG"
+      ],
+      "target_country_ids": [
+        "URS"
+      ],
+      "access": "COUNTRY_URS_PRIVATE__PRIVATE_ARCHIVE",
+      "bytes": 2823,
+      "sha256": "bb7596f8bcc7c10da9242724d2e78680bc0a4f11ec79ae23348199aa76639424",
+      "type": "COUNTRY_BRIEF_GERMAN_QUESTION",
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-11-01_PUBLISHED_SEVEN_AS_PREPARED_WITH_POSSIBLE_ONE_LINE_EDIT",
+      "publication_url": null,
+      "discord_message_id": null,
+      "publication_datetime": null,
+      "game_date_label": "1955",
+      "source": "ADMIN_CONFIRMED_PUBLICATION_FROM_ORIGINAL_MD_KIT",
+      "source_kind": "prepared_md_archive_admin_confirmed_published",
+      "source_kit": "VPI1955_Saar_Germany_Discord_Posts_Images_FIXED.zip",
+      "source_note": "Administrator confirmed published in Discord with texts substantially matching the assistant-provided MD publication kit; at least one line may have been edited in Discord. Archived content is exact kit MD, not Discord-text-verified.",
+      "discord_source_verified": false,
+      "source_text_fidelity": "BYTE_IDENTICAL_TO_PREPARED_KIT__DISCORD_UNVERIFIED_POSSIBLE_ONE_LINE_VARIANCE",
+      "event_group": "GERMAN_DIVISION_1955",
+      "effect_id": null
+    },
+    {
+      "id": "GERMANY-1955-USA-01",
+      "kit_code": "G3",
+      "path": "country/USA/01_german_question_washington_1955.md",
+      "title": "Вашингтон: германское единство и система гарантий",
+      "kind": "COUNTRY_BRIEF_GERMAN_QUESTION",
+      "country_id": "USA",
+      "affected_country_ids": [
+        "USA",
+        "FRG",
+        "URS"
+      ],
+      "target_country_ids": [
+        "USA"
+      ],
+      "access": "COUNTRY_USA_PRIVATE__PRIVATE_ARCHIVE",
+      "bytes": 2593,
+      "sha256": "cb8f1215bdb23d78e65930e8475d8de68a49f768fd091158836dd8e58fdb7f28",
+      "type": "COUNTRY_BRIEF_GERMAN_QUESTION",
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-11-01_PUBLISHED_SEVEN_AS_PREPARED_WITH_POSSIBLE_ONE_LINE_EDIT",
+      "publication_url": null,
+      "discord_message_id": null,
+      "publication_datetime": null,
+      "game_date_label": "1955",
+      "source": "ADMIN_CONFIRMED_PUBLICATION_FROM_ORIGINAL_MD_KIT",
+      "source_kind": "prepared_md_archive_admin_confirmed_published",
+      "source_kit": "VPI1955_Saar_Germany_Discord_Posts_Images_FIXED.zip",
+      "source_note": "Administrator confirmed published in Discord with texts substantially matching the assistant-provided MD publication kit; at least one line may have been edited in Discord. Archived content is exact kit MD, not Discord-text-verified.",
+      "discord_source_verified": false,
+      "source_text_fidelity": "BYTE_IDENTICAL_TO_PREPARED_KIT__DISCORD_UNVERIFIED_POSSIBLE_ONE_LINE_VARIANCE",
+      "event_group": "GERMAN_DIVISION_1955",
+      "effect_id": null
+    },
+    {
+      "id": "GERMANY-1955-FRG-01",
+      "kit_code": "G4",
+      "path": "country/FRG/02_german_question_bonn_1955.md",
+      "title": "Бонн: суверенитет, безопасность и немецкое единство",
+      "kind": "COUNTRY_BRIEF_GERMAN_QUESTION",
+      "country_id": "FRG",
+      "affected_country_ids": [
+        "FRG",
+        "URS",
+        "USA",
+        "FRA",
+        "GBR"
+      ],
+      "target_country_ids": [
+        "FRG"
+      ],
+      "access": "COUNTRY_FRG_PRIVATE__PRIVATE_ARCHIVE",
+      "bytes": 2666,
+      "sha256": "72ac0356944bf7d6e3fb20d4091a7eaa6ffe26259f45f5a24868bbf4924097fe",
+      "type": "COUNTRY_BRIEF_GERMAN_QUESTION",
+      "status": "PUBLISHED_ADMIN_CONFIRMED",
+      "publication_confirmation": "ADMIN_MESSAGE_2026-11-01_PUBLISHED_SEVEN_AS_PREPARED_WITH_POSSIBLE_ONE_LINE_EDIT",
+      "publication_url": null,
+      "discord_message_id": null,
+      "publication_datetime": null,
+      "game_date_label": "1955",
+      "source": "ADMIN_CONFIRMED_PUBLICATION_FROM_ORIGINAL_MD_KIT",
+      "source_kind": "prepared_md_archive_admin_confirmed_published",
+      "source_kit": "VPI1955_Saar_Germany_Discord_Posts_Images_FIXED.zip",
+      "source_note": "Administrator confirmed published in Discord with texts substantially matching the assistant-provided MD publication kit; at least one line may have been edited in Discord. Archived content is exact kit MD, not Discord-text-verified.",
+      "discord_source_verified": false,
+      "source_text_fidelity": "BYTE_IDENTICAL_TO_PREPARED_KIT__DISCORD_UNVERIFIED_POSSIBLE_ONE_LINE_VARIANCE",
+      "event_group": "GERMAN_DIVISION_1955",
+      "effect_id": null
     }
   ],
   "excluded": [
@@ -336,7 +570,22 @@
       "uploaded": false
     }
   ],
-  "pending_sources": [],
+  "pending_sources": [
+    {
+      "id": "GERMAN_EVENTS_DISCORD_SOURCE_RECONCILIATION",
+      "event_ids": [
+        "SAAR-1955-WORLD-01",
+        "SAAR-1955-FRA-01",
+        "SAAR-1955-FRG-01",
+        "GERMANY-1955-WORLD-01",
+        "GERMANY-1955-URS-01",
+        "GERMANY-1955-USA-01",
+        "GERMANY-1955-FRG-01"
+      ],
+      "status": "NONBLOCKING_SOURCE_PRECISION_NOTE",
+      "note": "Admin confirms all seven published, but no Discord message URLs or exact published bodies supplied; one line may differ. The seven archived MD files exactly match prepared publication kit; do not assert identity with Discord post body."
+    }
+  ],
   "archived_sets": [
     {
       "id": "12_STARTING_COUNTRY_EVENTS",
@@ -349,8 +598,18 @@
       "expected_count": 1,
       "archived_count": 1,
       "status": "COMPLETE_ADMIN_SUPPLIED"
+    },
+    {
+      "id": "SAAR_AND_GERMAN_QUESTION_1955",
+      "expected_count": 7,
+      "archived_count": 7,
+      "status": "COMPLETE_PREPARED_MD_KIT_ADMIN_CONFIRMED_PUBLISHED",
+      "world_count": 2,
+      "country_targeted_count": 5,
+      "discord_message_urls_supplied": 0,
+      "discord_text_verified": false
     }
   ],
-  "index_revision": "2026-10-31_EVENTS_WORLD_UNIFIED_ALGERIA_TAIWAN",
+  "index_revision": "2026-11-01_SAAR_AND_GERMAN_QUESTION_7_ADMIN_PUBLISHED",
   "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged."
 }
