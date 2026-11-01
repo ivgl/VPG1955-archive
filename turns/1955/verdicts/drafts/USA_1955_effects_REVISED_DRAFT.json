@@ -1,0 +1,351 @@
+{
+  "schema": "VPI1955_USA_PRELIMINARY_ADJUDICATION_NONCANONICAL_2_GAME_AGREEMENTS",
+  "campaign_id": "VPI1955_MAIN",
+  "country_id": "USA",
+  "game_year": 1955,
+  "rules_version": "RC1.0",
+  "canonical_ref": "ivgl/VPG1955-state@main/HEAD.json -> manifest_1955.json -> countries/USA.json",
+  "source_archive": "ivgl/VPG1955-archive@main",
+  "source_post_ids": [
+    "INTAKE-1955-USA-EIS-01",
+    "INTAKE-1955-USA-EIS-02",
+    "INTAKE-1955-USA-EIS-03",
+    "INTAKE-1955-USA-EIS-04",
+    "INTAKE-1955-USA-SOUTHDEM-01",
+    "INTAKE-1955-USA-DEM-01"
+  ],
+  "related_treaty_intake_id": "INTAKE-1955-JPN-USA-RYUKYU-01",
+  "status": "REVISED_DRAFT_NOT_ADMIN_FINAL_NOT_COMMITTED",
+  "authority_checks": "Administrator confirms US presidential bills passed both houses, JFK mutually supported and negotiated Ryukyu revised terms. Exact act wording, US presidential signature record, JFK commission/oath/date and Senate seat vacancy/replacement should be documented before canonical state. Congressional passage counts as political/legal success; funding tranches and real execution separate.",
+  "state_before": {
+    "gdp_growth_pct": 3.5,
+    "science_technology_index": 81,
+    "education_index": 74,
+    "institutional_capacity_index": 80,
+    "corruption_exposure_index": 28,
+    "fiscal_revenue_total_billion": 682.367881,
+    "fiscal_spending_total_billion": 718.28198,
+    "fiscal_budget_balance_billion": -35.914099,
+    "fiscal_debt_total_billion": 2016.7148,
+    "fiscal_interest_rate_pct": 2.6
+  },
+  "proposed_verified_1955_core_deltas": {
+    "gdp_growth_pct": 0,
+    "science_technology_index": 0,
+    "education_index": 0,
+    "institutional_capacity_index": 0,
+    "corruption_exposure_index": 0,
+    "fiscal_revenue_total_billion": 0,
+    "fiscal_spending_total_billion": 0,
+    "fiscal_budget_balance_billion": 0,
+    "exports_billion": 0,
+    "imports_billion": 0,
+    "reserves_billion": 0,
+    "military_inventory": 0
+  },
+  "possible_1955_reallocation_note": "Up to 0.25 G$bn within existing economic and defense appropriations for authorized planning and pilots, only on evidence; not new spending or approved transfer. No automatic tech index gain.",
+  "long_term_processes": [
+    {
+      "process_id": "USA-1955-ADVANCED-TECH-RESEARCH",
+      "description": "Scientific research, electronics, computing and education",
+      "start_year": 1955,
+      "target_review_year": null,
+      "end_year": null,
+      "horizon": "1955-1965 review; institutions remain after",
+      "status": "DRAFT_LEGISLATION_PASSED_IMPLEMENTATION_OPEN",
+      "gate": "BOTH_HOUSES_PASSED; budget tranche allocation, grants, counterparties, and verified execution still required",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      }
+    },
+    {
+      "process_id": "USA-1955-CIVIL-ATOMIC-POWER",
+      "description": "Civilian nuclear energy program; expand existing Argonne and Shippingport programs",
+      "start_year": 1955,
+      "target_review_year": null,
+      "end_year": null,
+      "horizon": "Multi-year 1955-1965+",
+      "status": "DRAFT_LEGISLATION_PASSED_IMPLEMENTATION_OPEN",
+      "gate": "BOTH_HOUSES_PASSED; project financing, licensing, supplier consent; DO_NOT_RECREATE_ARGONNE_OR_SHIPPINGPORT",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      }
+    },
+    {
+      "process_id": "USA-1955-TRANSPORT-MODERNIZATION",
+      "description": "Interstates, city public transit, schools and rail; separate budget authorities",
+      "start_year": 1955,
+      "target_review_year": null,
+      "end_year": null,
+      "horizon": "Long-term 1955-1975+",
+      "status": "DRAFT_MULTIMODAL_PROGRAM_PASSED_IMPLEMENTATION_FROM_1956",
+      "gate": "BOTH_HOUSES_PASSED; 1956 program launch as player requested; specific projects require state/local participation and funded appropriations",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      }
+    },
+    {
+      "process_id": "USA-1955-BIPARTISAN-STATE-NOMINATION",
+      "description": "Democratic senator as Secretary of State",
+      "start_year": 1955,
+      "target_review_year": null,
+      "end_year": null,
+      "horizon": "1955 appointment; Cabinet service until resignation or removal",
+      "status": "DRAFT_JFK_AGREED_AND_SENATE_SUPPORTED",
+      "gate": "JFK_CANDIDATE_CONFIRMED_BY_ADMIN; formally record nomination, Senate advice-and-consent, commission date and resignation from Senate; Massachusetts vacancy separately adjudicated",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      },
+      "candidate": "John F. Kennedy",
+      "former_secretary": "John Foster Dulles",
+      "appointed_role": "US Secretary of State"
+    },
+    {
+      "process_id": "USA-1955-SOUTHERN-DEM-NETWORK",
+      "description": "Southern Democrats private political and donor network",
+      "start_year": 1955,
+      "target_review_year": null,
+      "end_year": null,
+      "horizon": "Open-ended until reorganized",
+      "status": "DRAFT_PROPOSED_NOT_APPLIED",
+      "gate": "PARTY_ONLY_NO_STATE_POWER",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      }
+    },
+    {
+      "process_id": "USA-1955-DEM-1956-CAMPAIGN",
+      "description": "Democratic preelection coalition & media planning",
+      "start_year": 1955,
+      "target_review_year": 1956,
+      "end_year": null,
+      "horizon": "1955 through 1956 election cycle; ongoing party platform separately",
+      "status": "DRAFT_PROPOSED_NOT_APPLIED",
+      "gate": "NO_AUTOMATIC_NOMINATION_OR_PERSONAL_ENDORSEMENTS",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      }
+    },
+    {
+      "process_id": "USA-1955-AMERICAN-OPPORTUNITY",
+      "description": "Democratic party social-economic platform",
+      "start_year": 1955,
+      "target_review_year": null,
+      "end_year": null,
+      "horizon": "Open-ended beyond 1956 if party continues it",
+      "status": "DRAFT_PROPOSED_NOT_APPLIED",
+      "gate": "POLICY_PROPOSAL_NOT_FEDERAL_LAW",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      }
+    },
+    {
+      "process_id": "USA-1955-KENNEDY-RYUKYU-CLAIM",
+      "description": "Party claim of treaty amendment, not legally confirmed",
+      "start_year": 1955,
+      "target_review_year": null,
+      "end_year": null,
+      "horizon": "US-Japan ratification and treaty effects; propaganda claims may continue during 1956 campaigns",
+      "status": "DRAFT_BILATERAL_REVISED_TERMS_AGREED__DOMESTIC_PUBLICITY_REVIEW",
+      "gate": "AMENDMENT_AGREED; public disclosure permission still needed; effective payments and base transfer await entry into force",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      },
+      "terms_supported_by_admin": true
+    },
+    {
+      "process_id": "USA-1955-CIVIL-RIGHTS-PARTY-TENSION",
+      "description": "Southern vs national Democrat civil rights policy",
+      "start_year": 1955,
+      "target_review_year": null,
+      "end_year": null,
+      "horizon": "Ongoing; review yearly",
+      "status": "DRAFT_PROPOSED_NOT_APPLIED",
+      "gate": "POLITICAL_NPC_PROCESS_NOT_NUMERIC_SCORE",
+      "last_effect_year": null,
+      "effect_history": [],
+      "monitoring_metrics": {
+        "stage": {
+          "scenario_target": "INITIAL_ORGANIZATIONAL_STAGE",
+          "verified_actual": null
+        }
+      }
+    }
+  ],
+  "annual_conditional_scenario": {
+    "1955": {
+      "gdp_growth_extra_pp": 0,
+      "science_technology_index_one_time_delta": 0,
+      "education_index_one_time_delta": 0,
+      "new_federal_spending_G_billion": 0,
+      "administrative_reallocation_G_billion_cap": 0.25,
+      "candidate_macro_effect_id": null
+    },
+    "1956": {
+      "gdp_growth_extra_pp": 0.02,
+      "science_technology_index_one_time_delta": 0.2,
+      "education_index_one_time_delta": 0,
+      "extra_budget_spending_G_billion_ceiling_if_passed": 2.0,
+      "budget_categories_G_billion": {
+        "research_economy": 0.85,
+        "civil_nuclear_economy": 0.4,
+        "city_transport_economy": 0.75
+      },
+      "candidate_macro_effect_id": "USA-1956-MACRO-MULTIPROGRAM-01"
+    },
+    "1957": {
+      "gdp_growth_extra_pp": 0.05,
+      "science_technology_index_one_time_delta": 0.3,
+      "education_index_one_time_delta": 0.1,
+      "extra_budget_spending_G_billion_ceiling_if_passed": 3.1,
+      "budget_categories_G_billion": {
+        "research_economy": 1.2,
+        "civil_nuclear_economy": 0.7,
+        "city_transport_economy": 1.2
+      },
+      "candidate_macro_effect_id": "USA-1957-MACRO-MULTIPROGRAM-01"
+    },
+    "1958": {
+      "gdp_growth_extra_pp": 0.08,
+      "science_technology_index_one_time_delta": 0.3,
+      "education_index_one_time_delta": 0.1,
+      "extra_budget_spending_G_billion_ceiling_if_passed": 3.7,
+      "budget_categories_G_billion": {
+        "research_economy": 1.3,
+        "civil_nuclear_economy": 0.9,
+        "city_transport_economy": 1.5
+      },
+      "candidate_macro_effect_id": "USA-1958-MACRO-MULTIPROGRAM-01"
+    },
+    "1959": {
+      "gdp_growth_extra_pp": 0.1,
+      "science_technology_index_one_time_delta": 0.2,
+      "education_index_one_time_delta": 0.1,
+      "extra_budget_spending_G_billion_ceiling_if_passed": null,
+      "candidate_macro_effect_id": "USA-1959-MACRO-MULTIPROGRAM-01"
+    },
+    "1960": {
+      "gdp_growth_extra_pp": 0.1,
+      "science_technology_index_one_time_delta": null,
+      "education_index_one_time_delta": null,
+      "extra_budget_spending_G_billion_ceiling_if_passed": null,
+      "candidate_macro_effect_id": "USA-1960-MACRO-MULTIPROGRAM-01"
+    }
+  },
+  "scenario_semantics": {
+    "annual_growth_delta": "Contribution in percentage points to that year actual growth only if measured/approved. Do not double with sector productivity or other posts. Does not expire into zero GDP level.",
+    "science_and_education": "One-off annual index deltas conditional on funded working research and education. Record unique effect_id and new baseline.",
+    "budget_ceilings": "Illustrative optional future new G$bn spending caps, annual appropriation and debt financing needed; future year costs not automatic. Existing historic interstate baseline should not be charged twice.",
+    "treaty_funds": "Nominal USD 200m signed baseline paid only after treaty enters force, 60m first year and 35m next 4. Not automatically converted into G$. Claimed +120m amendment and 10-year VOA are not signed or approved.",
+    "political_ratings": "No automatic public opinion, polling, or electoral support adjustment from press or political dinners; monitor qualitative regional coalitions."
+  },
+  "treaty_status": {
+    "original_archive_version_nominal_USD_million": 200,
+    "revised_agreed_total_nominal_USD_million": 320,
+    "increase_over_original_nominal_USD_million": 120,
+    "payment_period_years_from_entry": 8,
+    "first_year_nominal_USD_million": 60,
+    "remaining_nominal_USD_million": 260,
+    "subsequent_annual_payments_count": 7,
+    "subsequent_each_nominal_USD_million": 37.142857142857146,
+    "voice_of_america_rights_years_after_entry": 10,
+    "review_not_before_calendar_years_after_conclusion": 4,
+    "conclusion_date": "1955-10-08, subject to dating of the bilateral agreed revision",
+    "review_not_before_date_if_concluded_on_1955_10_08": "1959-10-08",
+    "status": "AGREED_REVISED_BILATERAL_TERMS_NOT_IN_FORCE_PENDING_RATIFICATION",
+    "entry_into_force": "2 MONTHS AFTER EXCHANGE OF RATIFICATION_INSTRUMENTS",
+    "ratification_status": "NOT_CONFIRMED_FOR_BOTH_PARTIES",
+    "exchange_of_ratification_instruments_date": null,
+    "economic_effect_USA_1955_G_billion": 0,
+    "economic_effect_JPN_1955_G_billion": 0,
+    "no_usd_to_G_conversion_without_approved_rule": true,
+    "bases_status": "US_BASE_RIGHTS_RETAINED_PER_OTHER_ORIGINAL_TREATY_ARTICLES_IF_EFFECTIVE",
+    "secrecy": "BILATERAL_PRIVATE_UNCONFIRMED__PUBLICATION_REQUIRES_PERMISSION",
+    "replacement_rule": "Revised VII, VIII, IX replace older economic/VOA terms. Do not count both versions.",
+    "provenance": "Administrator-supplied revised articles VII-IX in 2026-11-01 chat; original archive post still older text and must not be overwritten."
+  },
+  "other_controls": [
+    "Retain all originally proposed economic growth, index deltas and budget ceilings unchanged; no immediate numeric growth just because legislative approval is now confirmed.",
+    "Presidential scientific, nuclear and multimodal bills have bipartisan legislative approval under administrator-set game facts; distinguish enabling laws from appropriations and executed assets.",
+    "JFK is agreed as Secretary of State; record formal Senate confirmation, Senate resignation date and Massachusetts vacancy; do not keep JFK as a serving senator simultaneously.",
+    "Ryukyu revised articles agreed 320m USD in 8 years; VOA 10y; pending both ratifications and effective date; no incoming cash or transfer during 1955.",
+    "Public disclosure of private bilateral terms and political publicity requires authorization; the Democratic Party may claim diplomatic credit after lawful publication but cannot force a universal reaction.",
+    "Argonne established 1946 and Shippingport already under construction; Beaver Valley cannot be treated as first 1955 commercial civilian plant.",
+    "123 cooperation agreements require willing specific counterparties and legal procedures.",
+    "No scheduled/guaranteed Sputnik event in alternative world.",
+    "No automatic celebrity or journalist party endorsement; genuine independent consent required.",
+    "Social Democratic Opportunity platform not a passed federal law by virtue of presidential program deal.",
+    "Taiwan crisis separate world event, no duplicate military benefit."
+  ],
+  "admin_confirmed_game_arrangements": {
+    "source": "Administrator statement in this chat, 2026-11-01, supersedes earlier conditional treatment of US bipartisan deals and treaty terms",
+    "presidential_science_atomic_transport_bills": "BOTH_HOUSES_APPROVED_AS_GAME_FACT",
+    "presidential_approval": "ASSUMED_AS_PART_OF_ADMIN_CONFIRMED_PRESIDENT_CONGRESS_BARGAIN",
+    "kennedy_state_department": "JFK_NAMED_BY_PRESIDENT_AND_SUPPORTED_FOR_CONFIRMATION_BY_SENATE__CANDIDATE_APPOINTMENT_CONFIRMED_BY_ADMIN_GAME_DECISION",
+    "jfk_secretary_start_date": null,
+    "senate_seat_vacancy_on_assumption_of_office": true,
+    "massachusetts_seat_replacement": "TO_BE_ADJUDICATED__NO_ASSUMED_SENATOR",
+    "ryukyu_revised_terms": "BILATERALLY_AGREED__REQUIRES_RATIFICATION_AND_ENTRY_INTO_FORCE",
+    "democratic_party_American_Opportunity_program": "PARTY_PLATFORM__NOT_INCLUDED_IN_PASSED_PRESIDENTIAL_BILLS_UNLESS_TEXT_SPECIFICALLY_SAYS_SO",
+    "political_actor_registration": "STILL_REQUIRES_VERIFICATION_BEFORE_FINAL_CANONICAL_APPLICATION"
+  },
+  "political_legislative_result_1955": {
+    "research_bills": "BOTH_HOUSES_APPROVED_BY_ADMIN_GAME_FACT",
+    "atomic_bills": "BOTH_HOUSES_APPROVED_BY_ADMIN_GAME_FACT",
+    "transport_bills": "BOTH_HOUSES_APPROVED_BY_ADMIN_GAME_FACT",
+    "legal_enactment": "PRESIDENTIAL_ASSENT_PART_OF_AGREEMENT__EXACT_LAW_EFFECTIVE_DATE_NOT_PROVIDED",
+    "scheduled_infrastructure_start": 1956,
+    "Congress_new_public_expenditure": "Do not materialize undefined appropriations from generic program approval; preserve nominal proposed annual ceilings and verify accounting by year",
+    "separate_party_platform": "American Opportunity remains party manifesto only"
+  },
+  "political_institutions_watchpoint": {
+    "kennedy_was_senator_from": "Massachusetts",
+    "simultaneous_senator_and_cabinet": "PROHIBITED",
+    "senate_seat": "VACANT_ON_KENNEDY_ASSUME_OFFICE",
+    "start_seat_snapshot_as_recorded_in_canonical_USA": "48 D, 47 R, 1 independent",
+    "arithmetic_once_vacant": "47 D, 47 R, 1 independent, 1 vacancy",
+    "vacancy_filling": "Massachusetts procedure and governor decision to be adjudicated; no automatic replacement or assumed partisan majority",
+    "massachusetts_1955_governor": "Christian A. Herter (R) as historical 1955 reference; not an automatic NPC appointment",
+    "date_of_vacancy": null
+  }
+}
