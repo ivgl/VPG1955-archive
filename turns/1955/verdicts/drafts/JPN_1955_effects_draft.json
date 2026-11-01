@@ -1,0 +1,740 @@
+{
+  "schema": "VPI1955_JUDGE_DRAFT_NUMERIC_PLAN_V1_NONCANONICAL",
+  "campaign_id": "VPI1955_MAIN",
+  "base_release_id": "VPI1955-1955-START-R1",
+  "base_year": 1955,
+  "country_id": "JPN",
+  "rules_version": "RC1.0",
+  "source_of_truth": "ivgl/VPG1955-state@main HEAD.json -> manifest_1955.json",
+  "status": "DRAFT_NOT_APPROVED_NOT_COMMITTED",
+  "purpose": "Illustrative structured candidate only; requires actor verification, NPC adjudication, admin approval, annual financing and national/world recalculation. Not an exact canonical country state JSON patch.",
+  "numbers_provenance": "expert_gameplay_proposals_not_historical_observations_nor_player_promises",
+  "semantics": {
+    "metric_deltas_vs_same_year_background": "Each annual delta is a proposed deviation from the same-year independent counterfactual, not a sum with previous-year deltas; whether earned is checked each turn.",
+    "gdp_growth_pct_component_pp": "Percentage-point contribution to annual GDP growth; derived joint macro calculation, not an additional free separate bonus when exports/technology/productivity are already used in GDP estimation.",
+    "stocks_and_permanent_index_deltas": "Apply once with unique effect_id and retain resulting state. Do not repeat changes every year.",
+    "exports_billion_imports_billion": "Annual incremental executed trade flows over annual baseline; not signed contract face value and not an accrued annual yield.",
+    "financial_costs": "Estimated preparation caps only, not actual approved spending. Full program investment and operation need separate annual allocations.",
+    "long_term_programs": "Remain tracked with milestones, obligations, budget commitments, last_effect_year; successes can become new baseline, no permanent automatic flat modifiers.",
+    "treaty": "Pending signature/ratification not effective and not payable; USD nominal amounts require separate G$ funding convention when applicable."
+  },
+  "base_state_1955": {
+    "gdp_real_billion_2011_intl": 378.372,
+    "gdp_growth_pct": 7.0,
+    "institutional_capacity_index": 76,
+    "corruption_exposure_index": 37,
+    "science_technology_index": 68,
+    "education_index": 77,
+    "productivity_hour_index": 100,
+    "exports_billion": 33.41685103,
+    "imports_billion": 45.66207297,
+    "net_exports_billion": -12.24522194,
+    "reserves_billion": 19.04565064,
+    "fiscal_spending_total_billion": 79.93935339,
+    "fiscal_budget_balance_billion": -6.148096327
+  },
+  "initial_1955_preparation_caps_G_billion_total": 0.325,
+  "budget_allocation_1955": "pending within functional appropriations, cannot increase unfinanced expenditure",
+  "annual_joint_GDP_growth_extra_pp_scenario_if_all_conditions_met": {
+    "1955": 0,
+    "1956": 0.06,
+    "1957": 0.13,
+    "1958": 0.15,
+    "1959": "recalculate, no guaranteed automatic pp"
+  },
+  "trade_additional_annual_flow_scenario_G_billion": {
+    "1955": {
+      "exports_billion": 0.03,
+      "imports_billion": 0.02,
+      "net_exports_billion": 0.01
+    },
+    "1956": {
+      "exports_billion": 0.08,
+      "imports_billion": 0.05,
+      "net_exports_billion": 0.03
+    },
+    "1957": {
+      "exports_billion": 0.16,
+      "imports_billion": 0.11,
+      "net_exports_billion": 0.05
+    },
+    "1958": {
+      "exports_billion": 0.24,
+      "imports_billion": 0.16,
+      "net_exports_billion": 0.08
+    }
+  },
+  "trade_example_partner_count_proposal_1955": {
+    "pilot_dealer_agreements": 2,
+    "equipment_procurement_contracts": 1,
+    "raw_materials_preliminary_negotiations": 1
+  },
+  "programs": [
+    {
+      "decision_id": "INTAKE-1955-JPN-HAT-01",
+      "original_source_url": "https://github.com/ivgl/VPG1955-archive/blob/main/turns/1955/posts/originals/JPN_HAT_01_chat_copy.md",
+      "verdict": "PARTIAL_SUCCESS",
+      "program_id": "JPN-1955-ADMIN-OVERSIGHT",
+      "title": "Парламентская отчетность и экономический надзор",
+      "start_year": 1955,
+      "stage_at_1955_end_proposed": "INITIAL_HEARINGS_AND_LIMITED_AUDITS",
+      "estimated_1955_preparation_cap_G_billion": 0.02,
+      "actual_1955_disbursement_G_billion": null,
+      "funding_status": "NOT_APPROVED; proposed internal reallocation; no extra budget authorized",
+      "continuing_measures": [
+        "расширение министерской отчетности перед парламентом",
+        "раскрытие конфликтов интересов по госзаказам и льготам",
+        "проект самостоятельных полномочий надзора при существующих институтах",
+        "партии и фракции сохраняют право сопротивляться или ограничивать закон"
+      ],
+      "annual_schedule": [
+        {
+          "year": 1955,
+          "effect_id": "DRAFT-EFFECT-1955-JPN-HAT-01",
+          "stage": "ministerial_reporting",
+          "metric_deltas_vs_same_year_background": {
+            "institutional_capacity_index": 0.2,
+            "corruption_exposure_index": 0
+          },
+          "conditions": [
+            "actual reporting implemented",
+            "political authority reviewed"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1956,
+          "effect_id": "DRAFT-EFFECT-1956-JPN-HAT-01",
+          "stage": "agency_legalization_if_passed",
+          "metric_deltas_vs_same_year_background": {
+            "institutional_capacity_index": 0.3,
+            "corruption_exposure_index": -0.2
+          },
+          "conditions": [
+            "appropriate law enacted and budgeted",
+            "independent supervision functioning"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1957,
+          "effect_id": "DRAFT-EFFECT-1957-JPN-HAT-01",
+          "stage": "audits_and_enforcement",
+          "metric_deltas_vs_same_year_background": {
+            "corruption_exposure_index": -0.1
+          },
+          "conditions": [
+            "effective audit decisions and enforcement independently confirmed"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1958,
+          "effect_id": "DRAFT-EFFECT-1958-JPN-HAT-01",
+          "stage": "normal_institution",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "reassess durability; no automatic annual index gain"
+          ],
+          "is_automatic": false
+        }
+      ],
+      "stop_or_review_conditions": [
+        "political resistance tracked separately",
+        "do not reduce risks if oversight lacks independence",
+        "no repeat of one-time index changes"
+      ],
+      "last_effect_year": null,
+      "recorded_applied_effect_ids": [],
+      "approval": "NOT_APPROVED"
+    },
+    {
+      "decision_id": "INTAKE-1955-JPN-HAT-02",
+      "original_source_url": "https://github.com/ivgl/VPG1955-archive/blob/main/turns/1955/posts/originals/JPN_HAT_02_chat_copy.md",
+      "verdict": "PARTIAL_SUCCESS",
+      "program_id": "JPN-1955-FX-EXPORT-REVIEW",
+      "title": "Валютные приоритеты, экспортные частные связи и адресная господдержка",
+      "start_year": 1955,
+      "stage_at_1955_end_proposed": "CRITERIA_ROLLOUT_AND_PILOT_PRIVATE_TRADE",
+      "estimated_1955_preparation_cap_G_billion": 0.03,
+      "actual_1955_disbursement_G_billion": null,
+      "funding_status": "NOT_APPROVED; proposed internal reallocation; no extra budget authorized",
+      "continuing_measures": [
+        "очередность FX на необходимое оборудование, технологии, сырье и энергию",
+        "проектный контроль отдачи импорта, пересмотр неэффективных валютных ассигнований",
+        "прозрачные льготы и субсидии с критериями срока, обжалование отказов",
+        "проверка готовности отраслей к внешней конкуренции",
+        "частные контракты и дилерские отношения с иностранными NPC при законности, лицензировании, валютной оплате",
+        "процесс не обходит эмбарго и императивные запреты"
+      ],
+      "annual_schedule": [
+        {
+          "year": 1955,
+          "effect_id": "DRAFT-EFFECT-1955-JPN-HAT-02",
+          "stage": "criteria_plus_signed_and_delivered_pilots",
+          "metric_deltas_vs_same_year_background": {
+            "exports_billion": 0.03,
+            "imports_billion": 0.02,
+            "net_exports_billion": 0.01,
+            "reserves_billion": 0,
+            "gdp_growth_pct_component_pp": 0
+          },
+          "conditions": [
+            "NPC counterparties accept; judge approves 2 dealer pilots, 1 equipment contract",
+            "goods actually delivered and paid in 1955",
+            "trade amounts additional to existing background flows; otherwise use zero",
+            "FX permits and contracts legally compliant"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1956,
+          "effect_id": "DRAFT-EFFECT-1956-JPN-HAT-02",
+          "stage": "executed_market_links",
+          "metric_deltas_vs_same_year_background": {
+            "exports_billion": 0.08,
+            "imports_billion": 0.05,
+            "net_exports_billion": 0.03,
+            "gdp_growth_pct_component_pp": 0.02
+          },
+          "conditions": [
+            "trade is executed and verified",
+            "trade targets are vs 1956 background, not added to the 1955 increment",
+            "FX procedures actually reduce inefficiency",
+            "macro contribution includes these trade effects"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1957,
+          "effect_id": "DRAFT-EFFECT-1957-JPN-HAT-02",
+          "stage": "diversified_trade_network",
+          "metric_deltas_vs_same_year_background": {
+            "exports_billion": 0.16,
+            "imports_billion": 0.11,
+            "net_exports_billion": 0.05,
+            "gdp_growth_pct_component_pp": 0.03
+          },
+          "conditions": [
+            "partners renew or expand contracts",
+            "deliveries/FX finance verified",
+            "annual deltas relative same-year background, not recurring previous year transaction"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1958,
+          "effect_id": "DRAFT-EFFECT-1958-JPN-HAT-02",
+          "stage": "broader_trade_network",
+          "metric_deltas_vs_same_year_background": {
+            "exports_billion": 0.24,
+            "imports_billion": 0.16,
+            "net_exports_billion": 0.08,
+            "gdp_growth_pct_component_pp": 0.03
+          },
+          "conditions": [
+            "partner network remains productive",
+            "confirmed delivered flows and legal access"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1959,
+          "effect_id": "DRAFT-EFFECT-1959-JPN-HAT-02",
+          "stage": "review",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "trade network survives as standing process; new year trade projections must be recalculated, not automatically copied"
+          ],
+          "is_automatic": false
+        }
+      ],
+      "stop_or_review_conditions": [
+        "partner willingness is proposal until NPC adjudication approved",
+        "contract amounts are yearly trade flows, not cumulative stock",
+        "no automatic reserves increase from net exports",
+        "gdp_growth_pct_component_pp is joint scenario contribution and should NOT be mechanically added again when GDP computed from trade"
+      ],
+      "last_effect_year": null,
+      "recorded_applied_effect_ids": [],
+      "approval": "NOT_APPROVED",
+      "trade_contract_recording_proposal": {
+        "status": "NPC_RESPONSE_DRAFT_NOT_APPROVED",
+        "pilot_dealer_agreements": 2,
+        "equipment_procurement_contracts": 1,
+        "raw_materials_preliminary_negotiations": 1,
+        "specific_counterparties": "not provided by original; select and verify with judge without inventing company signatures",
+        "dealer_commission_and_repatriation": "private dealers may retain contractual share; gross exports differ from FX receipts and public revenue",
+        "legality": "only if permitted in supplier country and approved under Japanese licensing/FX requirements",
+        "booking": "only completed and paid-for shipments count as current-year trade effects"
+      }
+    },
+    {
+      "decision_id": "INTAKE-1955-JPN-HAT-03",
+      "original_source_url": "https://github.com/ivgl/VPG1955-archive/blob/main/turns/1955/posts/originals/JPN_HAT_03_chat_copy.md",
+      "verdict": "PARTIAL_SUCCESS",
+      "program_id": "JPN-1955-INFRA-RISK-AUDIT",
+      "title": "Инфраструктурный и энергетический аудит",
+      "start_year": 1955,
+      "stage_at_1955_end_proposed": "NATIONAL_INSPECTION_PRIORITY_LIST",
+      "estimated_1955_preparation_cap_G_billion": 0.045,
+      "actual_1955_disbursement_G_billion": null,
+      "funding_status": "NOT_APPROVED; proposed internal reallocation; no extra budget authorized",
+      "continuing_measures": [
+        "портовые, железнодорожные, энергетические и топливные узкие места",
+        "выбор первоочередных ремонтов и альтернативных маршрутов",
+        "планирование ограниченных резервов снабжения"
+      ],
+      "annual_schedule": [
+        {
+          "year": 1955,
+          "effect_id": "DRAFT-EFFECT-1955-JPN-HAT-03",
+          "stage": "audits",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0
+          },
+          "conditions": [
+            "audits actually carried out; no new capacity claimed"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1956,
+          "effect_id": "DRAFT-EFFECT-1956-JPN-HAT-03",
+          "stage": "repairs_start",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0
+          },
+          "conditions": [
+            "repair budgets and contractors separately approved"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1957,
+          "effect_id": "DRAFT-EFFECT-1957-JPN-HAT-03",
+          "stage": "first_repaired_nodes",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0.02
+          },
+          "conditions": [
+            "measurable bottleneck reductions and commissioned repairs"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1958,
+          "effect_id": "DRAFT-EFFECT-1958-JPN-HAT-03",
+          "stage": "continuing_maintenance",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0.02
+          },
+          "conditions": [
+            "real system use maintained; no duplicate benefit for same node"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1959,
+          "effect_id": "DRAFT-EFFECT-1959-JPN-HAT-03",
+          "stage": "review",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "background should absorb permanent capacity improvements; no evergreen modifier"
+          ],
+          "is_automatic": false
+        }
+      ],
+      "stop_or_review_conditions": [
+        "no automatic new port/rail/energy capacity from audit alone",
+        "capital project costs not included in preparation cap"
+      ],
+      "last_effect_year": null,
+      "recorded_applied_effect_ids": [],
+      "approval": "NOT_APPROVED"
+    },
+    {
+      "decision_id": "INTAKE-1955-JPN-HAT-04",
+      "original_source_url": "https://github.com/ivgl/VPG1955-archive/blob/main/turns/1955/posts/originals/JPN_HAT_04_chat_copy.md",
+      "verdict": "PARTIAL_SUCCESS",
+      "program_id": "JPN-1955-INDUSTRIAL-UPGRADE",
+      "title": "Промышленная рационализация и контроль качества",
+      "start_year": 1955,
+      "stage_at_1955_end_proposed": "STANDARDS_AND_PROJECT_SELECTION",
+      "estimated_1955_preparation_cap_G_billion": 0.09,
+      "actual_1955_disbursement_G_billion": null,
+      "funding_status": "NOT_APPROVED; proposed internal reallocation; no extra budget authorized",
+      "continuing_measures": [
+        "дополнение существующих MITI/JIS институтов; не создание заново",
+        "совершенствование металлургии и шахт, промышленное машиностроение",
+        "требования к качеству и производственной отдаче госльгот",
+        "работа со SMEs, техвузами и частными производителями"
+      ],
+      "annual_schedule": [
+        {
+          "year": 1955,
+          "effect_id": "DRAFT-EFFECT-1955-JPN-HAT-04",
+          "stage": "project_and_standards_preparation",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0
+          },
+          "conditions": [
+            "pilot documents and selection; not completed output"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1956,
+          "effect_id": "DRAFT-EFFECT-1956-JPN-HAT-04",
+          "stage": "initial_industrial_pilots",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0.03
+          },
+          "conditions": [
+            "equipment installed or real standards adoption; financed and actually used"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1957,
+          "effect_id": "DRAFT-EFFECT-1957-JPN-HAT-04",
+          "stage": "first_modernized_lines",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0.06,
+            "science_technology_index": 0.1
+          },
+          "conditions": [
+            "commissioned lines and verified applied R&D outcomes"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1958,
+          "effect_id": "DRAFT-EFFECT-1958-JPN-HAT-04",
+          "stage": "expanded_adoption",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0.07,
+            "science_technology_index": 0.1,
+            "productivity_hour_index": 0.1
+          },
+          "conditions": [
+            "diffusion confirmed, productivity measured as incremental vs background"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1959,
+          "effect_id": "DRAFT-EFFECT-1959-JPN-HAT-04",
+          "stage": "review",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "permanent productive assets absorbed in national baseline; no automatic repeat of stats gain"
+          ],
+          "is_automatic": false
+        }
+      ],
+      "stop_or_review_conditions": [
+        "scientific index changes are one-time; not every year",
+        "GDP growth pp includes productivity effect; never add it twice",
+        "capital investment beyond preparatory cap separate"
+      ],
+      "last_effect_year": null,
+      "recorded_applied_effect_ids": [],
+      "approval": "NOT_APPROVED"
+    },
+    {
+      "decision_id": "INTAKE-1955-JPN-HAT-05",
+      "original_source_url": "https://github.com/ivgl/VPG1955-archive/blob/main/turns/1955/posts/originals/JPN_HAT_05_chat_copy.md",
+      "verdict": "PARTIAL_SUCCESS",
+      "program_id": "JPN-1955-FOOD-HOUSING-SKILLS",
+      "title": "Сельское хозяйство, жилищная программа и технические кадры",
+      "start_year": 1955,
+      "stage_at_1955_end_proposed": "PROGRAM_PREPARATION_AND_LOCAL_PILOTS",
+      "estimated_1955_preparation_cap_G_billion": 0.1,
+      "actual_1955_disbursement_G_billion": null,
+      "funding_status": "NOT_APPROVED; proposed internal reallocation; no extra budget authorized",
+      "continuing_measures": [
+        "механизация кооперативов и закупки техники только по финансированным планам",
+        "улучшение продовольственных складов, закупок и прогнозирования",
+        "доступное и сейсмостойкое рабочее жилье по утвержденным проектам",
+        "технические училища, подготовка кадров и переквалификация"
+      ],
+      "annual_schedule": [
+        {
+          "year": 1955,
+          "effect_id": "DRAFT-EFFECT-1955-JPN-HAT-05",
+          "stage": "programs_prepared",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0
+          },
+          "conditions": [
+            "initial rules and consultations only"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1956,
+          "effect_id": "DRAFT-EFFECT-1956-JPN-HAT-05",
+          "stage": "local_pilots",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0.01
+          },
+          "conditions": [
+            "funded pilot programs implemented"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1957,
+          "effect_id": "DRAFT-EFFECT-1957-JPN-HAT-05",
+          "stage": "first_training_cohorts",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0.02,
+            "education_index": 0.1
+          },
+          "conditions": [
+            "actual graduated or retrained workers, demonstrated farm/logistics effects"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1958,
+          "effect_id": "DRAFT-EFFECT-1958-JPN-HAT-05",
+          "stage": "continued_scaling",
+          "metric_deltas_vs_same_year_background": {
+            "gdp_growth_pct_component_pp": 0.03
+          },
+          "conditions": [
+            "real housing/agriculture/training services maintained"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1959,
+          "effect_id": "DRAFT-EFFECT-1959-JPN-HAT-05",
+          "stage": "review",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "real homes/skills remain; no perpetual bonus without reassessment"
+          ],
+          "is_automatic": false
+        }
+      ],
+      "stop_or_review_conditions": [
+        "no automatically constructed apartments, tractors or invented enrolment counts",
+        "education delta is relative to background and applied only once",
+        "do not double count with industrial engineering training"
+      ],
+      "last_effect_year": null,
+      "recorded_applied_effect_ids": [],
+      "approval": "NOT_APPROVED"
+    },
+    {
+      "decision_id": "INTAKE-1955-JPN-HAT-06",
+      "original_source_url": "https://github.com/ivgl/VPG1955-archive/blob/main/turns/1955/posts/originals/JPN_HAT_06_chat_copy.md",
+      "verdict": "PARTIAL_SUCCESS",
+      "program_id": "JPN-1955-SDF-READINESS-REVIEW",
+      "title": "Силы самообороны: исправность, обучение, спасательные операции",
+      "start_year": 1955,
+      "stage_at_1955_end_proposed": "INSPECTIONS_AND_MAINTENANCE_PLANNING",
+      "estimated_1955_preparation_cap_G_billion": 0.04,
+      "actual_1955_disbursement_G_billion": null,
+      "funding_status": "NOT_APPROVED; proposed internal reallocation; no extra budget authorized",
+      "continuing_measures": [
+        "технические проверки сухопутных, морских и воздушных сил",
+        "подготовка инструкторов, ремонт, снабжение, морское патрулирование",
+        "наблюдение и связь в рамках конституции и действующих союзных соглашений",
+        "учения реагирования на катастрофы"
+      ],
+      "annual_schedule": [
+        {
+          "year": 1955,
+          "effect_id": "DRAFT-EFFECT-1955-JPN-HAT-06",
+          "stage": "inspections",
+          "metric_deltas_vs_same_year_background": {
+            "military_equipment_combat_ready": {},
+            "active_personnel": 0
+          },
+          "conditions": [
+            "no confirmed completed repairs; no new equipment"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1956,
+          "effect_id": "DRAFT-EFFECT-1956-JPN-HAT-06",
+          "stage": "repair_tranche_1",
+          "metric_deltas_vs_same_year_background": {
+            "military_equipment_combat_ready": {
+              "tanks": 2,
+              "armored_vehicles": 4,
+              "artillery_and_spg": 2,
+              "air_defense_guns": 1
+            },
+            "active_personnel": 0
+          },
+          "conditions": [
+            "actual repair and maintenance funded and completed; no combat readiness category upgrade"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1957,
+          "effect_id": "DRAFT-EFFECT-1957-JPN-HAT-06",
+          "stage": "repair_tranche_2",
+          "metric_deltas_vs_same_year_background": {
+            "military_equipment_combat_ready": {
+              "tanks": 2,
+              "armored_vehicles": 2,
+              "artillery_and_spg": 1,
+              "small_combat_ships": 1
+            },
+            "active_personnel": 0
+          },
+          "conditions": [
+            "actual second tranche repairs confirmed",
+            "subtract attrition if applicable"
+          ],
+          "is_automatic": false
+        },
+        {
+          "year": 1958,
+          "effect_id": "DRAFT-EFFECT-1958-JPN-HAT-06",
+          "stage": "sustainment",
+          "metric_deltas_vs_same_year_background": {
+            "military_equipment_combat_ready": {},
+            "active_personnel": 0
+          },
+          "conditions": [
+            "equipment maintenance needed to retain condition",
+            "no automatic new repair bonus"
+          ],
+          "is_automatic": false
+        }
+      ],
+      "stop_or_review_conditions": [
+        "maximum +15 repaired existing combat-ready items over 1956-57, not 15 per year",
+        "total and generations never change from repairs",
+        "subtract normal losses and attrition in later military simulation"
+      ],
+      "last_effect_year": null,
+      "recorded_applied_effect_ids": [],
+      "approval": "NOT_APPROVED"
+    },
+    {
+      "decision_id": "INTAKE-1955-JPN-USA-RYUKYU-01",
+      "original_source_url": "https://github.com/ivgl/VPG1955-archive/blob/main/turns/1955/posts/originals/JPN_USA_RYUKYU_01_treaty_admin_chat_copy.md",
+      "verdict": "PARTIAL_SUCCESS",
+      "program_id": "JPN-USA-1955-RYUKYU-RATIFICATION",
+      "title": "Рамочное соглашение о Рюкю и Дайто",
+      "start_year": 1955,
+      "stage_at_1955_end_proposed": "SIGNED_PENDING_RATIFICATION",
+      "estimated_1955_preparation_cap_G_billion": 0,
+      "actual_1955_disbursement_G_billion": null,
+      "continuing_measures": [
+        "ratification by each party, then exchange of instruments and two-month interval",
+        "transitional administration and base rights on entry into force",
+        "possible separate currency protocol"
+      ],
+      "annual_schedule": [
+        {
+          "year": 1955,
+          "effect_id": "DRAFT-EFFECT-1955-JPN-USA-RYUKYU-01",
+          "stage": "signed_pending_ratification",
+          "metric_deltas_vs_same_year_background": {
+            "territory_delta": 0,
+            "population": 0,
+            "fiscal_spending_total_billion": 0
+          },
+          "conditions": [
+            "no automatic transfer, payment or ratification",
+            "US party response and explicit administrator approval required"
+          ]
+        },
+        {
+          "year": 1956,
+          "effect_id": "DRAFT-EFFECT-1956-JPN-USA-RYUKYU-01",
+          "stage": "monitor_ratification",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "no automatic transfer, payment or ratification",
+            "US party response and explicit administrator approval required"
+          ]
+        },
+        {
+          "year": 1957,
+          "effect_id": "DRAFT-EFFECT-1957-JPN-USA-RYUKYU-01",
+          "stage": "monitor_ratification",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "no automatic transfer, payment or ratification",
+            "US party response and explicit administrator approval required"
+          ]
+        },
+        {
+          "year": 1958,
+          "effect_id": "DRAFT-EFFECT-1958-JPN-USA-RYUKYU-01",
+          "stage": "monitor_ratification",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "no automatic transfer, payment or ratification",
+            "US party response and explicit administrator approval required"
+          ]
+        },
+        {
+          "year": 1959,
+          "effect_id": "DRAFT-EFFECT-1959-JPN-USA-RYUKYU-01",
+          "stage": "monitor_ratification",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "no automatic transfer, payment or ratification",
+            "US party response and explicit administrator approval required"
+          ]
+        },
+        {
+          "year": 1960,
+          "effect_id": "DRAFT-EFFECT-1960-JPN-USA-RYUKYU-01",
+          "stage": "monitor_ratification",
+          "metric_deltas_vs_same_year_background": {},
+          "conditions": [
+            "no automatic transfer, payment or ratification",
+            "US party response and explicit administrator approval required"
+          ]
+        }
+      ],
+      "future_nominal_USD_payment_schedule_only_after_entry_into_force_million": [
+        60,
+        35,
+        35,
+        35,
+        35
+      ],
+      "future_nominal_USD_total_million": 200,
+      "cashflow_in_1955_G_billion": 0,
+      "last_effect_year": null,
+      "recorded_applied_effect_ids": [],
+      "approval": "NOT_APPROVED",
+      "confidentiality": "BILATERAL_PRIVATE_UNCONFIRMED"
+    }
+  ],
+  "political_NPC_process": {
+    "id": "JPN-1955-CONSERVATIVE-RESISTANCE",
+    "country_id": "JPN",
+    "links_to_programs": [
+      "JPN-1955-ADMIN-OVERSIGHT",
+      "JPN-1955-FX-EXPORT-REVIEW",
+      "JPN-1955-INDUSTRIAL-UPGRADE"
+    ],
+    "description": "inter- and intra-party opposition to independent auditing, party financing transparency, patronage and ministry oversight",
+    "automatic_annual_penalty": null,
+    "approval": "NOT_APPROVED"
+  },
+  "checks": [
+    "Sum growth components 1956 .02+.00+.03+.01=.06 pp; 1957 .03+.02+.06+.02=.13; 1958 .03+.02+.07+.03=.15",
+    "No repeated application of index deltas, repair count, or actual trade annual flow",
+    "No new GDP PPP to G$ cash conversion",
+    "No 1955 treaty territorial or financial effects",
+    "No automatic party formation/elections outcome",
+    "No official state, HEAD or public archive records modified"
+  ]
+}
