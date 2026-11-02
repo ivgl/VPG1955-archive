@@ -43,7 +43,7 @@
 
 - `drafts/FRG_1955_REVISED_DOSSIER_INDEX.md` — указатель открытого государственного и строго закрытого разведывательного пакета.
 - `drafts/FRG_1955_PUBLIC_REVISED_PRELIMINARY.md` — Бундесвер: 2 млрд G$ достаточно для первого года формирования; пенсии: отсрочка из-за взносов работодателей.
-- `drafts/FRG_1955_public_adjudication_REVISED_DRAFT.json` — модель бюджета и условная стоимость пенсионной формулы. Никаких новых пенсионных платежей в 1955 году.
+- `drafts/FRG_1955_public_adjudication_BUDGET_CORRECTED_DRAFT.json` — модель бюджета и условная стоимость пенсионной формулы. Никаких новых пенсионных платежей в 1955 году.
 - `drafts/FRG_1955_SECRET_BND_PRELIMINARY.md` и `drafts/FRG_1955_SECRET_BND_ADMIN_ONLY_REVISED_DRAFT.json` — SECRET_ADMIN_ONLY; не раскрывать в общих каналах.
 
 Все файлы судейские, не финальные, canonical HEAD не менялся.
