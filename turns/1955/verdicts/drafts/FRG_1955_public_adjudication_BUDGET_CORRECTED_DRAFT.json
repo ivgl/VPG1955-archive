@@ -1,0 +1,166 @@
+{
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "rules_version": "RC1.0",
+  "canon_repository": "ivgl/VPG1955-state",
+  "source_repository": "ivgl/VPG1955-archive",
+  "status": "PRELIMINARY_DRAFT_BUDGET_REVISED_NOT_APPLIED",
+  "requires_actor_id_confirmation": true,
+  "author": "Конрад Аденауэр / правительство ФРГ",
+  "head_phase_checked": "RECEIVING",
+  "country_id": "FRG",
+  "visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
+  "source_intake_id": "INTAKE-1955-FRG-ADN-01",
+  "original_path": "turns/1955/posts/originals/FRG_ADN_01_chat_copy.txt",
+  "results": [
+    {
+      "1955": "Defence statutes and voluntary cadre approved conditionally after ally status change, military ministry and early cadre; later constitutional article 87a process",
+      "id": "FRG-1955-WEHR-LEGAL-01",
+      "category": "military",
+      "result": "PARTIAL_SUCCESS",
+      "full_weh_1955": false,
+      "target_force_1957": 50000,
+      "target_is_guarantee": false,
+      "process_id": "FRG-1955-BUNDESWEHR-ESTABLISHMENT",
+      "military_budget_judgment": "2.000bn G$ earmarked within canonical FRG defense 22.97879167bn G$ for initial Bundeswehr development; incremental defense budget 0. Future force and procurement conditional.",
+      "target_force_1957_is_plan_not_guarantee": true
+    },
+    {
+      "1955": "Parliament discusses wage-index principle, but August 1955 law and pension increases delayed due to very large additional social-insurance contributions falling on employers and employees, plus fiscal cofinancing concerns. No full formula adoption in 1955.",
+      "id": "FRG-1955-PENSION-WAGE-01",
+      "category": "social",
+      "result": "DELAYED",
+      "process_id": "FRG-1955-PENSION-REFORM",
+      "federal_share_proposed_pct": 25,
+      "target_average_wage_pct": 65,
+      "fiscal_assessment": "PRELIMINARY_NONACTUARIAL_SCENARIO_WITH_HISTORICAL_REFERENCES",
+      "political_opposition": "Employer associations, Economics Minister Erhard and Finance Minister Schaeffer urge revised contribution rates, tenure-based formula and transition"
+    },
+    {
+      "1955": "Child allowance expansion receives CDU support; package second child, 500 DM one-time and 50 DM monthly under age three requires budget and fund agreement; no entire schedule instant",
+      "id": "FRG-1955-CHILD-ALLOWANCE-01",
+      "category": "family",
+      "result": "PARTIAL_SUCCESS_DELAYED",
+      "process_id": "FRG-1955-FAMILY-POLICY",
+      "one_time_nominal_DM": 500,
+      "monthly_nominal_DM": 50,
+      "monthly_age_limit_years": 3,
+      "beneficiaries_second_and_subsequent": true,
+      "conversion_to_GDOLLARS": "NOT_AUTOMATIC"
+    },
+    {
+      "1955": "Legal funding and state program supported, actual contracts and outputs staged; 40% repayment as future lending obligations",
+      "id": "FRG-1955-INDUSTRIAL-SUBSIDY-01",
+      "category": "industry",
+      "result": "PARTIAL_SUCCESS",
+      "process_id": "FRG-1955-INDUSTRIAL-RESEARCH-INVESTMENTS",
+      "investment_authorization_billion_G": 4,
+      "breakdown_billion_G": {
+        "research": 1.5,
+        "military_industry": 0.5,
+        "other_industry_and_business": 2
+      },
+      "loan_recoverable_share_pct": 40,
+      "maximum_future_repayments_billion_G": 1.6,
+      "net_nonrepayable_if_fully_repaid_billion_G": 2.4
+    }
+  ],
+  "fiscal": {
+    "baseline_revenue_total_billion_G": 163.8265657,
+    "baseline_spending_total_billion_G": 156.5588438,
+    "baseline_surplus_billion_G": 7.267721955,
+    "baseline_defense_spend_billion_G": 22.97879167,
+    "new_defense_authorization_billion_G": 0,
+    "new_industry_authorization_billion_G": 4,
+    "total_new_authorization_billion_G": 4,
+    "scenario_if_full_new_1955_cash_spend_and_no_offsets": {
+      "spending_total_billion_G": 160.5588438,
+      "balance_billion_G": 3.267721955
+    },
+    "pension_and_children_unbudgeted": true,
+    "money_spent_only_once": true,
+    "loan_repayment_not_recognized_as_1955_revenue": true,
+    "debt_service_included_in_baseline_spending": true,
+    "actual_additional_cash_spent_billion_G": null,
+    "note": "Defense 2bn inside baseline, not added or refunded. Industry 4bn modeled additional, subject to overlap check with existing 28.72348959bn economy. Pension delayed, no new 1955 pension outlay.",
+    "pension_additional_cash_1955_billion_G": 0,
+    "bundeswehr_requested_earmark_within_baseline_billion_G": 2
+  },
+  "core_1955_delta_proposed": {
+    "gdp_growth_pct_pp": 0,
+    "science_technology_index": 0,
+    "education_index": 0,
+    "military_ready_units": 0
+  },
+  "conditional_nonautomatic_growth_contribution_pp": {
+    "1956": 0.05,
+    "1957": 0.1,
+    "1958": 0.1
+  },
+  "conditional_nonautomatic_technology_index_delta": {
+    "1956": 0.2,
+    "1957": 0.3,
+    "1958": 0.2
+  },
+  "international_constraints": [
+    "Sovereignty and alliance status from Paris Treaties must be adjudicated in world; NATO/WEU alignment as historical candidate, not copied mechanically",
+    "Saar compromise is pending FRG player response and bilateral negotiations, not automated annexation",
+    "BND source kept in separately restricted file and must not be revealed in public dossiers"
+  ],
+  "sources": [
+    "https://www.bundestag.de/dokumente/textarchiv/1956-03-06-wehrverfassung-410404",
+    "https://www.bundeswehr.de/de/selbstverstaendnis/geschichte-bundeswehr/gruendung-bundeswehr/gruendungstag",
+    "https://www.bundestag.de/dokumente/textarchiv/1957-01-21-rentenreform-488538",
+    "https://www.bpb.de/themen/familie/familienpolitik/260189/entwicklung-der-kindergeldhoehe-seit-1954-absolut/",
+    "https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Gesetzliche-Rentenversicherung/Geschichte-Gesetzliche-Rentenversicherung/geschichte-der-gesetzlichen-rentenversicherung.html",
+    "https://www.deutsche-rentenversicherung.de/DRV/DE/Home/65_Jahre_Rentenreform/65_jahre_rentenreform_detailseite.html",
+    "https://zms.bundeswehr.de/de/mediathek/bundeswehr-aufwuchs-in-gefahr-6045620"
+  ],
+  "revision_label": "DEFENSE_BASELINE_CORRECTION_2026_11_02",
+  "military_budget_estimate": {
+    "new_authorization_billion_G": 0,
+    "baseline_defense_spending_billion_G": 22.97879167,
+    "defense_industry_within_4bn_industry_billion_G": 0.5,
+    "adequate_for_1955_initial_cadre": true,
+    "fully_equipped_50000_in_1955": false,
+    "force_50000_by_1957_conditional": true,
+    "required_future_expenses": [
+      "barracks",
+      "personnel",
+      "NATO equipment transfer approval",
+      "training",
+      "logistics"
+    ],
+    "baseline_allocation_uncertain": true,
+    "within_baseline_earmark_billion_G": 2,
+    "fiscal_increment_1955_billion_G": 0
+  },
+  "pension_scenario_estimate": {
+    "status": "PRELIMINARY_SENSITIVITY_NOT_OFFICIAL_FINANCIAL_FACT",
+    "description": "Assumes 65% represents mean payment across all pension recipients (high-cost interpretation), while a full-career standard worker pension formula would be cheaper.",
+    "historical_salary_monthly_DM": 350,
+    "reference_existing_pension_DM_range": [
+      60,
+      80
+    ],
+    "target_monthly_DM": 227.5,
+    "assumed_pensions_million": 6.07,
+    "historical_annual_payout_billion_DM": 5.94,
+    "modeled_new_annual_payout_billion_DM": 16.5711,
+    "modeled_additional_annual_payout_billion_DM": 10.6311,
+    "game_socio_budget_benchmark_historical_billion_DM": 21.417,
+    "game_socio_budget_canonical_billion_G": 74.68107293,
+    "game_not_exchange_rate": true,
+    "extra_annual_payout_total_billion_G": 37.07,
+    "additional_employer_plus_employee_annual_contributions_billion_G": 31.28,
+    "additional_employer_annual_contributions_if_even_split_billion_G": 15.64,
+    "central_federal_extra_annual_billion_G": 5.79,
+    "central_federal_extra_aug_to_dec_1955_if_enacted_billion_G": 2.41,
+    "federal_extra_actual_1955_billion_G": 0,
+    "hypothetical_statutory_contribution_rate_percent_rough": null,
+    "historical_rate_1955_rough_percent": 11,
+    "main_caveat": "This is a high-cost pension-only consistent comparison; the source series refer to different benefit groups and estimates are not certified; do not infer a firm 1955 payroll tax rate from the aggregate ratio.",
+    "contribution_method": "Like-for-like pension-payment incremental funding: baseline historical 5.94bn DM payments = 2.4828bn DM federal funding (assumed 41.8%) + 3.4572bn DM employer/employee funding; hypothetical new 16.5711bn DM = 4.1428bn DM federal (25%) + 12.4283bn DM employer/employee (75%); increase 8.9711bn DM employer/employee = 31.28bn model G$, split in half = 15.64bn G$ extra for employers. This coherent accounting displaces earlier 18.44/9.22 numbers made by mixing whole-system contributions with pension-only benefits."
+  },
+  "provenance_amendment": "FRG_1955_DEFENSE_SOURCE_AND_EARMARK_AMENDMENT_DRAFT.json"
+}
