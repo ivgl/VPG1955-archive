@@ -608,6 +608,62 @@
       ],
       "effect_id": null,
       "canonical_state_applied": false
+    },
+    {
+      "id": "IND-1955-INDUSTRY-NPC-01",
+      "path": "country/IND/01_1955_industry_npc_responses_APPROVED.md",
+      "kind": "INDUSTRY_NEGOTIATIONS_CORPORATE_NPC",
+      "type": "INDUSTRY_NEGOTIATIONS_CORPORATE_NPC",
+      "country_id": "IND",
+      "affected_country_ids": [
+        "IND"
+      ],
+      "target_country_ids": [
+        "IND"
+      ],
+      "access": "COUNTRY_IND_PRIVATE__PRIVATE_ARCHIVE",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_CHAT_ADJUDICATION_RECORD_2026_11_02",
+      "source_post_ids": [
+        "INTAKE-1955-IND-GOV-01"
+      ],
+      "game_date_label": "1955",
+      "sha256": "c37ec975066e40c5fa9cd3a007976824c6c1f572a22e50e1ec5499b447ef989f",
+      "bytes": 5551,
+      "effect_id": null,
+      "canonical_state_applied": false,
+      "source_note": "Explicit admin instruction to record; event is not confirmed as Discord publication or final applied canonical state."
+    },
+    {
+      "id": "URS-1955-MALENKOV-HISTORICAL-01",
+      "path": "country/URS/02_1955_malenkov_historical_adjudication_APPROVED.md",
+      "kind": "HISTORICAL_POWER_SHIFT_ADMIN_PREMISE",
+      "type": "HISTORICAL_POWER_SHIFT_ADMIN_PREMISE",
+      "country_id": "URS",
+      "affected_country_ids": [
+        "URS"
+      ],
+      "target_country_ids": [
+        "URS"
+      ],
+      "access": "COUNTRY_URS_PRIVATE__PRIVATE_ARCHIVE",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_CHAT_ADJUDICATION_RECORD_2026_11_02",
+      "source_post_ids": [
+        "INTAKE-1955-URS-KHR-01"
+      ],
+      "game_date_label": "1955",
+      "sha256": "e221ed12ed200358666033ac999cc0036abd81658655154351be7f8da26ae3aa",
+      "bytes": 4663,
+      "effect_id": null,
+      "canonical_state_applied": false,
+      "source_note": "Explicit admin instruction to record; event is not confirmed as Discord publication or final applied canonical state."
     }
   ],
   "excluded": [
