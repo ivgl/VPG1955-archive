@@ -149,13 +149,14 @@
     "game_socio_budget_canonical_billion_G": 74.68107293,
     "game_not_exchange_rate": true,
     "extra_annual_payout_total_billion_G": 37.07,
-    "additional_employer_plus_employee_annual_contributions_billion_G": 18.44,
-    "additional_employer_annual_contributions_if_even_split_billion_G": 9.22,
+    "additional_employer_plus_employee_annual_contributions_billion_G": 31.28,
+    "additional_employer_annual_contributions_if_even_split_billion_G": 15.64,
     "central_federal_extra_annual_billion_G": 5.79,
     "central_federal_extra_aug_to_dec_1955_if_enacted_billion_G": 2.41,
     "federal_extra_actual_1955_billion_G": 0,
-    "hypothetical_statutory_contribution_rate_percent_rough": 19.1,
+    "hypothetical_statutory_contribution_rate_percent_rough": null,
     "historical_rate_1955_rough_percent": 11,
-    "main_caveat": "Different series are not fully coextensive; costs are budget-order estimates, no 1955 enacted effect."
+    "main_caveat": "This is a high-cost pension-only consistent comparison; the source series refer to different benefit groups and estimates are not certified; do not infer a firm 1955 payroll tax rate from the aggregate ratio.",
+    "contribution_method": "Like-for-like pension-payment incremental funding: baseline historical 5.94bn DM payments = 2.4828bn DM federal funding (assumed 41.8%) + 3.4572bn DM employer/employee funding; hypothetical new 16.5711bn DM = 4.1428bn DM federal (25%) + 12.4283bn DM employer/employee (75%); increase 8.9711bn DM employer/employee = 31.28bn model G$, split in half = 15.64bn G$ extra for employers. This coherent accounting displaces earlier 18.44/9.22 numbers made by mixing whole-system contributions with pension-only benefits."
   }
 }
