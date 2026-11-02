@@ -82,9 +82,11 @@
     "loan_repayment_not_recognized_as_1955_revenue": true,
     "debt_service_included_in_baseline_spending": true,
     "actual_additional_cash_spent_billion_G": null,
-    "note": "Defense 2bn inside baseline, not added or refunded. Industry 4bn modeled additional, subject to overlap check with existing 28.72348959bn economy. Pension delayed, no new 1955 pension outlay.",
+    "note": "Defense 2bn is an earmark within existing defense budget, not incremental. Industrial program 4bn is a new additional authorization above baseline economic spending. Family and pension reforms delayed, with no new 1955 disbursements. Repayments of loans are future receivables, not 1955 budget income.",
     "pension_additional_cash_1955_billion_G": 0,
-    "bundeswehr_requested_earmark_within_baseline_billion_G": 2
+    "bundeswehr_requested_earmark_within_baseline_billion_G": 2,
+    "industry_authorization_is_incremental": true,
+    "industry_base_expenditure_billion_G": 28.72348959
   },
   "core_1955_delta_proposed": {
     "gdp_growth_pct_pp": 0,
@@ -116,7 +118,7 @@
     "https://www.deutsche-rentenversicherung.de/DRV/DE/Home/65_Jahre_Rentenreform/65_jahre_rentenreform_detailseite.html",
     "https://zms.bundeswehr.de/de/mediathek/bundeswehr-aufwuchs-in-gefahr-6045620"
   ],
-  "revision_label": "DEFENSE_BASELINE_CORRECTION_2026_11_02",
+  "revision_label": "2026-11-02_ADMIN_CONFIRMED_DEFENSE_INTERNAL_AND_INDUSTRY_EXTRA",
   "military_budget_estimate": {
     "new_authorization_billion_G": 0,
     "baseline_defense_spending_billion_G": 22.97879167,
