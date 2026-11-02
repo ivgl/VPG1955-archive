@@ -1,0 +1,78 @@
+{
+  "schema": "vpi1955_preliminary_accounting_and_provenance_amendment_v1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "country_id": "FRG",
+  "rules_version": "RC1.0",
+  "status": "ADMIN_PROPOSED_NOT_FINAL_NOT_APPLIED",
+  "parent": "turns/1955/verdicts/drafts/FRG_1955_public_adjudication_REVISED_DRAFT.json",
+  "source_intake_id": "INTAKE-1955-FRG-ADN-01",
+  "source_original": "turns/1955/posts/originals/FRG_ADN_01_chat_copy.txt",
+  "effect_id": "FRG-1955-DEFENSE-BASELINE-EARMARK-01",
+  "scope": "Reclassify requested Bundeswehr 2bn G$ as an earmark within already authorized defense functional spending, with no extra fiscal expense or refund transaction",
+  "baseline": {
+    "defense_spend_billion_G": 22.97879167,
+    "spending_total_billion_G": 156.5588438,
+    "revenue_total_billion_G": 163.8265657,
+    "budget_balance_billion_G": 7.267721955,
+    "existing_forces_on_jan1_1955": 0
+  },
+  "revised_judgment": {
+    "requested_bundeswehr_program_billion_G": 2,
+    "funding_source": "WITHIN_EXISTING_FISCAL_SPEND_DEFENSE",
+    "amount_allocated_within_existing_defense_billion_G": 2,
+    "incremental_defense_spending_billion_G": 0,
+    "add_cash_to_treasury_billion_G": 0,
+    "release_for_any_other_spending_billion_G": 0,
+    "created_new_free_budget_billion_G": 0,
+    "program_earmark_valid_only_for_initial_organization": true,
+    "goal_50000_troops_by_1957": "CONDITIONAL_NOT_DELIVERED",
+    "defense_industry_within_industry_4bn_billion_G": 0.5,
+    "no_automatic_change_to_military_personnel_or_equipment": true
+  },
+  "fiscal_scenarios": {
+    "industry_billion_G": 4,
+    "industry_incremental_status": "ASSUMED_NEW_PENDING_BASELINE_ECONOMY_ALLOCATION_REVIEW",
+    "pension_change_billion_G_1955": 0,
+    "military_extra_billion_G_1955": 0,
+    "total_incremental_authorization_billion_G": 4,
+    "hypothetical_spend_if_full_industry_outlay_billion_G": 160.5588438,
+    "hypothetical_budget_balance_if_full_industry_outlay_billion_G": 3.267721955,
+    "actual_disbursement_billion_G_1955": null,
+    "carryovers_possible": true,
+    "repayment_from_40pct_program_not_immediate_revenue": true
+  },
+  "proposed_canonical_provenance_patch_on_next_authorized_release": {
+    "target": "countries/FRG.json",
+    "field": "provenance.fiscal_spend_defense_billion",
+    "retain": {
+      "status": "scenario_assumption",
+      "source": null
+    },
+    "add": {
+      "caveat": "Approved game value of 22.97879167bn G$ is a model estimate, not a direct currency conversion of historical FY1955/56. Treat the broad defense function as covering allied occupation/stationing obligations and budgeted preparation of own armed forces; exact G$ suballocation is not historically sourced. Do not include German war reparations unless separately documented and approved; do not count 2bn G$ Bundeswehr earmark a second time.",
+      "historical_context_sources": [
+        "https://www.bundesbank.de/resource/blob/690362/1ba94fc1706ab5b27ac7329bc3213c2e/mL/1955-05-monatsbericht-data.pdf",
+        "https://www.bundestag.de/dokumente/textarchiv/einzelplaene-haushalt-doku-1059342",
+        "https://www.bpb.de/shop/zeitschriften/apuz/archiv/533064/die-entwicklung-bundesdeutscher-militaerausgaben-in-vergangenheit-und-zukunft/"
+      ],
+      "historical_explainer": {
+        "fiscal_year": "1955-04-01_to_1956-03-31",
+        "total_defense_appropriations_billion_DM": 9,
+        "own_forces_planned_billion_DM": 5.2,
+        "allied_occupation_stationing_planned_billion_DM": 3.8,
+        "not_exact_as_game_billion_G": true,
+        "military_appropriation_not_same_as_1955_cash_spending": true
+      }
+    }
+  },
+  "canonical_updates_authorized": false,
+  "do_not_write_head": true,
+  "required_checks": [
+    "Verify official HEAD and fresh approved manifest at time of final release",
+    "Do not add 2bn G$ to fiscal_spend_defense_billion or fiscal_spending_total_billion",
+    "Verify remaining unearmarked defense budget and allied obligations before cash settlement",
+    "Distinguish in-game calendar year from German fiscal FY1955/56",
+    "Maintain 12-country manifest hashes, stable effect_id, source references and checksums"
+  ]
+}
