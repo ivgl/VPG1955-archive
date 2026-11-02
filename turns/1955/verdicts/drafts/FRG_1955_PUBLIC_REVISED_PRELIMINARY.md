@@ -2,7 +2,7 @@
 
 **1955 · INTAKE-1955-FRG-ADN-01 · RC1.0**
 
-**PRELIMINARY_DRAFT / NOT_FINAL / NOT_APPLIED**. Исходник: `turns/1955/posts/originals/FRG_ADN_01_chat_copy.txt`. Машинный проект: `FRG_1955_public_adjudication_REVISED_DRAFT.json`.
+**PRELIMINARY_DRAFT / NOT_FINAL / NOT_APPLIED**. Исходник: `turns/1955/posts/originals/FRG_ADN_01_chat_copy.txt`. Машинный проект: `FRG_1955_public_adjudication_BUDGET_CORRECTED_DRAFT.json`.
 
 ## I. Бундесвер — новая армия ФРГ
 
