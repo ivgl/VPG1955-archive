@@ -1,0 +1,55 @@
+{
+  "schema": "vpi1955-adjudication-candidate-1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "status": "ADMIN_SANCTION_FOR_PREPARATION__LITERARY_DRAFT_NOT_APPLIED",
+  "source_posts": [
+    "INTAKE-1955-URS-ZHU-03",
+    "INTAKE-1955-URS-KGB-01"
+  ],
+  "visibility": "SECRET_ADMIN_ONLY",
+  "canonical_head_mutated": false,
+  "operational_sanction": "turns/1955/decisions/URS_1955_RED_CYPRUS_PREPARATORY_SANCTION_ADMIN_2026-11-03.md",
+  "proposed_effects": [
+    {
+      "effect_id": "VPI1955-URS-1955-ZHU03-RED-CYPRUS-PREP-001",
+      "kind": "staged_domestic_preparation_and_civilian_support",
+      "stage_at_end_1955": "FORMING_AND_TRAINING_IN_URS",
+      "volunteers_initial_advanced_training": 500,
+      "volunteers_additional_preliminary_training_approx": 1000,
+      "volunteers_total_under_training_approx": 1500,
+      "planned_full_strength": 1800,
+      "armed_deployed_to_cyprus": 0,
+      "local_armed_revolutionary_army_created": false,
+      "committee_15_created": false,
+      "cost_1955_billion_GSD_proposed": 0.05,
+      "cost_previously_modelled_billion_GSD": 0.018,
+      "incremental_cost_billion_GSD_proposed": 0.032,
+      "breakdown_billion_GSD": {
+        "interagency_and_political_contacts_including_KGB": 0.006,
+        "initial_500_training_uniforms_medical_logistics": 0.016,
+        "additional_1000_recruitment_induction": 0.014,
+        "civilian_aid_and_printing": 0.005,
+        "training_facilities_transport_contingency": 0.009
+      },
+      "no_double_count_with_kgb": true,
+      "delta_status": "CANDIDATE_NOT_APPLIED"
+    },
+    {
+      "effect_id": "VPI1955-URS-1955-KGB01-CYPRUS-INTEL-001",
+      "kind": "qualitative_intelligence_and_restricted_contacts",
+      "status": "limited_local_political_and_union_contacts__no_proven_large_agent_network",
+      "separate_fiscal_charge_billion_GSD": 0,
+      "costs_included_in": "VPI1955-URS-1955-ZHU03-RED-CYPRUS-PREP-001",
+      "delta_status": "CANDIDATE_NOT_APPLIED"
+    }
+  ],
+  "exclusions": [
+    "No authorized troop deployment or armed action on Cyprus",
+    "No assumption of AKEL-EOKA treaty",
+    "No Cyprus socialist republic established",
+    "No duplicative charge for KGB's part of the same program"
+  ],
+  "cost_method": "Provisional game estimate in G$, not exact historical military or government expenditure; requires admin fiscal scrutiny before stage approval",
+  "future_year_obligation": "Maintenance, recruitment and further equipment of formations will need annual costs if continued; not charged as if already paid in 1955"
+}
