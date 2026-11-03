@@ -1,0 +1,249 @@
+{
+  "year": 1955,
+  "campaign_id": "VPI1955_MAIN",
+  "country_id": "YUG",
+  "stage": "ADMIN_REVIEW_DRAFT_UNAPPROVED_NOT_COMMITTED",
+  "source_refs": [
+    "INTAKE-1955-YUG-GOV-01",
+    "INTAKE-1955-YUG-GOV-02",
+    "INTAKE-1955-YUG-GOV-03"
+  ],
+  "player_selected": "ACCELERATED",
+  "timeline": "Основные исполнения осенью 1955; разграничить ассигнования и кассовое освоение",
+  "units": "billion G$ for all finance amounts; GDP PPP separate",
+  "programs": [
+    {
+      "key": "FREIGHT",
+      "name": "Компенсация дальних перевозок",
+      "source_post": "YUG-GOV-02",
+      "new_budget": 0.24,
+      "reallocated": 0,
+      "enterprise": 0,
+      "executed_new": 0.24,
+      "executed_reallocated": 0,
+      "executed_enterprise": 0,
+      "status": "ACTIVE_LATE_1955",
+      "notes": "15% для подтвержденных наземных грузовых перевозок более 200 км, в утвержденных категориях; повышение до 20% не санкционировано"
+    },
+    {
+      "key": "RAIL",
+      "name": "Железнодорожная инфраструктура и конструкторские работы",
+      "source_post": "YUG-GOV-02",
+      "new_budget": 0.5,
+      "reallocated": 0.27,
+      "enterprise": 0.17,
+      "executed_new": 0.24,
+      "executed_reallocated": 0.18,
+      "executed_enterprise": 0.1,
+      "status": "SURVEY_DESIGN_AND_LIMITED_REPAIRS",
+      "notes": "Изыскания, отдельные ремонты, конкурс проектов, проектирование дизельной тяги и грузовых вагонов; никаких завершенных новых магистралей"
+    },
+    {
+      "key": "INDUSTRY",
+      "name": "Модернизация предприятий, добыча и энергосырьевой сектор",
+      "source_post": "YUG-GOV-02",
+      "new_budget": 0.37,
+      "reallocated": 0.19,
+      "enterprise": 0.28,
+      "executed_new": 0.23,
+      "executed_reallocated": 0.13,
+      "executed_enterprise": 0.2,
+      "status": "SELECTED_PLANTS_EQUIPMENT_AND_REPAIRS",
+      "notes": "Ремонт существующих мощностей, подготовка добычных проектов; не объявлять новую нефть или газ"
+    },
+    {
+      "key": "AGR",
+      "name": "Аграрные биржи, торговые места и кооперативы",
+      "source_post": "YUG-GOV-02",
+      "new_budget": 0.18,
+      "reallocated": 0.055,
+      "enterprise": 0.055,
+      "executed_new": 0.12,
+      "executed_reallocated": 0.045,
+      "executed_enterprise": 0.045,
+      "status": "PILOT_EXCHANGES_AND_MARKET_SPACES",
+      "notes": "Опытные площадки, юридические процедуры, добровольная кооперация; не вся национальная сеть"
+    },
+    {
+      "key": "YOUTH",
+      "name": "Молодежные клубы и учебные программы",
+      "source_post": "YUG-GOV-03",
+      "new_budget": 0.13,
+      "reallocated": 0.02,
+      "enterprise": 0,
+      "executed_new": 0.09,
+      "executed_reallocated": 0.02,
+      "executed_enterprise": 0,
+      "status": "PILOT_YOUTH_CLUBS",
+      "notes": "Открываются доступные помещения, участие предприятий и школ добровольное, наставники обязательны"
+    },
+    {
+      "key": "RESEARCH",
+      "name": "Заводские исследовательские бюро и НИИ",
+      "source_post": "YUG-GOV-03",
+      "new_budget": 0.13,
+      "reallocated": 0.04,
+      "enterprise": 0.095,
+      "executed_new": 0.05,
+      "executed_reallocated": 0.03,
+      "executed_enterprise": 0.05,
+      "status": "EXPANDED_DESIGN_BUREAUS_AND_RESEARCH_PILOTS",
+      "notes": "Начаты проекты, нет новой общенациональной сети заводских НИИ"
+    },
+    {
+      "key": "ADMIN",
+      "name": "Межведомственное сопровождение",
+      "source_post": "YUG-GOV-01/02/03",
+      "new_budget": 0.05,
+      "reallocated": 0.025,
+      "enterprise": 0,
+      "executed_new": 0.05,
+      "executed_reallocated": 0.025,
+      "executed_enterprise": 0,
+      "status": "ACTIVE",
+      "notes": "Расход один раз на три связанные инициативы; GOV01 не дает отдельного бонуса"
+    }
+  ],
+  "totals": {
+    "new_budget": 1.5999999999999999,
+    "reallocated": 0.6000000000000001,
+    "enterprise": 0.6000000000000001,
+    "executed_new": 1.02,
+    "executed_reallocated": 0.43000000000000005,
+    "executed_enterprise": 0.395,
+    "program_envelope": 2.8000000000000003,
+    "executed_all": 1.8450000000000002,
+    "carry": 0.9550000000000001
+  },
+  "budget": {
+    "baseline": {
+      "revenue": 19.45490196,
+      "spending": 15.70196078,
+      "balance": 3.752941176,
+      "debt": 8.8,
+      "interest_pct": 3.3,
+      "interest_service": 0.2904
+    },
+    "full_program_if_paid_1955": {
+      "revenue": 19.42490196,
+      "spending": 17.30196078,
+      "balance": 2.12294118,
+      "tax_relief": 0.03
+    },
+    "staged_execution_end_1955": {
+      "revenue": 19.43990196,
+      "spending": 16.72196078,
+      "balance": 2.71794118,
+      "tax_relief": 0.015,
+      "new_cash_spend": 1.02,
+      "remaining_new_unspent": 0.58
+    },
+    "new_cash_spend_by_function": {
+      "economic": 0.88,
+      "social": 0.09,
+      "administration": 0.05,
+      "defense": 0,
+      "other": 0
+    },
+    "existing_budget_reallocated": 0.6,
+    "enterprise_funds": 0.6
+  },
+  "growth": {
+    "baseline_growth_pct": 5,
+    "upper_player_selected_growth_pct_1955": 5.15,
+    "staged_cash_execution_central_growth_pct_1955": 5.1,
+    "gdp_ppp_start_2011intl": 55,
+    "gdp_ppp_end_at_5_10": 57.805,
+    "gdp_ppp_end_at_5_15": 57.8325,
+    "forecast_1956_1958_if_continued": [
+      {
+        "year": 1956,
+        "conditional_growth": 5.45
+      },
+      {
+        "year": 1957,
+        "conditional_growth": 5.65
+      },
+      {
+        "year": 1958,
+        "conditional_growth": 5.75
+      }
+    ]
+  },
+  "checks": {
+    "no_debt_service_double_charge": true,
+    "no_double_count_reallocated": true,
+    "no_double_count_enterprise": true,
+    "freight_eligible_transport_cost_at_15pct": 1.6,
+    "freight_subsidy_20pct_not_approved": true,
+    "republic_transfer_2pct_separate_requires_base_in_1956": true,
+    "imports_and_fx_unbooked_without_contract": true,
+    "no_automatic_national_indexes_change": true,
+    "annual_growth_not_locked": true,
+    "world_treaties_unchanged": true
+  },
+  "effects": [
+    {
+      "effect_id": "VPI1955-YUG-1955-GOV02-TRANSPORT-001",
+      "source_post": "INTAKE-1955-YUG-GOV-02",
+      "status": "CANDIDATE_ONLY",
+      "process": "transport_subsidy_and_rail_modernization",
+      "stage": "pilot_paid_and_design",
+      "cost_stated_in_rows": [
+        "FREIGHT",
+        "RAIL"
+      ]
+    },
+    {
+      "effect_id": "VPI1955-YUG-1955-GOV02-INDUSTRY-002",
+      "source_post": "INTAKE-1955-YUG-GOV-02",
+      "status": "CANDIDATE_ONLY",
+      "process": "industrial_upgrade_and_republic_finance_review",
+      "stage": "partial_works",
+      "cost_stated_in_rows": [
+        "INDUSTRY"
+      ]
+    },
+    {
+      "effect_id": "VPI1955-YUG-1955-GOV02-AGRARIAN-003",
+      "source_post": "INTAKE-1955-YUG-GOV-02",
+      "status": "CANDIDATE_ONLY",
+      "process": "voluntary_cooperation_and_exchange_markets",
+      "stage": "pilot",
+      "cost_stated_in_rows": [
+        "AGR"
+      ]
+    },
+    {
+      "effect_id": "VPI1955-YUG-1955-GOV03-YOUTH-004",
+      "source_post": "INTAKE-1955-YUG-GOV-03",
+      "status": "CANDIDATE_ONLY",
+      "process": "youth_clubs_and_education",
+      "stage": "pilot",
+      "cost_stated_in_rows": [
+        "YOUTH"
+      ]
+    },
+    {
+      "effect_id": "VPI1955-YUG-1955-GOV03-RND-005",
+      "source_post": "INTAKE-1955-YUG-GOV-03",
+      "status": "CANDIDATE_ONLY",
+      "process": "factory_research",
+      "stage": "pilot",
+      "cost_stated_in_rows": [
+        "RESEARCH"
+      ]
+    }
+  ],
+  "other": {
+    "political_post": "YUG-GOV-01 no extra GDP or budgets apart from administration row",
+    "not_yet_confirmed": [
+      "public investments displacement source allocations",
+      "regional budgets 2 percent base",
+      "factory funding actual capacity",
+      "foreign purchases contracts",
+      "full cash execution"
+    ],
+    "status_note": "Originals remain immutable; no canonical update to country/world/HEAD"
+  }
+}
