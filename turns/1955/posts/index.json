@@ -1,7 +1,7 @@
 {
   "campaign_id": "VPI1955_MAIN",
   "year": 1955,
-  "status": "RECEIVING__ARCHIVED",
+  "status": "LOCKED__FINAL_APPROVED_BY_ADMIN_2026_11_05",
   "kind": "EVIDENCE_INDEX_NOT_CANONICAL_STATE",
   "updated_from": "Administrator-supplied originals and Discord links; added URS Kosygin directive 2026-10-31",
   "discord_api_verified": false,
@@ -1122,6 +1122,27 @@
         "Factory R&D institutes are proposals; funding and research outcomes must be staged, not guaranteed.",
         "References first Yugoslav 1955 cabinet plenary post as program context."
       ]
+    },
+    {
+      "intake_id": "INTAKE-1955-URS-CC-FIFTH-INTL-01",
+      "country_id": "URS",
+      "year": 1955,
+      "actor_name": "ЦК КПСС",
+      "actor_key": "URS-CC",
+      "actor_id": null,
+      "discord_message_id": null,
+      "discord_url": null,
+      "visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
+      "source_kind": "ADMIN_SUPPLIED_CHAT_TEXT",
+      "content_path": "turns/1955/posts/originals/URS_CC_FIFTH_INTERNATIONAL_admin_paste_2026_11_04.md",
+      "sha256": "d5616c52d76f9c46875569c387922f41850d8be63813617d2b7f7561ffc0e3c7",
+      "bytes": 4905,
+      "intake_status": "ARCHIVED_AND_ACCEPTED_AS_ADMIN_SUPPLIED_ORIGINAL",
+      "adjudication_status": "ADMIN_FINAL_APPROVED_2026_11_05",
+      "game_original_accepted_by_administrator": true,
+      "actor_id_status": "UNRESOLVED_NO_DISCORD_METADATA",
+      "original_acceptance_basis": "ADMIN_EXPLICIT_2026_11_05",
+      "source_note": "Text handed to judge in chat 2026-11-04; no Discord ID/time or visibility confirmed; no invention of original message metadata."
     }
   ],
   "index_revision": "2026-11-03_PLUS_THREE_YUGOSLAVIA_GOVERNMENT_POSTS",
@@ -1129,5 +1150,12 @@
   "discord_api_check_is_not_an_intake_condition": true,
   "legacy_register_is_historical_snapshot": true,
   "sources_discord_text_independently_checked": false,
-  "verdicts_or_effects_created": false
+  "verdicts_or_effects_created": false,
+  "turn_1955_close": {
+    "admin_instruction": "All 1955 outcomes approved; finalize and roll over to 1956",
+    "archive_count": 41,
+    "approval_date": "2026-11-05",
+    "phase_process": "LOCKED → IN_REVIEW → ADMIN_APPROVED → VERDICTS_PUBLISHED → APPEALS_OPEN → APPEALS_REVIEW → FINAL_APPROVED",
+    "caveat": "Some per-entry preliminary status and publication URLs have no independent Discord proof; do not treat missing records as invented."
+  }
 }

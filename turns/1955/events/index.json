@@ -3,7 +3,7 @@
   "year": 1955,
   "document_type": "EVENT_EVIDENCE_INDEX",
   "archive_is_canonical_state": false,
-  "status": "MIXED_PUBLISHED_EVENTS_AND_OLDER_TAIWAN_DRAFTS",
+  "status": "APPROVED_EVENT_PACKET__SOME_EVENTS_UNPUBLISHED",
   "discord_source_verified": false,
   "confidentiality_note": "Repository-wide GitHub access; PRIVATE filename is descriptive only",
   "events": [
@@ -664,6 +664,199 @@
       "effect_id": null,
       "canonical_state_applied": false,
       "source_note": "Explicit admin instruction to record; event is not confirmed as Discord publication or final applied canonical state."
+    },
+    {
+      "id": "WORLD-1955-YEAR-END-NEW-COURSES",
+      "path": "world/06_year_end_reforms_1955_APPROVED.md",
+      "kind": "WORLD_CHRONICLE_YEAR_END",
+      "type": "WORLD_CHRONICLE_YEAR_END",
+      "country_id": null,
+      "affected_country_ids": [
+        "USA",
+        "URS",
+        "FRA",
+        "FRG",
+        "JPN",
+        "CHN",
+        "IND",
+        "YUG"
+      ],
+      "target_country_ids": [
+        "USA",
+        "URS",
+        "FRA",
+        "FRG",
+        "JPN",
+        "CHN",
+        "IND",
+        "YUG"
+      ],
+      "access": "PUBLIC",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_EDITORIAL_COPY_2026_11_05",
+      "source_post_ids": [],
+      "game_date_label": "1955_to_1956",
+      "sha256": "b783d2d5ed8ee863440fe098c3b80f6252b7c1d32751270883336b7de7c30c71",
+      "bytes": 8918,
+      "effect_id": null,
+      "canonical_state_applied": false
+    },
+    {
+      "id": "USA-1955-ENDYEAR-INTERNAL",
+      "path": "country/USA/02_1956_politics_and_science_APPROVED.md",
+      "kind": "COUNTRY_NARRATIVE",
+      "type": "COUNTRY_NARRATIVE",
+      "country_id": "USA",
+      "affected_country_ids": [
+        "USA"
+      ],
+      "target_country_ids": [
+        "USA"
+      ],
+      "access": "USA_COUNTRY_PLAYERS",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_EDITORIAL_COPY_2026_11_05",
+      "source_post_ids": [],
+      "game_date_label": "1955_to_1956",
+      "sha256": "756cb5a022c83e4b0cf7f75d51f8ecbed1ff99b693529e4417afb998d87f7566",
+      "bytes": 5804,
+      "effect_id": null,
+      "canonical_state_applied": false
+    },
+    {
+      "id": "CHN-1955-ENDYEAR-AGRARIAN",
+      "path": "country/CHN/01_1956_agrarian_transition_APPROVED.md",
+      "kind": "COUNTRY_NARRATIVE",
+      "type": "COUNTRY_NARRATIVE",
+      "country_id": "CHN",
+      "affected_country_ids": [
+        "CHN"
+      ],
+      "target_country_ids": [
+        "CHN"
+      ],
+      "access": "CHN_COUNTRY_PLAYERS",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_EDITORIAL_COPY_2026_11_05",
+      "source_post_ids": [],
+      "game_date_label": "1955_to_1956",
+      "sha256": "8d19b8882761b163a7cf7bad1bc1827ecb3add89e9d81b34c5c4bbbd92ddc0c3",
+      "bytes": 4795,
+      "effect_id": null,
+      "canonical_state_applied": false
+    },
+    {
+      "id": "IND-1955-ENDYEAR-INDUSTRY",
+      "path": "country/IND/02_1956_industry_currency_APPROVED.md",
+      "kind": "COUNTRY_NARRATIVE",
+      "type": "COUNTRY_NARRATIVE",
+      "country_id": "IND",
+      "affected_country_ids": [
+        "IND"
+      ],
+      "target_country_ids": [
+        "IND"
+      ],
+      "access": "IND_COUNTRY_PLAYERS",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_EDITORIAL_COPY_2026_11_05",
+      "source_post_ids": [],
+      "game_date_label": "1955_to_1956",
+      "sha256": "07d5b92a06299842cbfb66447b1dfa7adf9fa4128a7c583b5c77732e203ba1bc",
+      "bytes": 5873,
+      "effect_id": null,
+      "canonical_state_applied": false
+    },
+    {
+      "id": "YUG-1955-ENDYEAR-RAIL",
+      "path": "country/YUG/01_1956_rail_industry_APPROVED.md",
+      "kind": "COUNTRY_NARRATIVE",
+      "type": "COUNTRY_NARRATIVE",
+      "country_id": "YUG",
+      "affected_country_ids": [
+        "YUG"
+      ],
+      "target_country_ids": [
+        "YUG"
+      ],
+      "access": "YUG_COUNTRY_PLAYERS",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_EDITORIAL_COPY_2026_11_05",
+      "source_post_ids": [],
+      "game_date_label": "1955_to_1956",
+      "sha256": "2a39c23b7adc9c467b436bd06c3435e4060a551954ef278826688cb264cc61f1",
+      "bytes": 4728,
+      "effect_id": null,
+      "canonical_state_applied": false
+    },
+    {
+      "id": "FRA-1955-ENDYEAR-CABINET",
+      "path": "country/FRA/02_1956_cabinet_crisis_APPROVED.md",
+      "kind": "COUNTRY_NARRATIVE",
+      "type": "COUNTRY_NARRATIVE",
+      "country_id": "FRA",
+      "affected_country_ids": [
+        "FRA"
+      ],
+      "target_country_ids": [
+        "FRA"
+      ],
+      "access": "FRA_COUNTRY_PLAYERS",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_EDITORIAL_COPY_2026_11_05",
+      "source_post_ids": [],
+      "game_date_label": "1955_to_1956",
+      "sha256": "36885314dd0772f16d9c9c1129312b5e8542618bcf499c8103b061b94e5474cb",
+      "bytes": 4651,
+      "effect_id": null,
+      "canonical_state_applied": false
+    },
+    {
+      "id": "URS-1955-FIFTH-INTERNATIONAL-NPC-RESPONSES",
+      "path": "country/URS/03_fifth_international_responses_APPROVED_PRIVATE.md",
+      "kind": "DIPLOMATIC_NPC_RESPONSES",
+      "type": "DIPLOMATIC_NPC_RESPONSES",
+      "country_id": "URS",
+      "affected_country_ids": [
+        "URS",
+        "CHN",
+        "YUG"
+      ],
+      "target_country_ids": [
+        "URS"
+      ],
+      "access": "COUNTRY_URS_PRIVATE__PRIVATE_ARCHIVE",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_NPC_ADJUDICATION_2026_11_05",
+      "source_post_ids": [
+        "INTAKE-1955-URS-CC-FIFTH-INTL-01"
+      ],
+      "game_date_label": "late_1955",
+      "sha256": "fc9bcc0dba192f0e8df76a501967c6624a0eef4de05dd0cbc4c22a40795a499a",
+      "bytes": 3280,
+      "effect_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "canonical_state_applied": false
     }
   ],
   "excluded": [
@@ -713,6 +906,19 @@
       "discord_text_verified": false
     }
   ],
-  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED",
-  "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged. Japan: two unpublished, unapproved event drafts added; no status change to prior published event entries or canonical state."
+  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED1",
+  "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged. Japan: two unpublished, unapproved event drafts added; no status change to prior published event entries or canonical state.",
+  "approval_event_packet": {
+    "admin_date": "2026-11-05",
+    "new_event_ids": [
+      "WORLD-1955-YEAR-END-NEW-COURSES",
+      "USA-1955-ENDYEAR-INTERNAL",
+      "CHN-1955-ENDYEAR-AGRARIAN",
+      "IND-1955-ENDYEAR-INDUSTRY",
+      "YUG-1955-ENDYEAR-RAIL",
+      "FRA-1955-ENDYEAR-CABINET",
+      "URS-1955-FIFTH-INTERNATIONAL-NPC-RESPONSES"
+    ],
+    "note": "Event files were approved by administrator, not independently confirmed as published on Discord; preserve privacy for country/URS and country-only items."
+  }
 }

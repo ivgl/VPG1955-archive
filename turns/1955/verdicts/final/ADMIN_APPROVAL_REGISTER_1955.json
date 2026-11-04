@@ -1,0 +1,27 @@
+{
+  "schema": "VPI1955_1955_ADMIN_FINAL_APPROVAL_REGISTER_V1",
+  "campaign_id": "VPI1955_MAIN",
+  "turn_year": 1955,
+  "administrator_instruction_date": "2026-11-05",
+  "source_posts_expected": 41,
+  "adjudication_approved": true,
+  "economic_summary": "VPI1955_ECONOMIC_SUMMARY_CORRECTED_PRECISION_2026-11-04.md",
+  "expert_indices_summary": "VPI1955_NON_ECONOMIC_EFFECTS_FINAL_DRAFT_2026-11-04.md",
+  "caveats": [
+    "No verified Discord publication dates are invented.",
+    "Conditional future-year growth is not booked in 1955.",
+    "Final machine application to be recorded in state release; approved literary verdict drafts retain original provenance."
+  ],
+  "new_decision_ids": [
+    "INTAKE-1955-URS-CC-FIFTH-INTL-01"
+  ],
+  "approved_events": [
+    "WORLD-1955-YEAR-END-NEW-COURSES",
+    "USA-1955-ENDYEAR-INTERNAL",
+    "CHN-1955-ENDYEAR-AGRARIAN",
+    "IND-1955-ENDYEAR-INDUSTRY",
+    "YUG-1955-ENDYEAR-RAIL",
+    "FRA-1955-ENDYEAR-CABINET",
+    "URS-1955-FIFTH-INTERNATIONAL-NPC-RESPONSES"
+  ]
+}

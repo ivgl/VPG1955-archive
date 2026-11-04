@@ -1,0 +1,53 @@
+{
+  "campaign_id": "VPI1955_MAIN",
+  "rules_version": "RC1.0",
+  "year": 1955,
+  "decision_id": "INTAKE-1955-URS-CC-FIFTH-INTL-01",
+  "effect_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+  "result": "SUCCESS_CONSULTATIONS",
+  "stage": "PREPARATORY_CONSULTATIONS_NPC_REPLIES_RECEIVED",
+  "spending_G_billion": 0,
+  "macro_delta_pp": 0,
+  "science_delta": 0,
+  "source_original": "turns/1955/posts/originals/URS_CC_FIFTH_INTERNATIONAL_admin_paste_2026_11_04.md",
+  "source_original_sha256": "d5616c52d76f9c46875569c387922f41850d8be63813617d2b7f7561ffc0e3c7",
+  "event_id": "URS-1955-FIFTH-INTERNATIONAL-NPC-RESPONSES",
+  "npc_response_roster": {
+    "supporting_consultation": [
+      "СЕПГ (ГДР)",
+      "ПОРП (Польша)",
+      "КПЧ (Чехословакия)",
+      "Венгерская партия трудящихся",
+      "Румынская рабочая партия",
+      "Болгарская компартия",
+      "Албанская партия труда"
+    ],
+    "external_interested": [
+      "Французская компартия",
+      "Итальянская компартия",
+      "Компартия Великобритании",
+      "Компартия Индии",
+      "Компартия Японии",
+      "Трудовая партия Кореи",
+      "Партия трудящихся Вьетнама"
+    ],
+    "requires_player_response": [
+      "Коммунистическая партия Китая — CHN",
+      "Союз коммунистов Югославии — YUG"
+    ],
+    "organization_established": false,
+    "membership_confirmed": [],
+    "notes": "These are administrator-approved NPC responses in alternate history, not documented historical replies. Attendance is not formal membership."
+  },
+  "forum_not_founded": true,
+  "game_npc_replies_approved_by_admin": "2026-11-05",
+  "not_signed_memberships": true,
+  "visibility": "COUNTRY_URS_PRIVATE",
+  "public_status": "NOT_CONFIRMED",
+  "future": {
+    "conference_date": "TBD",
+    "secretariat": "NOT_CREATED",
+    "payments": "NONE",
+    "membership": "NO_FORMAL_ACCEPTANCE_YET"
+  }
+}
