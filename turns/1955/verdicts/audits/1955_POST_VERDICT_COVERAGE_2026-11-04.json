@@ -4,20 +4,13 @@
   "year": 1955,
   "as_of": "2026-11-04",
   "source": "private GitHub ivgl/VPG1955-archive@main, turns/1955/posts/index.json and full repo tree",
-  "note": "Structural audit. Found preliminary literary and machine documents by source mapping. Does not certify verdict substance, ownership, uniqueness of IDs, publication, or canonical application.",
+  "note": "Updated after locating the Nov 3 local backup and restoring its six India literary sections byte-identically to GitHub. All 40 post IDs now have preliminary literary texts, but machine/effect coverage remains incomplete; no editorial re-judgment or final approval.",
   "coverage_summary": {
     "posts": 40,
     "originals_present": 40,
     "byte_sizes_matched": 40,
-    "preliminary_verdicts": 34,
-    "missing_verdicts": [
-      "INTAKE-1955-IND-GOV-01",
-      "INTAKE-1955-IND-GOV-02",
-      "INTAKE-1955-IND-GOV-03",
-      "INTAKE-1955-IND-GOV-04",
-      "INTAKE-1955-IND-GOV-05",
-      "INTAKE-1955-IND-GOV-06"
-    ],
+    "preliminary_verdicts": 40,
+    "missing_verdicts": [],
     "machine_drafts": 22,
     "missing_machine_drafts": [
       "INTAKE-1955-URS-KHR-01",
@@ -527,14 +520,17 @@
       "source_visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
       "discord_message_id": "1566086380520476858",
-      "literary_verdict_path": null,
-      "literary_verdict_present": false,
+      "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
+      "literary_verdict_present": true,
       "machine_draft_path": null,
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
-      "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
+      "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
+      "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
+      "npc_link": "turns/1955/events/country/IND/01_1955_industry_npc_responses_APPROVED.md"
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-02",
@@ -547,14 +543,17 @@
       "source_visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
       "discord_message_id": "1566416847702593587",
-      "literary_verdict_path": null,
-      "literary_verdict_present": false,
+      "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
+      "literary_verdict_present": true,
       "machine_draft_path": null,
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
-      "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
+      "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
+      "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
+      "npc_link": null
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-03",
@@ -567,14 +566,17 @@
       "source_visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
       "discord_message_id": "1566418613651644570",
-      "literary_verdict_path": null,
-      "literary_verdict_present": false,
+      "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
+      "literary_verdict_present": true,
       "machine_draft_path": null,
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
-      "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
+      "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
+      "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
+      "npc_link": null
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-04",
@@ -587,14 +589,17 @@
       "source_visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
       "discord_message_id": "1566422459190747194",
-      "literary_verdict_path": null,
-      "literary_verdict_present": false,
+      "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
+      "literary_verdict_present": true,
       "machine_draft_path": null,
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
-      "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
+      "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
+      "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
+      "npc_link": null
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-05",
@@ -607,14 +612,17 @@
       "source_visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
       "discord_message_id": "1566461161254420624",
-      "literary_verdict_path": null,
-      "literary_verdict_present": false,
+      "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
+      "literary_verdict_present": true,
       "machine_draft_path": null,
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
-      "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
+      "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
+      "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
+      "npc_link": null
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-06",
@@ -627,14 +635,17 @@
       "source_visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
       "actor_id_status": "NOT_RESOLVED_AGAINST_REGISTER__NOT_AN_INTAKE_BLOCKER",
       "discord_message_id": "1566484994870747147",
-      "literary_verdict_path": null,
-      "literary_verdict_present": false,
+      "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
+      "literary_verdict_present": true,
       "machine_draft_path": null,
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
-      "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
+      "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
+      "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
+      "npc_link": null
     },
     {
       "intake_id": "INTAKE-1955-URS-KHR-03",
@@ -846,5 +857,28 @@
     "event_paths": "30_OF_30_EXIST",
     "verdict_index_status": "ALL_40_INTAKE_ONLY_UNREVIEWED",
     "actor_ids": "ALL_40_UNRESOLVED"
+  },
+  "previous_check_before_india_restoration": {
+    "preliminary_verdicts": 34,
+    "missing_verdicts": [
+      "INTAKE-1955-IND-GOV-01",
+      "INTAKE-1955-IND-GOV-02",
+      "INTAKE-1955-IND-GOV-03",
+      "INTAKE-1955-IND-GOV-04",
+      "INTAKE-1955-IND-GOV-05",
+      "INTAKE-1955-IND-GOV-06"
+    ],
+    "machine_drafts": 22,
+    "dated": "2026-11-04",
+    "reason": "Local backup had not yet been transferred to GitHub"
+  },
+  "restoration": {
+    "date": "2026-11-04",
+    "verbatim_source_sha256": "224ba71e1573cdeffc0ce38c0ee9a22587e6c5edc07e22fdf164b89698b7d613",
+    "verbatim_source_bytes": 18716,
+    "source": "Local backup VPI1955_verdicts_selected_local_backup_2026-11-03.zip / IND/ALL_INDIA_NEW_PRELIMINARY.md",
+    "status": "SIX_RESTORED_PRELIMINARY_NOT_ADMIN_SELECTED",
+    "first_verdict_corporate_npc_source": "turns/1955/events/country/IND/01_1955_industry_npc_responses_APPROVED.md",
+    "warning": "Restoration is exact text archiving, not final approval or numeric effect application"
   }
 }
