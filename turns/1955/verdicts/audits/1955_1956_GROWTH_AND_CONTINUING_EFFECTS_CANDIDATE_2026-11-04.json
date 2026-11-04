@@ -1,0 +1,245 @@
+{
+  "schema": "vpi1955-growth-audit-synthesis-v1",
+  "campaign_id": "VPI1955_MAIN",
+  "year_from": 1955,
+  "year_to": 1956,
+  "source": "current canonical country baselines and preliminary country drafts; not a new canonical growth table",
+  "status": "SCENARIO_REVIEW_ONLY_NOT_FINAL_APPROVED_NOT_APPLIED",
+  "future_growth_single_table_search": {
+    "checked_repository_branches": [
+      "ivgl/VPG1955-state@main",
+      "ivgl/VPG1955@main"
+    ],
+    "result": "NO_NEWLY_ADDED_SINGLE_FORWARD_GROWTH_TABLE_FILE_IDENTIFIED_IN_CHECKED_TREE",
+    "caveat": "If the admin means another repo/branch or an unindexed connection file, exact path is still needed; do not pretend it was incorporated."
+  },
+  "units": "gdp PPP in billion international 2011 dollars, growth in pp; budget G$ must not be divided into these values",
+  "rows": [
+    {
+      "country_id": "USA",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 2762.623,
+      "official_1955_baseline_growth_pct": 3.5,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 2859.314805,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": 0.02,
+        "1957": 0.05,
+        "1958": 0.08
+      },
+      "conditional_draft_1955_total_growth_pct": 3.5,
+      "conditions": "New 1956 R&D, atomic and urban-transit appropriations and actual works; 1955 acts passed without cash bonus",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "URS",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 850,
+      "official_1955_baseline_growth_pct": 5,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 892.5,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": null,
+        "1957": null,
+        "1958": null
+      },
+      "conditional_draft_1955_total_growth_pct": 5,
+      "conditions": "Quality/metrology, helicopter and youth quality projects plus baseline growth; no measured production delta yet, evaluate full sectors",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "GBR",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 623.488,
+      "official_1955_baseline_growth_pct": 3,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 642.19264,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": null,
+        "1957": null,
+        "1958": null
+      },
+      "conditional_draft_1955_total_growth_pct": 3,
+      "conditions": "No submitted economic post; normal background growth with sterling constraints, decolonization, import and export environment",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "FRA",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 422.695,
+      "official_1955_baseline_growth_pct": 4.4,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 441.29358,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": null,
+        "1957": null,
+        "1958": null
+      },
+      "conditional_draft_1955_total_growth_pct": 4.4,
+      "conditions": "No automatically funded Saare/Algeria industrial program; government stability, existing Algerian war and NPC reactions determine growth",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "FRG",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 440,
+      "official_1955_baseline_growth_pct": 7,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 470.8,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": 0.05,
+        "1957": 0.1,
+        "1958": 0.1
+      },
+      "conditional_draft_1955_total_growth_pct": 7,
+      "conditions": "4bn G$ industry authorizations not cash; confirmed deployment and funded R&D; Bundeswehr 2bn reallocated within defense",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "JPN",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 378.372,
+      "official_1955_baseline_growth_pct": 7,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 404.85804,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": 0.06,
+        "1957": 0.13,
+        "1958": 0.15
+      },
+      "conditional_draft_1955_total_growth_pct": 7,
+      "conditions": "Joint GDP bonus already totals sector program effects; actual deliveries, factory modernization and FX availability required",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "CHN",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 628.748,
+      "official_1955_baseline_growth_pct": 5.5,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 663.32914,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0.2,
+        "1956": 1,
+        "1957": 1.5,
+        "1958": 1.6
+      },
+      "conditional_draft_1955_total_growth_pct": 5.7,
+      "conditions": "Optimistic agrarian scenario only when policies legally pass, paid credit and procurement resources secured, uptake verified; multi-year forecast requires reassessment",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "EGY",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 33.302,
+      "official_1955_baseline_growth_pct": 3,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 34.30106,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": null,
+        "1957": null,
+        "1958": null
+      },
+      "conditional_draft_1955_total_growth_pct": 3,
+      "conditions": "No player post in archive; annual background with land reform, Suez withdrawal and NPC events judged, not zero economic growth",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "IND",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 410.343,
+      "official_1955_baseline_growth_pct": 3.6,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 425.115348,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": null,
+        "1957": null,
+        "1958": null
+      },
+      "conditional_draft_1955_total_growth_pct": 3.6,
+      "conditions": "Three conditional whole annual growth rate scenarios average 1956-1961: constrained 4.3%, coordinated 5.7%, accelerated 7.6%; NO selection and NO automatic first-year GDP plus 4.3pp",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "ISR",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 8.438,
+      "official_1955_baseline_growth_pct": 7,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 9.02866,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": null,
+        "1957": null,
+        "1958": null
+      },
+      "conditional_draft_1955_total_growth_pct": 7,
+      "conditions": "No player post; background absorption of immigration, housing, aid, trade and NPC security developments",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "ITA",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 340.295,
+      "official_1955_baseline_growth_pct": 5.2,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 357.99034,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0,
+        "1956": null,
+        "1957": null,
+        "1958": null
+      },
+      "conditional_draft_1955_total_growth_pct": 5.2,
+      "conditions": "DC political party initiatives do not directly change sovereign GDP; existing Cassa, INA-Casa and modernization background remain",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    },
+    {
+      "country_id": "YUG",
+      "official_1955_start_gdp_ppp_2011_intl_billion": 55,
+      "official_1955_baseline_growth_pct": 5,
+      "illustrative_1955_gdp_no_new_post_ppp_billion": 57.75,
+      "conditional_draft_growth_extra_pp": {
+        "1955": 0.1,
+        "1956": 0.45,
+        "1957": 0.65,
+        "1958": 0.75
+      },
+      "conditional_draft_1955_total_growth_pct": 5.1,
+      "conditions": "1955 central 5.10% vs upper full accelerated 5.15%; future levels 5.45/5.65/5.75 depend on resumed programs and revenues",
+      "final_1955_growth_pct": null,
+      "final_1956_growth_pct": null,
+      "baseline_1956_growth_rule": "Must be adjudicated from 1955 approved ending state, global situation, annual productivity and NPC, NOT copied from 1955 base growth.",
+      "status": "CANDIDATE_UNAPPROVED"
+    }
+  ],
+  "checks": {
+    "all_12": true,
+    "conditional_only": true,
+    "italy_party_no_growth_bonus": true,
+    "egypt_israel_britain_background_growth_not_zero": true,
+    "india_1956_61_average_scenario_not_first_year_pp": true,
+    "yugoslavia_1955_central_5_10_upper_5_15": true,
+    "china_longterm_optimistic_requires_gates": true,
+    "country_fiscal_G_dollars_not_equated_to_gdp_ppp": true
+  }
+}
