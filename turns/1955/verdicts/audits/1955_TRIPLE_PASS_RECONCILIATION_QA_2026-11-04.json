@@ -1,0 +1,108 @@
+{
+  "schema": "vpi1955-precommit-triple-qa-v1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "as_of": "2026-11-04",
+  "scope": "Private archive plus canonical HEAD and all 12 countries; no final player publication",
+  "status": "AUDIT_COMPLETED_WITH_BLOCKERS__CANONICAL_NOT_APPLIED",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "SOURCE_INTEGRITY_AND_LITERARY_COVERAGE",
+      "checks": [
+        "Canonical HEAD=1955 RECEIVING RC1.0 and 12 country refs",
+        "40/40 original immutable paths matched and prior audit independently checked bytes+SHA256",
+        "40/40 literary verdict groups, including India6 recovered verbatim and first industry NPC response",
+        "Original post access classifications 6 secret+1 bilateral+1 party unknown",
+        "30/30 event paths exist"
+      ],
+      "result": "PASS_FOR_DOCUMENT_PRESERVATION_NOT_FINAL_APPROVAL",
+      "exceptions": [
+        "India6 literary text not yet admin-selected",
+        "40 actor IDs unresolved; source index 40 INTAKE_ONLY_UNREVIEWED"
+      ]
+    },
+    {
+      "round": 2,
+      "name": "FINANCE_NUMERIC_AND_PHYSICAL_EFFECTS",
+      "checks": [
+        "12/12 state budget revenue/expenditure/interest/balance/trade identities within 1e-6 G$bn",
+        "CHN program costs sum 0.600; loans and seed insurance not fully funded; .20 pp conditional",
+        "IND 5.506 + 0.744 = 6.250 (seven year), separate 1.302 regional earmarks",
+        "FRG 2.000 Bundeswehr defense baseline, incremental +4.000 industrial authorized not disbursed",
+        "YUG 1.6 + .6 + .6 =2.8; 1.02+.43+.395=1.845; resulting surplus 2.71794118",
+        "URS old 0.795 minus old Cyprus 0.018 plus revised 0.050 = 0.827; no second KGB bill",
+        "JPN 7 preparation caps sum .325; conditional future GDP pp components .06/.13/.15 match aggregate",
+        "USA 1956/57/58 future program cap categories exactly sum 2.000/3.100/3.700"
+      ],
+      "result": "ARITHMETIC_PASS__EVIDENCE_AND_SPENDING_FINALIZATION_FAIL",
+      "exceptions": [
+        "Unverified actual cash costs: IND,FRG,JPN,YUG,CHN",
+        "YUG .240 subsidy requires eligible freight base 1.600 G$bn",
+        "China low-interest principal and relief omitted",
+        "US treaty note stale",
+        "No proof of full equipment/production commissioning"
+      ]
+    },
+    {
+      "round": 3,
+      "name": "CROSS_BORDER_PROCESS_DEDUP_FUTURE_RELEASE",
+      "checks": [
+        "40/40 posts have a linked machine candidate after new 20 post mappings (URS12, FRA2, IND6), status auditor-synthesized only",
+        "14 interstate dependencies registered; India machinery import counterpart seller exported only after delivery",
+        "Ryukyu 320m nominal USD revised terms pending ratification and no 1955 transfer",
+        "No forced GDR NVA, Cyprus landing, Saar transfer, Indian foreign equity, or overseas deliveries",
+        "Italy party 1.5bn historical lire excluded from sovereign spending",
+        "GBR/EGY/ISR background activity retained even without player posts",
+        "World, approved modules, country JSONs and HEAD not changed",
+        "Future growth condition per year and sector included as draft, not automatic"
+      ],
+      "result": "MAPPING_PASS__RELEASE_READINESS_FAIL",
+      "exceptions": [
+        "Unified effect_id schema for USA/CHN/FRG not standardized; archive contains historical alternative drafts",
+        "Future-growth table named by admin not found in checked main trees",
+        "Actor/phase/appeals/final admin approvals and NPC interactions pending",
+        "No finalized 1956 growth, fiscal/treaty/world release files"
+      ]
+    }
+  ],
+  "money_controls": {
+    "state_twelve_balances_checked": true,
+    "interest_paid_once": true,
+    "USA_new_1955_budget_cash_certified": 0,
+    "URS_new_spending_candidate": 0.827,
+    "URS_balance_candidate": 1.7476509,
+    "CHN_pilot_authorization": 0.6,
+    "CHN_remaining_surplus_before_other_costs": 0.175872,
+    "FRG_new_industry_authorization": 4,
+    "FRG_cash_1955_verified": null,
+    "JPN_1955_pilot_cap": 0.325,
+    "IND_1955_1961_gross_cash_envelope": 6.25,
+    "IND_1955_cash_verified": null,
+    "YUG_total_authorization": 2.8,
+    "YUG_executed_scenario": 1.845,
+    "YUG_new_cash_spend": 1.02,
+    "YUG_scenario_balance": 2.71794118
+  },
+  "coverage": {
+    "originals": 40,
+    "posts": 40,
+    "literary_preliminary": 40,
+    "machine_candidate_mapped": 40,
+    "all_machines_approved": false,
+    "all_verdicts_selected_by_admin": false,
+    "events_files": 30,
+    "main_country_snapshots": 12,
+    "interstate_connections": 14
+  },
+  "required_before_turn_switch": [
+    "Administrator selects India6 literary verdicts and confirms all source actor authorities",
+    "Approve country-specific 1955 extra spending, cash disbursement and future obligations; resolve CHN credits, IND FX, FRG cash, YUG shipping subsidy, USSR budget aliases",
+    "Resolve cross-border statuses, enforce bilateral mirrors, ratification and NPC consents, and classify confidential sources",
+    "Locate and reconcile administrator-referenced large future growth table, or formally authorize candidate synthesis as replacement",
+    "Normalize unified per-decision effect_id, unique year-specific one-time vs continuing and no duplicate historical draft application",
+    "Produce reviewed 1955→1956 state deltas for world and 12 countries and NPC annual growth plus sovereign debt/trade/population",
+    "Complete mandatory phases, verdict publication, 24-hour appeals handling and separate FINAL_APPROVED",
+    "Prepare immutable release/manifest with SHA-256 and update canonical HEAD only after separate command and all checks"
+  ]
+}
