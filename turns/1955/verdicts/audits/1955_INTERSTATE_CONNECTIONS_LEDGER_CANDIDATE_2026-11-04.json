@@ -1,0 +1,374 @@
+{
+  "schema": "vpi1955-interstate-mirror-audit-v1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "status": "AUDITOR_CANDIDATES_NOT_FINAL_APPROVED_NOT_APPLIED",
+  "world_base": "ivgl/VPG1955-state@main/world_1955.json",
+  "world_treaties_at_official_start": 0,
+  "visibility": "PRIVATE_ADMIN_ONLY_DO_NOT_PUBLISH",
+  "rows": [
+    {
+      "interaction_id": "INT-1955-IND-USA-MACHINERY",
+      "kind": "POTENTIAL_IMPORT_EXPORT",
+      "game_year": 1955,
+      "parties": [
+        "IND",
+        "USA"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-IND-GOV-01",
+        "INTAKE-1955-IND-GOV-04"
+      ],
+      "as_of_1955_status": "NPC corporate interest only",
+      "financial_or_trade_mirror": [
+        "IND: import +X G$",
+        "USA: export +X G$",
+        "License/royalty separate services, and external loan/FDI financing not second goods imports"
+      ],
+      "implementation_gates": [
+        "GE/John Deere specific contract and partner consent",
+        "equipment built/delivered, actual paid FX, import licenses",
+        "1956 or later if signed post-1955"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-IND-FRG-MACHINERY",
+      "kind": "POTENTIAL_IMPORT_EXPORT",
+      "game_year": 1955,
+      "parties": [
+        "IND",
+        "FRG"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-IND-GOV-01",
+        "INTAKE-1955-IND-GOV-04",
+        "INTAKE-1955-FRG-ADN-01"
+      ],
+      "as_of_1955_status": "NPC interest no signed supplier",
+      "financial_or_trade_mirror": [
+        "IND imports +X",
+        "FRG exports +X",
+        "FRG domestic production and research not automatically boosted before order"
+      ],
+      "implementation_gates": [
+        "Siemens/Bayer readiness and licensing",
+        "banking/forex, India 51% local JV requirement",
+        "avoid including plant output before installed"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-IND-GBR-STERLING",
+      "kind": "TRADE_AND_PAYMENT_REGIME",
+      "game_year": 1955,
+      "parties": [
+        "IND",
+        "GBR"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-IND-GOV-01",
+        "INTAKE-1955-IND-GOV-04"
+      ],
+      "as_of_1955_status": "No bilateral new contract, existing sterling regime",
+      "financial_or_trade_mirror": [
+        "Potential UK ICI/engineering export ↔ India import",
+        "Payments sterling vs US dollar financing constraints"
+      ],
+      "implementation_gates": [
+        "British NPC/private firms and FX",
+        "GBR approved sterling-zone mechanism",
+        "credit / reserve constraints"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-IND-NPC-EUROPE",
+      "kind": "POTENTIAL_IMPORT_EXPORT",
+      "game_year": 1955,
+      "parties": [
+        "IND",
+        "NPC_NLD",
+        "NPC_SWE"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-IND-GOV-01",
+        "INTAKE-1955-IND-GOV-04"
+      ],
+      "as_of_1955_status": "Corporate positive responses, no deliveries",
+      "financial_or_trade_mirror": [
+        "India imports +X ↔ NPC exports +X, if fulfilled"
+      ],
+      "implementation_gates": [
+        "Philips (Netherlands) and SKF (Sweden) license/credit",
+        "do not count under FRG/GBR trade absent real supplier"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-USA-JPN-RYUKYU",
+      "kind": "SIGNED_AMENDED_BILATERAL_TREATY_NOT_EFFECTIVE",
+      "game_year": 1955,
+      "parties": [
+        "USA",
+        "JPN"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-JPN-USA-RYUKYU-01",
+        "INTAKE-1955-USA-DEM-01"
+      ],
+      "as_of_1955_status": "Admin-confirmed revised terms; pending ratification/in-force date",
+      "financial_or_trade_mirror": [
+        "Japan obligation nominal USD320m / 8y effective; USD60m first year, USD260m/7 following; matched USA future receipt",
+        "NO 1955 transfer, receipt, customs, territory or base-right changes",
+        "VOA 10y from effect, early review no before 4y after conclusion"
+      ],
+      "implementation_gates": [
+        "Verify both ratifications and exchange date",
+        "Entry 2 months after exchange",
+        "No USD→G$ without official game FX convention",
+        "record single world treaty with both countries as mirrors"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-FRA-FRG-SAAR",
+      "kind": "REGIONAL_DIPLOMACY",
+      "game_year": 1955,
+      "parties": [
+        "FRA",
+        "FRG",
+        "NPC_SAAR"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-FRA-GOV-01",
+        "INTAKE-1955-FRG-ADN-01"
+      ],
+      "as_of_1955_status": "French request for referendum, no territorial change",
+      "financial_or_trade_mirror": [
+        "One world diplomatic process, not two instant territorial GDP transfers"
+      ],
+      "implementation_gates": [
+        "1954 accord/1955 scheduled Saar referendum world context",
+        "French/German/Saar political agreement and legal procedure",
+        "Saar trade and coal supply changes only after new status"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-URS-FRG-GDR",
+      "kind": "SECURITY_NPC_LINK",
+      "game_year": 1955,
+      "parties": [
+        "URS",
+        "FRG",
+        "NPC_GDR"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-URS-KHR-04",
+        "INTAKE-1955-FRG-ADN-01"
+      ],
+      "as_of_1955_status": "FRG Wehr foundation and USSR letter to NPC GDR; existing KVP",
+      "financial_or_trade_mirror": [
+        "No automatic new NVA, Soviet weapons export or Bundeswehr deployed inventory",
+        "Any verified equipment shipment reduces donor and increases recipient inventories"
+      ],
+      "implementation_gates": [
+        "GDR NPC authority",
+        "Soviet stock/logistics and intelligence",
+        "Allied NATO legal constraints"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-FRG-USA-BND",
+      "kind": "ALLIED_INTELLIGENCE_HANDOVER",
+      "game_year": 1955,
+      "parties": [
+        "FRG",
+        "USA"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-FRG-ADN-02",
+        "INTAKE-1955-USA-EIS-04"
+      ],
+      "as_of_1955_status": "Federal BND preparation from Gehlen; CIA consent unverified",
+      "financial_or_trade_mirror": [
+        "No extra 5,000 agents by fiat; budget not priced, no new export transaction"
+      ],
+      "implementation_gates": [
+        "CIA and US executive decision",
+        "security vetting, salaries, establishment law",
+        "secret clearance and one agency-status update"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-URS-GBR-CYPRUS",
+      "kind": "SECRET_SECURITY_NPC",
+      "game_year": 1955,
+      "parties": [
+        "URS",
+        "GBR",
+        "NPC_CYP",
+        "NPC_GRC",
+        "NPC_TUR"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-URS-ZHU-03",
+        "INTAKE-1955-URS-KGB-01"
+      ],
+      "as_of_1955_status": "SECRET: USSR-only domestic sanction preparatory effort, zero troops abroad",
+      "financial_or_trade_mirror": [
+        "USSR domestic project spending proposed 0.050; KGB included",
+        "NO trade, aid delivery, combat, foreign troop or territory delta automatically"
+      ],
+      "implementation_gates": [
+        "No publication of covert plans in player-facing world",
+        "NPC British/Greek/Turkish reactions only from actually observed evidence",
+        "Do not count same Cyprus aid under two posts"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-URS-CHN-FIVEYEAR",
+      "kind": "BACKGROUND_TECHNICAL_AID",
+      "game_year": 1955,
+      "parties": [
+        "URS",
+        "CHN"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-CHN-AGR-01"
+      ],
+      "as_of_1955_status": "Pre-1955 technical cooperation baseline only",
+      "financial_or_trade_mirror": [
+        "Existing pre-1955 imports/exports and loan aid no second 'new post' trade effect"
+      ],
+      "implementation_gates": [
+        "If 1955 grain procurement reform changes steel/tractor allocation document new goods and shipping",
+        "Soviet NPC/human tech terms and China's food procurement stability"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-US-SCIENCE-PARTNERS",
+      "kind": "POTENTIAL_TECH_EXCHANGE",
+      "game_year": 1955,
+      "parties": [
+        "USA",
+        "IND",
+        "JPN",
+        "FRG",
+        "GBR"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-USA-EIS-01",
+        "INTAKE-1955-USA-EIS-02",
+        "INTAKE-1955-IND-GOV-02",
+        "INTAKE-1955-IND-GOV-04",
+        "INTAKE-1955-JPN-HAT-02"
+      ],
+      "as_of_1955_status": "US offers research/atomic exchange; no blanket technology transfer",
+      "financial_or_trade_mirror": [
+        "No export/import/foreign cash until controlled contract and delivery"
+      ],
+      "implementation_gates": [
+        "Scientific licenses and export control, Atomic Energy Act 123 procedure",
+        "Each recipient country and private supplier consent"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-YUG-IMPORTS",
+      "kind": "POTENTIAL_CAPITAL_GOODS",
+      "game_year": 1955,
+      "parties": [
+        "YUG",
+        "FRG",
+        "ITA",
+        "USA",
+        "GBR"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-YUG-GOV-02",
+        "INTAKE-1955-YUG-GOV-03"
+      ],
+      "as_of_1955_status": "Yugoslavia accelerated domestic rail/industrial programs, suppliers not named",
+      "financial_or_trade_mirror": [
+        "Potential Yug import +X and matched source country export +X after supplier choice",
+        "1.375bn G$ reserves not all usable FX"
+      ],
+      "implementation_gates": [
+        "Actual machinery contracts, Yug nonaligned trading policy",
+        "physical installation and delivery; no double-count within program capital budgets"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-GBR-EGY-SUEZ",
+      "kind": "HISTORICAL_PREEXISTING_TREATY_PROCESS",
+      "game_year": 1955,
+      "parties": [
+        "GBR",
+        "EGY"
+      ],
+      "source_post_ids": [],
+      "as_of_1955_status": "1954 Anglo-Egyptian troops withdrawal agreement continues, 1956 end candidate",
+      "financial_or_trade_mirror": [
+        "No new income or expedition expenditure without execution details"
+      ],
+      "implementation_gates": [
+        "Confirm actual withdrawal phase and regional security NPC",
+        "world years not guaranteed historical Suez crisis"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    },
+    {
+      "interaction_id": "INT-1955-USA-ITA-SOCIAL",
+      "kind": "NONE_DIRECT",
+      "game_year": 1955,
+      "parties": [
+        "USA",
+        "ITA"
+      ],
+      "source_post_ids": [
+        "INTAKE-1955-ITA-DC-01",
+        "INTAKE-1955-USA-DEM-01"
+      ],
+      "as_of_1955_status": "Independent party political agendas",
+      "financial_or_trade_mirror": [
+        "No automatic trade/transfer; do not infer diplomatic agreements from similar social pledges"
+      ],
+      "implementation_gates": [
+        "Party platform≠government law",
+        "specific future signed agreements"
+      ],
+      "not_approved_for_state": true,
+      "no_double_counting": true
+    }
+  ],
+  "checks": {
+    "no_automatic_foreign_consent": true,
+    "no_double_export_on_domestic_grant": true,
+    "goods_import_equals_partner_export_if_approved_in_consistent_Gdollar_game_flow": true,
+    "nominal_USD_treaty_not_converted_without_rule": true,
+    "credits_FDI_and_grants_separate": true,
+    "nonplayer_security_actions_require_admin": true,
+    "single_world_treaty_with_country_mirrors": true,
+    "one_post_same_trade_link_no_double_count": true
+  }
+}
