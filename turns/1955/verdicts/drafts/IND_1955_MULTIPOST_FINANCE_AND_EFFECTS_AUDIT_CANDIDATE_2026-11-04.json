@@ -1,0 +1,163 @@
+{
+  "schema": "vpi1955-audit-reconciliation-candidate-1",
+  "campaign_id": "VPI1955_MAIN",
+  "country_id": "IND",
+  "year": 1955,
+  "rules_version": "RC1.0",
+  "status": "SOURCE_CHECKED_LOCAL_DRAFT_RECONCILIATION_NOT_APPROVED_NOT_APPLIED",
+  "source_local": "/mnt/data/IND_1955_growth_program_DRAFT.json",
+  "local_source_is_not_canonical": true,
+  "verdict_package": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
+  "historical_baseline": {
+    "fiscal_balance_billion_G": -13.541319,
+    "exports_billion_G": 20.517,
+    "imports_billion_G": 22.569,
+    "gdp_growth_pct": 3.6,
+    "investment_share_gdp_pct": 12
+  },
+  "finance": {
+    "time_window": "1955-1961 inclusive",
+    "unit": "billion G$ with original player monetary units subject to admin confirmation",
+    "education_and_technical_training": 0.67,
+    "infrastructure": 4.092,
+    "industrial_site_preparation": 0.558,
+    "administration_and_project_audit": 0.186,
+    "total_grant_like_state_programs": 5.506,
+    "revolving_credit_principal_separate": 0.744,
+    "total_state_cash_disbursement_envelope": 6.25,
+    "arithmetic_check": "0.670 + 4.092 + 0.558 + 0.186 + 0.744 = 6.250",
+    "even_annual_if_used_only_as_scheduling_assumption": 0.892857142857,
+    "existing_territorial_earmark_not_additional": 1.302,
+    "uncommitted_private_domestic_target_range": [
+      1.488,
+      1.86
+    ],
+    "uncommitted_foreign_equity_target_range": [
+      1.86,
+      2.79
+    ],
+    "uncommitted_foreign_loans_equipment_target_range": [
+      0.93,
+      1.488
+    ],
+    "foreign_equity_51_49_indian_side_gap_range": [
+      0.448,
+      1.044
+    ],
+    "funding_source_confirmed": false,
+    "year_1955_cash_execution_confirmed": null,
+    "foreign_capital_committed": false,
+    "credit_booking": "Recoverable loan issuance creates financial claim plus cash outflow and risk; do not book principal as a nonrepayable grant or as additional budget on top of 6.25.",
+    "regional_double_count": "1.302 G$ corridor earmarks are subdivisions of the named state programs, NOT extra funding."
+  },
+  "candidate_effects": [
+    {
+      "effect_id": "IND-1955-GOV-01-NEGOTIATIONS",
+      "decision_id": "INTAKE-1955-IND-GOV-01",
+      "result": "PARTIAL_SUCCESS",
+      "phase": "NEGOTIATIONS_AND_NPC_EXPRESSIONS_OF_INTEREST",
+      "new_trade_flow_1955_G_billion_booked": 0,
+      "contract_signed": false,
+      "npc_reference": "turns/1955/events/country/IND/01_1955_industry_npc_responses_APPROVED.md"
+    },
+    {
+      "effect_id": "IND-1955-GOV-02-TECHNICAL_EDUCATION",
+      "decision_id": "INTAKE-1955-IND-GOV-02",
+      "result": "PARTIAL_SUCCESS",
+      "phase": "CURRICULA_INSTITUTIONS_AND_STAFFING_PREPARATION",
+      "targets": "30 new technical centers, 20 upgraded, 8 agriculture centers, staff and graduate numbers tracked; no fully trained graduating cohort in 1955",
+      "first_implemented_capacity": null
+    },
+    {
+      "effect_id": "IND-1955-GOV-03-INFRASTRUCTURE",
+      "decision_id": "INTAKE-1955-IND-GOV-03",
+      "result": "PARTIAL_SUCCESS",
+      "phase": "SURVEYS_EXISTING_WORKS_TENDERS_NO_AUTOMATIC_NEW_CAPACITY",
+      "targets": "Power 0.930, rail 1.302, ports 0.446, roads 0.744, irrigation 0.670 billion G$ within 4.092 multiyear envelope",
+      "assets_commissioned_additional": null
+    },
+    {
+      "effect_id": "IND-1955-GOV-04-INDUSTRIAL_COOPERATION",
+      "decision_id": "INTAKE-1955-IND-GOV-04",
+      "result": "PARTIAL_SUCCESS",
+      "phase": "COUNCIL_PRELIMINARY_PROJECTS",
+      "foreign_equity_signed": false,
+      "patents_and_import_machinery": "separate verified license and paid delivery required",
+      "avoid_duplicate_first_post": true
+    },
+    {
+      "effect_id": "IND-1955-GOV-05-PROJECT_CONTROL_AND_CREDIT",
+      "decision_id": "INTAKE-1955-IND-GOV-05",
+      "result": "PARTIAL_SUCCESS",
+      "phase": "OFFICES_AND_TENDER_RULES_PREPARATION",
+      "loan_fund_ceiling": 0.744,
+      "actual_credit_issued": null,
+      "banking_asset_required": true
+    },
+    {
+      "effect_id": "IND-1955-GOV-06-INDUSTRIAL_CORRIDORS",
+      "decision_id": "INTAKE-1955-IND-GOV-06",
+      "result": "PARTIAL_SUCCESS",
+      "phase": "REGIONAL_PLANNING_ONLY",
+      "earmark_within_prior_programs": 1.302,
+      "additional_budget_spend": 0,
+      "unverified_jobs_generated": 0
+    }
+  ],
+  "future_growth_scenarios_not_awarded": {
+    "period": "average annual 1956-1961 vs canonical 1955 starting growth 3.6%",
+    "constrained": {
+      "gdp_growth_pct": 4.3,
+      "conditions": "Domestic projects and some education but foreign contracts not complete"
+    },
+    "coordinated": {
+      "gdp_growth_pct": 5.7,
+      "conditions": "Supplier and financing contracts confirmed plus staged commissioning"
+    },
+    "accelerated": {
+      "gdp_growth_pct": 7.6,
+      "conditions": "All coordinated gates, broad rural extension, effective exports and imported equipment utilization; not guaranteed"
+    },
+    "no_scenario_selected_by_admin": true
+  },
+  "international_mirror_ledger": {
+    "status": "UNSIGNED_NO_1955_NEW_TRADE_BOOKING",
+    "supplier_examples": [
+      {
+        "buyer": "IND",
+        "supplier": "USA",
+        "firms": "General Electric, John Deere"
+      },
+      {
+        "buyer": "IND",
+        "supplier": "FRG",
+        "firms": "Siemens, Bayer"
+      },
+      {
+        "buyer": "IND",
+        "supplier": "GBR",
+        "firms": "ICI and potentially British machinery"
+      },
+      {
+        "buyer": "IND",
+        "supplier": "NPC_NLD",
+        "firms": "Philips"
+      },
+      {
+        "buyer": "IND",
+        "supplier": "NPC_SWE",
+        "firms": "SKF"
+      }
+    ],
+    "constraint": "When actual shipments or license fees occur, credit India imports and exactly one exporter partner; capital/loan may finance that shipment but is not a second import or GDP gain. Sterling area/dollar liquidity reviewed."
+  },
+  "next_review_conditions": [
+    "Verify annual budget funding despite IND starting deficit -13.541 G$bn",
+    "Verify authorizing actor",
+    "Separate First Five-Year Plan baseline projects from new ones",
+    "Check import/export partner matching and dollar/sterling payments",
+    "Record instructors trained, commissioned plants, jobs, output, realized GDP and future debt service",
+    "Do not award 4.3,5.7,7.6 rates in 1955 or lock future growth"
+  ],
+  "canonical_files_mutated": false
+}
