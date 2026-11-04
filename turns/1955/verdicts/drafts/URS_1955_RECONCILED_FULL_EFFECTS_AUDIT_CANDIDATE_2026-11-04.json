@@ -51,7 +51,8 @@
       "stage": "ORGANIZATION_COMPLETED",
       "meaning": "Conference and political links; no automatic transfer of full CPSU authority",
       "multiyear_review": false,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-ZHU-01",
@@ -64,7 +65,8 @@
       "stage": "INITIAL_INSPECTIONS_DONE",
       "meaning": "Military district inspections, commander report; no automatic readiness bonus",
       "multiyear_review": false,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-ZHU-02",
@@ -77,7 +79,8 @@
       "stage": "INITIAL_WORKS",
       "meaning": "Olympic reserve committee and training, first facility project work; no medals/new stadiums guaranteed",
       "multiyear_review": true,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-KOS-01",
@@ -90,7 +93,8 @@
       "stage": "POLITICALLY_BLOCKED",
       "meaning": "Cosygin redistribution not enacted, no national investment switch",
       "multiyear_review": false,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-KHR-02",
@@ -103,7 +107,8 @@
       "stage": "POLITICAL_INTERACTION",
       "meaning": "Secret opposition blocks same Kosygin package, single economic non-effect across two posts",
       "multiyear_review": false,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-KHR-03",
@@ -116,7 +121,8 @@
       "stage": "CONSULTATIONS",
       "meaning": "Consultations with Polish ZMP and Hungarian DISZ under NPC consent, no invented new organizations",
       "multiyear_review": false,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-KHR-04",
@@ -129,7 +135,8 @@
       "stage": "LETTER_STAFF_CONSULTATIONS",
       "meaning": "Planning with GDR KVP, no NVA already constituted, no arms shipment",
       "multiyear_review": false,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-GEN-02",
@@ -142,7 +149,8 @@
       "stage": "FACTORY_CONTROLS_AND_CONSTRUCTION_START",
       "meaning": "Quality audits, metrology, specialized tooling construction started; 1956-58 productivity benefit only after measured scrap reduction",
       "multiyear_review": true,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-GEN-03",
@@ -155,11 +163,12 @@
       "stage": "CADRE_APPOINTMENT",
       "meaning": "Zhukov defense minister February 1955, no automatic supreme party control",
       "multiyear_review": false,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-ZHU-03",
-      "effect_id": "URS-1955-ZHU-03-RED_CYPRUS_PREP",
+      "effect_id": "VPI1955-URS-1955-ZHU03-RED-CYPRUS-PREP-001",
       "source_id": "INTAKE-1955-URS-ZHU-03",
       "result": "PARTIAL_SUCCESS",
       "visibility": "SECRET_ADMIN_ONLY",
@@ -168,7 +177,9 @@
       "stage": "PREPARATORY_AND_DOMESTIC_TRAINING",
       "meaning": "Administrator-sanctioned domestic recruitment and training ~1500 staged, no deployed troops to Cyprus; shared KGB work included",
       "multiyear_review": true,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "previous_audit_alias": "URS-1955-ZHU-03-RED_CYPRUS_PREP",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-ZHU-04",
@@ -181,11 +192,12 @@
       "stage": "RND_NO_PRODUCTION",
       "meaning": "Helicopter research and test program; no immediate Mi-6 series or new inventory",
       "multiyear_review": true,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     },
     {
       "decision_id": "INTAKE-1955-URS-KGB-01",
-      "effect_id": "URS-1955-KGB-01-CYPRUS_INTEL",
+      "effect_id": "VPI1955-URS-1955-KGB01-CYPRUS-INTEL-001",
       "source_id": "INTAKE-1955-URS-KGB-01",
       "result": "PARTIAL_SUCCESS",
       "visibility": "SECRET_ADMIN_ONLY",
@@ -194,7 +206,9 @@
       "stage": "JOINT_CYPRUS_INTEL",
       "meaning": "Limited intelligence and civil contacts, no separately charged KGB fiscal delta",
       "multiyear_review": false,
-      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL"
+      "cash_claim_status": "AUDIT_RECONCILIATION_PENDING_ADMIN_APPROVAL",
+      "previous_audit_alias": "URS-1955-KGB-01-CYPRUS_INTEL",
+      "effect_scope": "ONE_1955_PROCESS_OR_MILESTONE_NO_INDEPENDENT_SECOND_FISCAL_BOOKING"
     }
   ],
   "growth": {
@@ -217,5 +231,12 @@
     "Do not automatically create Warsaw Pact, German army or Cypriot republic",
     "Ensure retained active URS-HIST-01 process and 1956 programmes without duplicates"
   ],
-  "canonical_mutation": false
+  "canonical_mutation": false,
+  "effect_reconciliation_policy": {
+    "cyprus_existing_ids_reused": true,
+    "cost_register": "Old 0.795 fiscal snapshot cost items, Cyprus 0.018 old replaced with one .050 joint cost, never apply both.",
+    "old_cost_effect_ids": "Preserve as archival provenance only, not separately applied beside consolidated process effect entries",
+    "single_fiscal_spend_total_1955": 0.827,
+    "gdp_delta_awarded_from_each_process": 0
+  }
 }
