@@ -4,28 +4,15 @@
   "year": 1955,
   "as_of": "2026-11-04",
   "source": "private GitHub ivgl/VPG1955-archive@main, turns/1955/posts/index.json and full repo tree",
-  "note": "Updated after locating the Nov 3 local backup and restoring its six India literary sections byte-identically to GitHub. All 40 post IDs now have preliminary literary texts, but machine/effect coverage remains incomplete; no editorial re-judgment or final approval.",
+  "note": "Structural 40/40 original→literary and now 40/40 provisional country machine mapping. Some machine entries are auditor-synthesized; all are unapproved. No canon effect applied.",
   "coverage_summary": {
     "posts": 40,
     "originals_present": 40,
     "byte_sizes_matched": 40,
     "preliminary_verdicts": 40,
     "missing_verdicts": [],
-    "machine_drafts": 22,
-    "missing_machine_drafts": [
-      "INTAKE-1955-URS-KHR-01",
-      "INTAKE-1955-URS-ZHU-01",
-      "INTAKE-1955-URS-ZHU-02",
-      "INTAKE-1955-URS-KOS-01",
-      "INTAKE-1955-URS-KHR-02",
-      "INTAKE-1955-FRA-GOV-01",
-      "INTAKE-1955-FRA-GOV-02",
-      "INTAKE-1955-URS-KHR-03",
-      "INTAKE-1955-URS-KHR-04",
-      "INTAKE-1955-URS-GEN-02",
-      "INTAKE-1955-URS-GEN-03",
-      "INTAKE-1955-URS-ZHU-04"
-    ],
+    "machine_drafts": 40,
+    "missing_machine_drafts": [],
     "sha256_matched": 40
   },
   "rows": [
@@ -42,12 +29,14 @@
       "discord_message_id": "1565289193893134478",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_COUNTRY_ADMIN_SELECTED_QUALITY_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-01",
@@ -62,12 +51,14 @@
       "discord_message_id": "1565434992438288508",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_COUNTRY_ADMIN_SELECTED_QUALITY_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-02",
@@ -82,12 +73,14 @@
       "discord_message_id": "1565435851620491346",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_COUNTRY_ADMIN_SELECTED_QUALITY_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-FRG-ADN-01",
@@ -142,12 +135,14 @@
       "discord_message_id": "1565390991861489766",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_COUNTRY_ADMIN_SELECTED_QUALITY_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-USA-SOUTHDEM-01",
@@ -242,12 +237,14 @@
       "discord_message_id": "1566461737648263318",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_SECRET_ADMIN_SELECTED_CYPRUS_REVISED_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-FRA-GOV-01",
@@ -262,12 +259,14 @@
       "discord_message_id": "1566143283472892046",
       "literary_verdict_path": "turns/1955/verdicts/drafts/france_saar_literary_1955.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/FRA_1955_ADJUDICATION_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-FRA-GOV-02",
@@ -282,12 +281,14 @@
       "discord_message_id": "1566176874978087094",
       "literary_verdict_path": "turns/1955/verdicts/drafts/france_1955_government_crisis_VERDICT.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/FRA_1955_ADJUDICATION_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-JPN-HAT-01",
@@ -522,15 +523,17 @@
       "discord_message_id": "1566086380520476858",
       "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/IND_1955_MULTIPOST_FINANCE_AND_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
       "original_sha256_verified_2026_11_04": true,
       "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
       "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
-      "npc_link": "turns/1955/events/country/IND/01_1955_industry_npc_responses_APPROVED.md"
+      "npc_link": "turns/1955/events/country/IND/01_1955_industry_npc_responses_APPROVED.md",
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-02",
@@ -545,15 +548,17 @@
       "discord_message_id": "1566416847702593587",
       "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/IND_1955_MULTIPOST_FINANCE_AND_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
       "original_sha256_verified_2026_11_04": true,
       "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
       "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
-      "npc_link": null
+      "npc_link": null,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-03",
@@ -568,15 +573,17 @@
       "discord_message_id": "1566418613651644570",
       "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/IND_1955_MULTIPOST_FINANCE_AND_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
       "original_sha256_verified_2026_11_04": true,
       "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
       "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
-      "npc_link": null
+      "npc_link": null,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-04",
@@ -591,15 +598,17 @@
       "discord_message_id": "1566422459190747194",
       "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/IND_1955_MULTIPOST_FINANCE_AND_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
       "original_sha256_verified_2026_11_04": true,
       "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
       "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
-      "npc_link": null
+      "npc_link": null,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-05",
@@ -614,15 +623,17 @@
       "discord_message_id": "1566461161254420624",
       "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/IND_1955_MULTIPOST_FINANCE_AND_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
       "original_sha256_verified_2026_11_04": true,
       "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
       "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
-      "npc_link": null
+      "npc_link": null,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-06",
@@ -637,15 +648,17 @@
       "discord_message_id": "1566484994870747147",
       "literary_verdict_path": "turns/1955/verdicts/drafts/IND_1955_SIX_LITERARY_VERDICTS_LOCAL_BACKUP_RESTORED_2026-11-04.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/IND_1955_MULTIPOST_FINANCE_AND_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
       "original_sha256_verified_2026_11_04": true,
       "literary_origin": "VERBATIM_RESTORED_LOCAL_BACKUP_2026_11_03",
       "literary_admin_selection": "NOT_YET_ADMIN_SELECTED",
-      "npc_link": null
+      "npc_link": null,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-KHR-03",
@@ -660,12 +673,14 @@
       "discord_message_id": "1566498300805382250",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_SECRET_ADMIN_SELECTED_CYPRUS_REVISED_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-KHR-04",
@@ -680,12 +695,14 @@
       "discord_message_id": "1566507273289863198",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_SECRET_ADMIN_SELECTED_CYPRUS_REVISED_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-GEN-02",
@@ -700,12 +717,14 @@
       "discord_message_id": "1566477294745292941",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_COUNTRY_ADMIN_SELECTED_QUALITY_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-GEN-03",
@@ -720,12 +739,14 @@
       "discord_message_id": "1566487658488791142",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_COUNTRY_ADMIN_SELECTED_QUALITY_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-03",
@@ -740,12 +761,14 @@
       "discord_message_id": "1566490530639118358",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_SECRET_ADMIN_SELECTED_CYPRUS_REVISED_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RED_CYPRUS_BUDGET_EFFECTS_PRELIMINARY_2026-11-03.json",
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RED_CYPRUS_BUDGET_EFFECTS_PRELIMINARY_2026-11-03.json",
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-04",
@@ -760,12 +783,14 @@
       "discord_message_id": "1566495357087514727",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_COUNTRY_ADMIN_SELECTED_QUALITY_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": null,
-      "machine_draft_present": false,
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": null,
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-URS-KGB-01",
@@ -780,12 +805,14 @@
       "discord_message_id": "1566508036112261121",
       "literary_verdict_path": "turns/1955/verdicts/drafts/URS_1955_SECRET_ADMIN_SELECTED_CYPRUS_REVISED_2026-11-03.md",
       "literary_verdict_present": true,
-      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RED_CYPRUS_BUDGET_EFFECTS_PRELIMINARY_2026-11-03.json",
+      "machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
       "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
-      "original_sha256_verified_2026_11_04": true
+      "original_sha256_verified_2026_11_04": true,
+      "prior_machine_draft_path": "turns/1955/verdicts/drafts/URS_1955_RED_CYPRUS_BUDGET_EFFECTS_PRELIMINARY_2026-11-03.json",
+      "machine_draft_status": "AUDIT_SYNTHESIZED_CANDIDATE_NOT_ADMIN_APPROVED"
     },
     {
       "intake_id": "INTAKE-1955-YUG-GOV-01",
@@ -880,5 +907,38 @@
     "status": "SIX_RESTORED_PRELIMINARY_NOT_ADMIN_SELECTED",
     "first_verdict_corporate_npc_source": "turns/1955/events/country/IND/01_1955_industry_npc_responses_APPROVED.md",
     "warning": "Restoration is exact text archiving, not final approval or numeric effect application"
+  },
+  "previous_machine_coverage": {
+    "count": 22,
+    "missing": [
+      "INTAKE-1955-URS-KHR-01",
+      "INTAKE-1955-URS-ZHU-01",
+      "INTAKE-1955-URS-ZHU-02",
+      "INTAKE-1955-URS-KOS-01",
+      "INTAKE-1955-URS-KHR-02",
+      "INTAKE-1955-FRA-GOV-01",
+      "INTAKE-1955-FRA-GOV-02",
+      "INTAKE-1955-URS-KHR-03",
+      "INTAKE-1955-URS-KHR-04",
+      "INTAKE-1955-URS-GEN-02",
+      "INTAKE-1955-URS-GEN-03",
+      "INTAKE-1955-URS-ZHU-04"
+    ]
+  },
+  "machine_reconciliation": {
+    "date": "2026-11-04",
+    "country_ids": [
+      "URS",
+      "FRA",
+      "IND"
+    ],
+    "description": "Structured coverage filled by new auditor-created candidate effect files. Does not imply final approval, valid economic booking, verified actor, treaty consent, or released JSON.",
+    "drafts": {
+      "URS": "turns/1955/verdicts/drafts/URS_1955_RECONCILED_FULL_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "FRA": "turns/1955/verdicts/drafts/FRA_1955_ADJUDICATION_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json",
+      "IND": "turns/1955/verdicts/drafts/IND_1955_MULTIPOST_FINANCE_AND_EFFECTS_AUDIT_CANDIDATE_2026-11-04.json"
+    },
+    "old_machine_count": 22,
+    "new_count": 40
   }
 }
