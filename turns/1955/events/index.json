@@ -881,8 +881,12 @@
         "INTAKE-1955-JPN-HAT-01"
       ],
       "effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
-      "canonical_state_applied": false,
-      "source_file": "turns/1955/verdicts/final/JPN_1955_PARLIAMENTARY_REALIGNMENT_APPROVED_2026-11-05.json"
+      "canonical_state_applied": true,
+      "source_file": "turns/1955/verdicts/final/JPN_1955_PARLIAMENTARY_REALIGNMENT_APPROVED_2026-11-05.json",
+      "canonical_manifest_ref": "releases/1956/manifest_1956_JPN_POLITICS_CORRECTED.json",
+      "canonical_country_ref": "releases/1956/patches/JPN_politics_2026-11-05.json",
+      "canonical_effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
+      "canonical_effect_status": "APPLIED_ONCE_1956_OPENING"
     }
   ],
   "excluded": [
@@ -932,7 +936,7 @@
       "discord_text_verified": false
     }
   ],
-  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED11",
+  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED111",
   "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged. Japan: two unpublished, unapproved event drafts added; no status change to prior published event entries or canonical state.",
   "approval_event_packet": {
     "admin_date": "2026-11-05",
