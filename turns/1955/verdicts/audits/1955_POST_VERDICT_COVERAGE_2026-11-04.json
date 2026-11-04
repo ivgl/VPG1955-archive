@@ -32,7 +32,8 @@
       "INTAKE-1955-URS-GEN-02",
       "INTAKE-1955-URS-GEN-03",
       "INTAKE-1955-URS-ZHU-04"
-    ]
+    ],
+    "sha256_matched": 40
   },
   "rows": [
     {
@@ -52,7 +53,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-01",
@@ -71,7 +73,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-02",
@@ -90,7 +93,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-FRG-ADN-01",
@@ -109,7 +113,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-FRG-ADN-02",
@@ -128,7 +133,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-KOS-01",
@@ -147,7 +153,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-USA-SOUTHDEM-01",
@@ -166,7 +173,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-USA-EIS-01",
@@ -185,7 +193,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-USA-EIS-02",
@@ -204,7 +213,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-USA-EIS-03",
@@ -223,7 +233,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-KHR-02",
@@ -242,7 +253,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-FRA-GOV-01",
@@ -261,7 +273,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-FRA-GOV-02",
@@ -280,7 +293,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-JPN-HAT-01",
@@ -299,7 +313,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-JPN-HAT-02",
@@ -318,7 +333,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-JPN-HAT-03",
@@ -337,7 +353,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-JPN-HAT-04",
@@ -356,7 +373,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-JPN-HAT-05",
@@ -375,7 +393,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-JPN-HAT-06",
@@ -394,7 +413,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-JPN-USA-RYUKYU-01",
@@ -413,7 +433,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-CHN-AGR-01",
@@ -432,7 +453,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-ITA-DC-01",
@@ -451,7 +473,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-USA-EIS-04",
@@ -470,7 +493,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-USA-DEM-01",
@@ -489,7 +513,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-01",
@@ -508,7 +533,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-02",
@@ -527,7 +553,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-03",
@@ -546,7 +573,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-04",
@@ -565,7 +593,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-05",
@@ -584,7 +613,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-IND-GOV-06",
@@ -603,7 +633,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "MISSING_VERDICT_IN_GITHUB_ARCHIVE",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-KHR-03",
@@ -622,7 +653,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-KHR-04",
@@ -641,7 +673,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-GEN-02",
@@ -660,7 +693,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-GEN-03",
@@ -679,7 +713,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-03",
@@ -698,7 +733,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-ZHU-04",
@@ -717,7 +753,8 @@
       "machine_draft_present": false,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-URS-KGB-01",
@@ -736,7 +773,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-YUG-GOV-01",
@@ -755,7 +793,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-YUG-GOV-02",
@@ -774,7 +813,8 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     },
     {
       "intake_id": "INTAKE-1955-YUG-GOV-03",
@@ -793,8 +833,18 @@
       "machine_draft_present": true,
       "record_status": "INTAKE_ONLY_UNREVIEWED",
       "coverage": "PRELIMINARY_VERDICT_PRESENT",
-      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED"
+      "approval": "NOT_FINAL_APPROVED_NOT_COMMITTED",
+      "original_sha256_verified_2026_11_04": true
     }
   ],
-  "finalization": "BLOCKED_FOR_AUDIT; NOT_FINAL_APPROVED; NO_CANONICAL_DELTA_APPLIED"
+  "finalization": "BLOCKED_FOR_AUDIT; NOT_FINAL_APPROVED; NO_CANONICAL_DELTA_APPLIED",
+  "verification": {
+    "original_sha256": "ALL_40_MATCH_INDEX_SHA256_READ_FROM_GITHUB_MAIN",
+    "manifest_sha256": "HEAD_EQUALS_SHA256_MANIFEST",
+    "rules_sha256": "HEAD_EQUALS_SHA256_RULES_RC1_0",
+    "original_bytes": "ALL_40_MATCH",
+    "event_paths": "30_OF_30_EXIST",
+    "verdict_index_status": "ALL_40_INTAKE_ONLY_UNREVIEWED",
+    "actor_ids": "ALL_40_UNRESOLVED"
+  }
 }
