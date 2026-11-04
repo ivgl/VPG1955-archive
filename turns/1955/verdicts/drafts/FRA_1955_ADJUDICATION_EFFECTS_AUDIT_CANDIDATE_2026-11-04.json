@@ -1,0 +1,67 @@
+{
+  "schema": "vpi1955-audit-reconciliation-candidate-1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1955,
+  "country_id": "FRA",
+  "rules_version": "RC1.0",
+  "status": "AUDIT_CANDIDATE_PRELIMINARY_NOT_FINAL_NOT_APPLIED",
+  "sources": [
+    {
+      "decision_id": "INTAKE-1955-FRA-GOV-01",
+      "original": "turns/1955/posts/originals/FRA_GOV_01_chat_copy.md",
+      "literary": "turns/1955/verdicts/drafts/france_saar_literary_1955.md",
+      "effect_id": "FRA-1955-GOV01-SAAR-CONSULTATIONS",
+      "result": "PARTIAL_SUCCESS",
+      "stage": "POLITICAL_DECLARATION_AND_CONSULTATIONS",
+      "effects": {
+        "diplomatic_process": "France supports consultations with FRG and Saar representatives",
+        "referendum_1956_01_01": "REQUEST_ONLY_NOT_UNILATERALLY_LEGALIZED",
+        "territorial_change_1955": false,
+        "new_treaty_in_world": false
+      },
+      "gates": [
+        "1954 Saar framework and referendum schedule",
+        "FRG and Saar political consent; nonplayer authority",
+        "separate decision for referendum date and post-vote administration"
+      ]
+    },
+    {
+      "decision_id": "INTAKE-1955-FRA-GOV-02",
+      "original": "turns/1955/posts/originals/FRA_GOV_02_chat_copy.md",
+      "literary": "turns/1955/verdicts/drafts/france_1955_government_crisis_VERDICT.md",
+      "effect_id": "FRA-1955-GOV02-ALGERIA-CABINET-CRISIS",
+      "result": "PARTIAL_SUCCESS_AND_BLOCKED",
+      "stage": "REFERENDUM_BILL_OPPOSED_AND_CABINET_FALL",
+      "effects": {
+        "referendum_on_independence_1955": "NOT_PASSED",
+        "withdrawal_of_troops_by_1957": "NOT_APPROVED",
+        "cabinet": "MENDES_FRANCE_LOST_CONFIDENCE",
+        "automatic_de_gaulle": false,
+        "algeria_war_process": "CONTINUES",
+        "successor_government": "PENDING_NPC_AND_ADMIN_DECISION"
+      },
+      "gates": [
+        "record confidence vote timing and successor cabinet under 4th Republic procedure",
+        "continued France Algeria military and fiscal burden already in start baseline",
+        "any withdrawal new decision and applicable authorities"
+      ]
+    }
+  ],
+  "fiscal": {
+    "new_cash_spend_G_billion_confirmed": 0,
+    "spending_delta_booked": 0,
+    "revenue_delta_booked": 0,
+    "country_gdp_growth_delta_pp_booked": 0,
+    "note": "No funded new spending identified in originals; administrative expenses within existing functions unless specific verified new outlay is approved. Algeria's continuing baseline war costs not zeroed."
+  },
+  "world_effects": {
+    "saar": "CONSULTATIONS_ONLY_NO_TERRITORIAL_TRANSFER",
+    "algeria": "EXISTING_CONFLICT_CONTINUES_WITH_POLITICAL_CRISIS",
+    "trade": "NO_EXTRA_EXPORTS_IMPORTS_WITHOUT_CONTRACT"
+  },
+  "privacy": "COUNTRY_PRIVATE_UNCONFIRMED",
+  "required_approval": [
+    "Actor authority, NPC cabinet formation, role continuity, official parliamentary outcomes, publication, appeals, final commit"
+  ],
+  "canonical_files_mutated": false
+}
