@@ -575,7 +575,7 @@
         "JPN"
       ],
       "access": "COUNTRY_JPN_PRIVATE__PUBLICATION_DRAFT",
-      "status": "DRAFT",
+      "status": "SUPERSEDED_BY_ADMIN_APPROVED_GAME_RESULT",
       "game_date_label": "1955-11",
       "publication_confirmation": "NOT_CONFIRMED",
       "source_kind": "ASSISTANT_DRAFT_FROM_HISTORICAL_REFERENCE_AND_GAME_POST",
@@ -583,7 +583,8 @@
         "INTAKE-1955-JPN-HAT-01"
       ],
       "effect_id": null,
-      "canonical_state_applied": false
+      "canonical_state_applied": false,
+      "superseded_by": "JPN-1955-ELECTION-PARTY-REALIGNMENT-APPROVED-01"
     },
     {
       "id": "JPN-1955-RYUKYU-PUBLIC-REACTION-01",
@@ -857,6 +858,31 @@
       "bytes": 3280,
       "effect_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
       "canonical_state_applied": false
+    },
+    {
+      "id": "JPN-1955-ELECTION-PARTY-REALIGNMENT-APPROVED-01",
+      "path": "country/JPN/01_1955_election_party_realignment_ADMIN_APPROVED.md",
+      "kind": "JPN_1955_ELECTION_AND_PARTY_REORGANIZATION",
+      "type": "POLITICAL_NPC_RESULT",
+      "country_id": "JPN",
+      "affected_country_ids": [
+        "JPN"
+      ],
+      "target_country_ids": [
+        "JPN"
+      ],
+      "access": "JPN_COUNTRY_INTERNAL_NOT_SEPARATELY_PUBLISHED",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_CORRECTION_2026_11_05",
+      "source_post_ids": [
+        "INTAKE-1955-JPN-HAT-01"
+      ],
+      "effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
+      "canonical_state_applied": false,
+      "source_file": "turns/1955/verdicts/final/JPN_1955_PARLIAMENTARY_REALIGNMENT_APPROVED_2026-11-05.json"
     }
   ],
   "excluded": [
@@ -906,7 +932,7 @@
       "discord_text_verified": false
     }
   ],
-  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED1",
+  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED11",
   "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged. Japan: two unpublished, unapproved event drafts added; no status change to prior published event entries or canonical state.",
   "approval_event_packet": {
     "admin_date": "2026-11-05",

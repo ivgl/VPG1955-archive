@@ -1,0 +1,51 @@
+{
+  "campaign_id": "VPI1955_MAIN",
+  "game_year": 1955,
+  "country_id": "JPN",
+  "approval": "ADMIN_APPROVED_CORRECTIVE_2026-11-05",
+  "reason": "2026-11-05 administrator corrects Japan political statistics and parliament display for 1956 without changing national game systems.",
+  "decision_refs": [
+    "INTAKE-1955-JPN-HAT-01"
+  ],
+  "source_original": "turns/1955/posts/originals/JPN_HAT_01_chat_copy.md",
+  "source_archival_draft": "turns/1955/events/japan/JPN_1955_ELECTION_PARTIES_DRAFT.md",
+  "effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
+  "effect_kind": "POLITICAL_NPC_YEAR_END",
+  "effective_by": "1955-12-31",
+  "direct_economic_effects": {
+    "gdp_extra_pp": 0,
+    "new_spending_G_billion": 0,
+    "science_index_delta": 0
+  },
+  "outcome": {
+    "lower_house_election_1955_02_27": {
+      "date": "1955-02-27",
+      "seats_total": 467,
+      "japan_democratic_party": 185,
+      "liberal_party": 112,
+      "left_socialists": 89,
+      "right_socialists": 67,
+      "small_and_independent": 14
+    },
+    "socialists_merged_1955_10_13": true,
+    "conservatives_merged_1955_11_15": true,
+    "governing_force": "Либерально-демократическая партия Японии",
+    "head_of_government": "Итиро Хатояма",
+    "lower_house_1956_01_01": {
+      "total": 467,
+      "majority": 234,
+      "ldp": 298,
+      "japan_socialist_party": 155,
+      "other_and_independents": 14,
+      "yearend_realignment_not_election_result": true
+    },
+    "constitutional_and_electoral_system_unchanged": true
+  },
+  "narrative": "После февральских выборов японские консерваторы не располагали единым парламентским большинством. Объединение социалистов в октябре и либерально-консервативных сил в ноябре сформировало устойчивую парламентскую основу кабинета Хатоямы. Оппозиционные социалисты сохранили самостоятельность и право парламентских инициатив. ЛДП получила большинство, но хозяйственные и антикоррупционные инициативы продолжают встречать противодействие различных внутрипартийных групп.",
+  "npc_process_id": "JPN-1955-LDP-INTERNAL-FACTIONS",
+  "npc_process_status": "ACTIVE_1956",
+  "confidentiality": "JPN_COUNTRY_INTERNAL_OR_PUBLIC",
+  "discord_publication_confirmed": false,
+  "do_not_backdate_public_discord_post": true,
+  "notes": "The final year-end balance 298/155/14 is the administrator-approved game scenario from the archived candidate, not asserted as an exact contemporaneous historical census. Historical source material supports the merger and 298-seat LDP."
+}
