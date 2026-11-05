@@ -1,0 +1,92 @@
+{
+  "schema": "VPI1955_1956_PRELIMINARY_VERDICTS_INDEX_V1",
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1956,
+  "source_of_truth_for_final_state": "ivgl/VPG1955-state@main/HEAD.json",
+  "archive_recorded_date": "2026-11-05",
+  "status": "DRAFTS_ARCHIVED_AWAIT_ADMIN_APPROVAL",
+  "receiving_phase_at_record": "RECEIVING",
+  "index_purpose": "Register preliminary narrative verdicts; this is not final year adjudication or application of effects.",
+  "verdicts": [
+    {
+      "draft_id": "PRELIM-1956-USA-SDEM-01",
+      "source_intake_ids": [
+        "INTAKE-1956-USA-SDEM-01"
+      ],
+      "supplemental_source": "Southern Democrat's proposed informal contact to conservative Republicans, provided in administrator chat",
+      "path": "turns/1956/verdicts/drafts/USA_1956_SDEM_CONSERVATIVE_CONTACT_PRELIMINARY.md",
+      "sha_git_blob": "6c8acb2da5c3c2ecf36ddde2d369d742bf425f74",
+      "status": "PRELIMINARY_DRAFT_NOT_APPROVED",
+      "publication": "NOT_VERIFIED",
+      "recipient": "USA_SOUTHERN_DEMOCRATS",
+      "core": "Existing conservative coalition, no formal merger or joint funds; disagreements on civil rights."
+    },
+    {
+      "draft_id": "PRELIM-1956-URS-KHR-01",
+      "source_intake_ids": [
+        "INTAKE-1956-URS-KHR-01"
+      ],
+      "parent_process": "URS-1955-QUALITY-METROLOGY",
+      "path": "turns/1956/verdicts/drafts/URS_1956_INDUSTRIAL_AUDITS_PRELIMINARY.md",
+      "sha_git_blob": "828cc5e73f967f954ea5673e96805304325c4cc3",
+      "status": "PRELIMINARY_DRAFT_NOT_APPROVED",
+      "publication": "NOT_VERIFIED",
+      "recipient": "URS",
+      "core": "3,000 first inspections; estimated 1,000-1,200 plan shortfalls in selected sample; 10,000-20,000 planned during 1956; continuation after 1956; linked to 1955 quality-control improvements.",
+      "numeric_note": "Game estimates, not archival audited facts; no economic delta from draft."
+    },
+    {
+      "draft_id": "PRELIM-1956-URS-KHR-02",
+      "source_intake_ids": [
+        "INTAKE-1956-URS-KHR-02"
+      ],
+      "parent_process": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "path": "turns/1956/verdicts/drafts/URS_1956_FRANCE_DIALOGUE_PRELIMINARY.md",
+      "sha_git_blob": "98eb92b6b07797c5edd3be38fcd24926390cb61",
+      "status": "PRELIMINARY_DRAFT_NOT_APPROVED",
+      "publication": "NOT_VERIFIED",
+      "recipient": "URS_COUNTRY_PRIVATE",
+      "core": "Differentiated early responses by French organizations, no membership or signed agreement.",
+      "confidentiality_note": "Do not expose unpublished bilateral or private information to other players. NPC reactions remain pending administrator approval."
+    },
+    {
+      "draft_id": "PRELIM-1956-IND-GOV-01",
+      "source_intake_ids": [
+        "INTAKE-1956-IND-GOV-01"
+      ],
+      "parent_process": "IND-1955-INTERNATIONAL-SUPPLIERS",
+      "path": "turns/1956/verdicts/drafts/IND_1956_INDUSTRIAL_PARTNERS_PRELIMINARY.md",
+      "sha_git_blob": "cd49884acc0459619456dc130723e6094cc30273",
+      "status": "PRELIMINARY_DRAFT_NOT_APPROVED",
+      "publication": "NOT_VERIFIED",
+      "recipient": "IND",
+      "core": "Foreign and Indian firms begin concrete commercial terms; no concluded contracts, plant commissioning or booked foreign investment."
+    }
+  ],
+  "admin_clarifications": [
+    {
+      "record_id": "ADMIN-1956-USA-KENNEDY-PRESIDENTIAL-APPROVAL",
+      "path": "turns/1956/decisions/USA_1956_JFK_ADMIN_CLARIFICATION_2026_11_05.md",
+      "sha_git_blob": "ba315ca211500473c8915822d0e8dc7c5b081310",
+      "status": "ADMIN_CONFIRMED_FACT_ARCHIVED",
+      "facts": [
+        "Kennedy is current US secretary of state in 1956 alternate game",
+        "Eisenhower approved the Democratic Party's foreign policy initiative"
+      ],
+      "related_intake_ids": [
+        "INTAKE-1956-USA-DEM-03"
+      ],
+      "canonical_snapshot_gap": "1956 USA country JSON does not yet store a cabinet member field for Kennedy; release correction not made."
+    }
+  ],
+  "unresolved_1956_intakes": [
+    "INTAKE-1956-USA-DEM-01",
+    "INTAKE-1956-USA-DEM-02",
+    "INTAKE-1956-USA-DEM-03"
+  ],
+  "no_new_release": true,
+  "no_world_or_country_state_deltas": true,
+  "no_budget_spending_applied": true,
+  "publication_policy": "All drafts need explicit administrator approval before in-game delivery; published status only after confirmed publication. Narrative response is not equal to turn-final effect.",
+  "final_phase_change": false
+}
