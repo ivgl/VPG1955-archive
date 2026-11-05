@@ -1,0 +1,15 @@
+{
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1956,
+  "document_type": "EVENT_EVIDENCE_INDEX",
+  "archive_is_canonical_state": false,
+  "status": "OPEN_DRAFT_PREPARATION",
+  "discord_source_verified": false,
+  "confidentiality_note": "Country-private and secret events remain restricted; archive GitHub access is repo-wide, not per-country.",
+  "events": [],
+  "index_revision": "INITIALIZED_2026-11-05",
+  "publication_status": "NO_1956_EVENT_PUBLICATION_VERIFIED",
+  "note": "No 1956 event drafts supplied for immutable archival registration at index initialization; do not infer any Discord publication.",
+  "approved_event_count": 0,
+  "completeness": "OPEN_NOT_FINAL"
+}
