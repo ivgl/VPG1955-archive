@@ -1,0 +1,18 @@
+{
+  "campaign_id": "VPI1955_MAIN",
+  "year": 1956,
+  "status": "RECEIVING",
+  "kind": "EVIDENCE_INDEX_NOT_CANONICAL_STATE",
+  "index_revision": "INITIALIZED_2026-11-05",
+  "discord_api_verified": false,
+  "source_note": "Initial 1956 intake index. No 1956 originals supplied to this chat at initialization; this is NOT an audit of the Discord server.",
+  "confidentiality": "REPO_PRIVATE__WHOLE_REPO_ACCESS",
+  "entries": [],
+  "post_count_in_this_index": 0,
+  "completeness": "OPEN_NOT_FINAL",
+  "discord_api_check_is_not_an_intake_condition": true,
+  "actor_permissions_checked_at_adjudication": true,
+  "originals_verbatim_required": true,
+  "judge_action": "NONE",
+  "phase_lock": "NOT_LOCKED"
+}
