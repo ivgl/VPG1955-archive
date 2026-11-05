@@ -3,9 +3,9 @@
   "year": 1956,
   "status": "RECEIVING",
   "kind": "EVIDENCE_INDEX_NOT_CANONICAL_STATE",
-  "index_revision": "RECEIVING_2026_11_05_SEVEN_ADMIN_SUPPLIED_ORIGINALS",
+  "index_revision": "RECEIVING_2026_11_05_SEVEN_ORIGINALS_VERIFIED",
   "discord_api_verified": false,
-  "source_note": "2026-11-05: Seven administrator-supplied posts with Discord URLs archived; Discord author/time/channel visibility not API-verified. Original text not edited. All actor_id and role powers pending review.",
+  "source_note": "Seven administrator-supplied originals indexed with Discord links. File readback verified 7/7 on 2026-11-05. No independent Discord API author/date/visibility verification; not a complete Discord intake census.",
   "confidentiality": "REPO_PRIVATE__WHOLE_REPO_ACCESS",
   "entries": [
     {
@@ -46,9 +46,11 @@
         "USA-1955-PARTY-COMPROMISE"
       ],
       "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
-      "intake_status": "ARCHIVED_ORIGINAL_PENDING_INDEX",
+      "intake_status": "ARCHIVED_AND_INDEXED__READBACK_SHA256_VERIFIED",
       "recorded_effects": [],
-      "financial_effects_applied_G_billion": 0
+      "financial_effects_applied_G_billion": 0,
+      "content_immutable": true,
+      "discord_author_verified": false
     },
     {
       "intake_id": "INTAKE-1956-USA-DEM-02",
@@ -83,9 +85,11 @@
       ],
       "linked_process_ids": [],
       "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
-      "intake_status": "ARCHIVED_ORIGINAL_PENDING_INDEX",
+      "intake_status": "ARCHIVED_AND_INDEXED__READBACK_SHA256_VERIFIED",
       "recorded_effects": [],
-      "financial_effects_applied_G_billion": 0
+      "financial_effects_applied_G_billion": 0,
+      "content_immutable": true,
+      "discord_author_verified": false
     },
     {
       "intake_id": "INTAKE-1956-USA-DEM-03",
@@ -126,29 +130,34 @@
         "FRA-1955-CABINET-TRANSITION"
       ],
       "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
-      "intake_status": "ARCHIVED_ORIGINAL_PENDING_INDEX",
+      "intake_status": "ARCHIVED_AND_INDEXED__READBACK_SHA256_VERIFIED",
       "recorded_effects": [],
       "financial_effects_applied_G_billion": 0,
       "claimed_budget_requests": [
         {
-          "amount": 0.03,
-          "unit": "G_billion",
+          "kind": "FRANCE_MEDIA",
           "raw": "30 000 000 $",
-          "kind": "FRANCE_MEDIA"
+          "original_currency_symbol": "$",
+          "normalized_G_billion": null,
+          "requires_game_currency_confirmation": true
         },
         {
-          "amount": 0.005,
-          "unit": "G_billion",
+          "kind": "WEST_EUROPE_INTELLIGENCE",
           "raw": "5 000 000 $",
-          "kind": "WEST_EUROPE_INTELLIGENCE"
+          "original_currency_symbol": "$",
+          "normalized_G_billion": null,
+          "requires_game_currency_confirmation": true
         },
         {
-          "amount": 0.005,
-          "unit": "G_billion",
+          "kind": "INDOCHINA_AID",
           "raw": "5 000 000 $",
-          "kind": "INDOCHINA_AID"
+          "original_currency_symbol": "$",
+          "normalized_G_billion": null,
+          "requires_game_currency_confirmation": true
         }
-      ]
+      ],
+      "content_immutable": true,
+      "discord_author_verified": false
     },
     {
       "intake_id": "INTAKE-1956-USA-SDEM-01",
@@ -184,10 +193,12 @@
       ],
       "linked_process_ids": [],
       "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
-      "intake_status": "ARCHIVED_ORIGINAL_PENDING_INDEX",
+      "intake_status": "ARCHIVED_AND_INDEXED__READBACK_SHA256_VERIFIED",
       "recorded_effects": [],
       "financial_effects_applied_G_billion": 0,
-      "original_sensitive_language_preserved": true
+      "original_sensitive_language_preserved": true,
+      "content_immutable": true,
+      "discord_author_verified": false
     },
     {
       "intake_id": "INTAKE-1956-IND-GOV-01",
@@ -224,9 +235,11 @@
         "IND-1955-INDUSTRIAL-FOREIGN-SUPPLIERS"
       ],
       "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
-      "intake_status": "ARCHIVED_ORIGINAL_PENDING_INDEX",
+      "intake_status": "ARCHIVED_AND_INDEXED__READBACK_SHA256_VERIFIED",
       "recorded_effects": [],
-      "financial_effects_applied_G_billion": 0
+      "financial_effects_applied_G_billion": 0,
+      "content_immutable": true,
+      "discord_author_verified": false
     },
     {
       "intake_id": "INTAKE-1956-URS-KHR-01",
@@ -262,9 +275,11 @@
         "URS-1955-QUALITY-METROLOGY"
       ],
       "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
-      "intake_status": "ARCHIVED_ORIGINAL_PENDING_INDEX",
+      "intake_status": "ARCHIVED_AND_INDEXED__READBACK_SHA256_VERIFIED",
       "recorded_effects": [],
-      "financial_effects_applied_G_billion": 0
+      "financial_effects_applied_G_billion": 0,
+      "content_immutable": true,
+      "discord_author_verified": false
     },
     {
       "intake_id": "INTAKE-1956-URS-KHR-02",
@@ -302,9 +317,11 @@
         "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS"
       ],
       "adjudication_status": "INTAKE_ONLY_UNREVIEWED",
-      "intake_status": "ARCHIVED_ORIGINAL_PENDING_INDEX",
+      "intake_status": "ARCHIVED_AND_INDEXED__READBACK_SHA256_VERIFIED",
       "recorded_effects": [],
-      "financial_effects_applied_G_billion": 0
+      "financial_effects_applied_G_billion": 0,
+      "content_immutable": true,
+      "discord_author_verified": false
     }
   ],
   "post_count_in_this_index": 7,
@@ -313,5 +330,6 @@
   "actor_permissions_checked_at_adjudication": true,
   "originals_verbatim_required": true,
   "judge_action": "NONE",
-  "phase_lock": "NOT_LOCKED"
+  "phase_lock": "NOT_LOCKED",
+  "verification_status": "SEVEN_OF_SEVEN_SHA256_AND_BYTES_AND_BLOB_VERIFIED__2026_11_05"
 }
