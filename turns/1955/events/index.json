@@ -887,6 +887,35 @@
       "canonical_country_ref": "releases/1956/patches/JPN_politics_2026-11-05.json",
       "canonical_effect_id": "JPN-1955-PARLIAMENT-REALIGNMENT-01",
       "canonical_effect_status": "APPLIED_ONCE_1956_OPENING"
+    },
+    {
+      "id": "URS-1955-FIFTH-INTL-GLOBAL-PARTIES-ADDENDUM",
+      "path": "country/URS/04_fifth_international_global_party_responses_ADMIN_APPROVED_PRIVATE.md",
+      "kind": "DIPLOMATIC_NPC_RESPONSES_SUPPLEMENT",
+      "type": "DIPLOMATIC_NPC_RESPONSES",
+      "country_id": "URS",
+      "affected_country_ids": [
+        "URS"
+      ],
+      "target_country_ids": [
+        "URS"
+      ],
+      "access": "COUNTRY_URS_PRIVATE__PRIVATE_ARCHIVE",
+      "status": "ADMIN_APPROVED_NOT_PUBLISHED",
+      "publication_confirmation": "NOT_CONFIRMED",
+      "publication_url": null,
+      "publication_datetime": null,
+      "source_kind": "ADMIN_APPROVED_NPC_ADJUDICATION_2026_11_05_SUPPLEMENT",
+      "source_post_ids": [
+        "INTAKE-1955-URS-CC-FIFTH-INTL-01"
+      ],
+      "year": 1955,
+      "game_date_label": "late_1955_to_opening_1956",
+      "effect_id": "URS-1955-DIP-FIFTH-INTL-REGIONAL-RESPONSES-01",
+      "parent_effect_id": "URS-1955-DIP-FIFTH-INTL-CONSULTATIONS",
+      "structured_source": "turns/1955/verdicts/final/URS_FIFTH_INTL_REGIONAL_NPC_RESPONSES_ADDENDUM_2026-11-05.json",
+      "additional_profiles": 41,
+      "canonical_state_applied": false
     }
   ],
   "excluded": [
@@ -936,7 +965,7 @@
       "discord_text_verified": false
     }
   ],
-  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED111",
+  "index_revision": "2026-11-01_JPN_DRAFT_EVENTS_ARCHIVED1111",
   "note": "Reorganized shared Algeria and Taiwan EBN news into world/ without changing text or status; three Taiwan country-private supplemental drafts remain in taiwan/; publication and canonical state unchanged. Japan: two unpublished, unapproved event drafts added; no status change to prior published event entries or canonical state.",
   "approval_event_packet": {
     "admin_date": "2026-11-05",
@@ -949,6 +978,13 @@
       "FRA-1955-ENDYEAR-CABINET",
       "URS-1955-FIFTH-INTERNATIONAL-NPC-RESPONSES"
     ],
-    "note": "Event files were approved by administrator, not independently confirmed as published on Discord; preserve privacy for country/URS and country-only items."
+    "note": "Event files were approved by administrator, not independently confirmed as published on Discord; preserve privacy for country/URS and country-only items.",
+    "world_regions_extension": {
+      "admin_date": "2026-11-05",
+      "new_event_id": "URS-1955-FIFTH-INTL-GLOBAL-PARTIES-ADDENDUM",
+      "profile_count": 41,
+      "visibility": "COUNTRY_URS_PRIVATE",
+      "note": "Supplement to original USSR diplomatic judgement; no retroactive organization membership."
+    }
   }
 }
