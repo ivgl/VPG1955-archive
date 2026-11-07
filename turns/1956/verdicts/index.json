@@ -3,8 +3,8 @@
   "campaign_id": "VPI1955_MAIN",
   "year": 1956,
   "source_of_truth_for_final_state": "ivgl/VPG1955-state@main/HEAD.json",
-  "archive_recorded_date": "2026-11-05",
-  "status": "DRAFTS_ARCHIVED_AWAIT_ADMIN_APPROVAL",
+  "archive_recorded_date": "2026-11-07",
+  "status": "MIXED_DRAFTS_AND_ADMIN_CONFIRMED_PRELIMINARY",
   "receiving_phase_at_record": "RECEIVING",
   "index_purpose": "Register preliminary narrative verdicts; this is not final year adjudication or application of effects.",
   "verdicts": [
@@ -61,6 +61,23 @@
       "publication": "NOT_VERIFIED",
       "recipient": "IND",
       "core": "Foreign and Indian firms begin concrete commercial terms; no concluded contracts, plant commissioning or booked foreign investment."
+    },
+    {
+      "draft_id": "PRELIM-1956-FRA-DGA-01",
+      "source_intake_ids": [
+        "INTAKE-1956-FRA-DGA-01"
+      ],
+      "source_discord_url": "https://discord.com/channels/1558850253006831738/1563522452838154333/1568388992024444988",
+      "parent_process": "FRA-1955-CABINET-TRANSITION",
+      "path": "turns/1956/verdicts/drafts/FRA_1956_DE_GAULLE_COALITION_CONSULTATIONS_PRELIMINARY.md",
+      "sha_git_blob": "2a3cea1a8f1a49ff46e3f3ab8ec521d6fc4d82b6",
+      "status": "ADMIN_CONFIRMED_PRELIMINARY_NOT_FINAL",
+      "preliminary_outcome": "PARTIAL_SUCCESS",
+      "publication": "NOT_VERIFIED",
+      "recipient": "FRA_DGA_COUNTRY_PRIVATE",
+      "core": "Coalition consultations: former Gaullists support, MRP and CNIP conditional, Radicals and UDSR split, SFIO conditions, overseas deputies invite talks, PCF opposes. No cabinet appointment or votes confirmed.",
+      "numeric_note": "Only historical 1951 parliamentary snapshot is in canonical FRA JSON; no fixed 1956 party seats, vote totals or applied effects.",
+      "no_state_delta": true
     }
   ],
   "admin_clarifications": [
@@ -88,5 +105,6 @@
   "no_world_or_country_state_deltas": true,
   "no_budget_spending_applied": true,
   "publication_policy": "All drafts need explicit administrator approval before in-game delivery; published status only after confirmed publication. Narrative response is not equal to turn-final effect.",
-  "final_phase_change": false
+  "final_phase_change": false,
+  "index_revision": "RECEIVING_2026_11_07_FRANCE_DE_GAULLE_PRELIMINARY_ADMIN_CONFIRMED"
 }
