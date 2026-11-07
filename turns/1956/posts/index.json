@@ -3,7 +3,7 @@
   "year": 1956,
   "status": "RECEIVING",
   "kind": "EVIDENCE_INDEX_NOT_CANONICAL_STATE",
-  "index_revision": "RECEIVING_2026_11_07_TWENTY_FIVE_ORIGINALS_READBACK_VERIFIED",
+  "index_revision": "RECEIVING_2026_11_07_TWENTY_FIVE_ORIGINALS_ONE_FRANCE_ADDENDUM",
   "discord_api_verified": false,
   "source_note": "Seven administrator-supplied originals indexed with Discord links. File readback verified 7/7 on 2026-11-05. No independent Discord API author/date/visibility verification; not a complete Discord intake census.",
   "confidentiality": "REPO_PRIVATE__WHOLE_REPO_ACCESS",
@@ -908,7 +908,13 @@
       "recorded_effects": [],
       "financial_effects_applied_G_billion": 0,
       "content_immutable": true,
-      "discord_author_verified": false
+      "discord_author_verified": false,
+      "addenda_ids": [
+        "ADDENDUM-1956-FRA-DGA-01-A01"
+      ],
+      "addenda_paths": [
+        "turns/1956/posts/originals/FRA_DGA_01_ADDENDUM_CABINET_admin_chat_verbatim_2026_11_07.md"
+      ]
     }
   ],
   "post_count_in_this_index": 25,
@@ -930,5 +936,46 @@
     ],
     "pending_authority_review": true,
     "approval_note": "User reports both president and Southern Democrats agreed USA-DEM-04 and USA-DEM-05; their consent has not been verified via Discord and does not itself apply a law or spending."
-  }
+  },
+  "addenda": [
+    {
+      "addendum_id": "ADDENDUM-1956-FRA-DGA-01-A01",
+      "parent_intake_id": "INTAKE-1956-FRA-DGA-01",
+      "campaign_id": "VPI1955_MAIN",
+      "year": 1956,
+      "country_id": "FRA",
+      "actor_key": "FRA-DGA",
+      "actor_name": "Шарль де Голль",
+      "title": "Полноценное возвращение Шарля де Голля: парламентская программа и предложенный кабинет",
+      "source_kind": "admin_chat_text",
+      "source_received_date": "2026-11-07",
+      "discord_url": "https://discord.com/channels/1558850253006831738/1563522452838154333/1568628909388464169",
+      "discord_channel_id": "1563522452838154333",
+      "discord_message_id": "1568628909388464169",
+      "discord_message_datetime": null,
+      "discord_source_verification": "ADMIN_PROVIDED_LINK__NOT_DISCORD_API_VERIFIED",
+      "content_path": "turns/1956/posts/originals/FRA_DGA_01_ADDENDUM_CABINET_admin_chat_verbatim_2026_11_07.md",
+      "sha256": "95fadf0569607f1a75826f56c8cf56d3d2863074d2c2bbb8920315520e53affb",
+      "bytes": 6440,
+      "source_git_blob_sha": "3192afa76f546e055b66f7346b680ff51a74162a",
+      "visibility": "COUNTRY_PRIVATE_UNCONFIRMED",
+      "visibility_verified": false,
+      "registration_status": "ARCHIVED_AND_INDEXED__READBACK_VERIFIED",
+      "adjudication_status": "INTAKE_ADDENDUM_ONLY__NOT_ADMIN_APPROVED",
+      "content_immutable": true,
+      "counts_as_independent_post": false,
+      "related_original_post": "turns/1956/posts/originals/FRA_DGA_01_RETURN_admin_chat_verbatim_2026_11_07.md",
+      "scope": [
+        "RESPONSE_TO_FACTION_CONSULTATIONS",
+        "ASSEMBLY_CONFIDENCE_REQUEST",
+        "ALGERIA_POLICY",
+        "CONSTITUTIONAL_REFORM",
+        "PROPOSED_COALITION_CABINET",
+        "MICHEL_DEBRE_ADVISORY_ROLE"
+      ],
+      "authorization_note": "Cabinet roster is a player proposal, not evidence of Assembly confidence or formally completed appointments.",
+      "source_summary": "Player says supplemental post follows feedback/verdict; do not infer any published adjudication without archive verification."
+    }
+  ],
+  "addendum_count_in_this_index": 1
 }
